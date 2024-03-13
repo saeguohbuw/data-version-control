@@ -1,0 +1,282 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "vine >=5.0.0,<6.0.0"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/amqp-5.2.0-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.9/site-packages/amqp-5.2.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/amqp-5.2.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/amqp-5.2.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/amqp-5.2.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/amqp-5.2.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/amqp-5.2.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/amqp-5.2.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/amqp-5.2.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/amqp/__init__.py",
+    "lib/python3.9/site-packages/amqp/abstract_channel.py",
+    "lib/python3.9/site-packages/amqp/basic_message.py",
+    "lib/python3.9/site-packages/amqp/channel.py",
+    "lib/python3.9/site-packages/amqp/connection.py",
+    "lib/python3.9/site-packages/amqp/exceptions.py",
+    "lib/python3.9/site-packages/amqp/method_framing.py",
+    "lib/python3.9/site-packages/amqp/platform.py",
+    "lib/python3.9/site-packages/amqp/protocol.py",
+    "lib/python3.9/site-packages/amqp/sasl.py",
+    "lib/python3.9/site-packages/amqp/serialization.py",
+    "lib/python3.9/site-packages/amqp/spec.py",
+    "lib/python3.9/site-packages/amqp/transport.py",
+    "lib/python3.9/site-packages/amqp/utils.py",
+    "lib/python3.9/site-packages/amqp/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/abstract_channel.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/basic_message.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/channel.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/connection.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/method_framing.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/platform.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/protocol.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/sasl.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/serialization.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/spec.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/transport.cpython-39.pyc",
+    "lib/python3.9/site-packages/amqp/__pycache__/utils.cpython-39.pyc"
+  ],
+  "fn": "amqp-5.2.0-pyhd8ed1ab_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/amqp-5.2.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "23e198e6df09c2c441640f1bcd1c7822",
+  "name": "amqp",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/amqp-5.2.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/amqp-5.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/amqp-5.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f5ef5f1282eae1931c74645f8719b6c69b3d6a2cf277bfda249a8270cd473af3",
+        "sha256_in_prefix": "f5ef5f1282eae1931c74645f8719b6c69b3d6a2cf277bfda249a8270cd473af3",
+        "size_in_bytes": 2372
+      },
+      {
+        "_path": "site-packages/amqp-5.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "df25f5768dc3a704e6ea3d73c8fab4c401fae73c242204dd91d6b8fe57b700c5",
+        "sha256_in_prefix": "df25f5768dc3a704e6ea3d73c8fab4c401fae73c242204dd91d6b8fe57b700c5",
+        "size_in_bytes": 8888
+      },
+      {
+        "_path": "site-packages/amqp-5.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7bb64dc4444d8753d8abc7aa19a551e4049c18b4121f0889390b5139a2f28477",
+        "sha256_in_prefix": "7bb64dc4444d8753d8abc7aa19a551e4049c18b4121f0889390b5139a2f28477",
+        "size_in_bytes": 2341
+      },
+      {
+        "_path": "site-packages/amqp-5.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/amqp-5.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/amqp-5.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "72ae914cc142e51498c50343cecae2193ce96ea85bafb29bad31cc534c40de7a",
+        "sha256_in_prefix": "72ae914cc142e51498c50343cecae2193ce96ea85bafb29bad31cc534c40de7a",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/amqp-5.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b5640d98556153852d0e007a632da52aa473ecbb4ead170df3f6cf155715551f",
+        "sha256_in_prefix": "b5640d98556153852d0e007a632da52aa473ecbb4ead170df3f6cf155715551f",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/amqp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8f338c353b805005a4b08e4edeb0633a827741a70ad3abb99ba7dc6266bb1d27",
+        "sha256_in_prefix": "8f338c353b805005a4b08e4edeb0633a827741a70ad3abb99ba7dc6266bb1d27",
+        "size_in_bytes": 2357
+      },
+      {
+        "_path": "site-packages/amqp/abstract_channel.py",
+        "path_type": "hardlink",
+        "sha256": "0ff3845af5f8f32294ccc626fec37e2034509aa206bde822f4a949ae2aadb417",
+        "sha256_in_prefix": "0ff3845af5f8f32294ccc626fec37e2034509aa206bde822f4a949ae2aadb417",
+        "size_in_bytes": 4941
+      },
+      {
+        "_path": "site-packages/amqp/basic_message.py",
+        "path_type": "hardlink",
+        "sha256": "43c0d5df5b6eba9865a131133c7889170360e9be4cea971c274227278319533f",
+        "sha256_in_prefix": "43c0d5df5b6eba9865a131133c7889170360e9be4cea971c274227278319533f",
+        "size_in_bytes": 3357
+      },
+      {
+        "_path": "site-packages/amqp/channel.py",
+        "path_type": "hardlink",
+        "sha256": "5f30ae28fcbda853224ec9ea92c2a914887d3d470a666dee2179b544509e650b",
+        "sha256_in_prefix": "5f30ae28fcbda853224ec9ea92c2a914887d3d470a666dee2179b544509e650b",
+        "size_in_bytes": 74475
+      },
+      {
+        "_path": "site-packages/amqp/connection.py",
+        "path_type": "hardlink",
+        "sha256": "f2fb1fa554ec4c9052faebbf484104b93f915cc93f217fe30a574e1cffa80e5a",
+        "sha256_in_prefix": "f2fb1fa554ec4c9052faebbf484104b93f915cc93f217fe30a574e1cffa80e5a",
+        "size_in_bytes": 27541
+      },
+      {
+        "_path": "site-packages/amqp/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "caa8e814846e7b6aef2bb90c76f90ab06383e9d30ecf3cd3dd9cc1c2819601ee",
+        "sha256_in_prefix": "caa8e814846e7b6aef2bb90c76f90ab06383e9d30ecf3cd3dd9cc1c2819601ee",
+        "size_in_bytes": 7166
+      },
+      {
+        "_path": "site-packages/amqp/method_framing.py",
+        "path_type": "hardlink",
+        "sha256": "6af9f0f745fdb78f7de47a47a19578fb557bdd411bcd4289f37a47122700a966",
+        "sha256_in_prefix": "6af9f0f745fdb78f7de47a47a19578fb557bdd411bcd4289f37a47122700a966",
+        "size_in_bytes": 6734
+      },
+      {
+        "_path": "site-packages/amqp/platform.py",
+        "path_type": "hardlink",
+        "sha256": "7322debefe84d793fdce1328fdf57ce29ebb43f03c7ddb13abd6a68ef954c2a1",
+        "sha256_in_prefix": "7322debefe84d793fdce1328fdf57ce29ebb43f03c7ddb13abd6a68ef954c2a1",
+        "size_in_bytes": 2379
+      },
+      {
+        "_path": "site-packages/amqp/protocol.py",
+        "path_type": "hardlink",
+        "sha256": "0e2df2eaaaa19ce57842d91e60a3becebc9f5aac25dc5d735310ce9954ac029d",
+        "sha256_in_prefix": "0e2df2eaaaa19ce57842d91e60a3becebc9f5aac25dc5d735310ce9954ac029d",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "site-packages/amqp/sasl.py",
+        "path_type": "hardlink",
+        "sha256": "e806ec9f195b032a226310dece84137e6f84d2dfd32721d7a6a189d0a94f908e",
+        "sha256_in_prefix": "e806ec9f195b032a226310dece84137e6f84d2dfd32721d7a6a189d0a94f908e",
+        "size_in_bytes": 5986
+      },
+      {
+        "_path": "site-packages/amqp/serialization.py",
+        "path_type": "hardlink",
+        "sha256": "c73cd79a6438e5f194b920b119310c8b39914139b36b3dd9ed861fa7199f5ee6",
+        "sha256_in_prefix": "c73cd79a6438e5f194b920b119310c8b39914139b36b3dd9ed861fa7199f5ee6",
+        "size_in_bytes": 17162
+      },
+      {
+        "_path": "site-packages/amqp/spec.py",
+        "path_type": "hardlink",
+        "sha256": "d998db2f8151e05bfaec703b1d423d84b508bc0bf7038647e8644fceb311c968",
+        "sha256_in_prefix": "d998db2f8151e05bfaec703b1d423d84b508bc0bf7038647e8644fceb311c968",
+        "size_in_bytes": 2121
+      },
+      {
+        "_path": "site-packages/amqp/transport.py",
+        "path_type": "hardlink",
+        "sha256": "5057f029fa27ef38d95db64d71ea13c866a7d0248a4e53391f8ef85266d33618",
+        "sha256_in_prefix": "5057f029fa27ef38d95db64d71ea13c866a7d0248a4e53391f8ef85266d33618",
+        "size_in_bytes": 22949
+      },
+      {
+        "_path": "site-packages/amqp/utils.py",
+        "path_type": "hardlink",
+        "sha256": "2638d8d38d0bc2c0d4735ce628fd954f35c18a8557cb8f03519b5607c3da3f2d",
+        "sha256_in_prefix": "2638d8d38d0bc2c0d4735ce628fd954f35c18a8557cb8f03519b5607c3da3f2d",
+        "size_in_bytes": 1456
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/abstract_channel.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/basic_message.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/channel.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/connection.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/method_framing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/platform.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/protocol.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/sasl.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/serialization.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/spec.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/transport.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/amqp/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d445abfa5580fc4978eae39dd9268379cc6cffdb630108b38b03f0032899bc63",
+  "size": 47876,
+  "subdir": "noarch",
+  "timestamp": 1703885401000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/amqp-5.2.0-pyhd8ed1ab_1.conda",
+  "version": "5.2.0"
+}

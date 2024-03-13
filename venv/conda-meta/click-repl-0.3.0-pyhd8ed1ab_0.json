@@ -1,0 +1,167 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "click",
+    "prompt_toolkit",
+    "python >=3.6",
+    "six"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/click-repl-0.3.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/click_repl-0.3.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/click_repl-0.3.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/click_repl-0.3.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/click_repl-0.3.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/click_repl-0.3.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/click_repl-0.3.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/click_repl-0.3.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/click_repl-0.3.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/click_repl/__init__.py",
+    "lib/python3.9/site-packages/click_repl/_completer.py",
+    "lib/python3.9/site-packages/click_repl/_repl.py",
+    "lib/python3.9/site-packages/click_repl/exceptions.py",
+    "lib/python3.9/site-packages/click_repl/utils.py",
+    "lib/python3.9/site-packages/click_repl/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/click_repl/__pycache__/_completer.cpython-39.pyc",
+    "lib/python3.9/site-packages/click_repl/__pycache__/_repl.cpython-39.pyc",
+    "lib/python3.9/site-packages/click_repl/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/click_repl/__pycache__/utils.cpython-39.pyc"
+  ],
+  "fn": "click-repl-0.3.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/click-repl-0.3.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "27eb8f68250666c1a19d1b6ec9d12c4e",
+  "name": "click-repl",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/click-repl-0.3.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/click_repl-0.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/click_repl-0.3.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c39a97224173e617907a62d7568484bd83e05a5a655ea942407dc35a321eb431",
+        "sha256_in_prefix": "c39a97224173e617907a62d7568484bd83e05a5a655ea942407dc35a321eb431",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "site-packages/click_repl-0.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5a6f0ade0357054598ac5aca90d810834601b099faa15c4890b0c1eecf86ccfc",
+        "sha256_in_prefix": "5a6f0ade0357054598ac5aca90d810834601b099faa15c4890b0c1eecf86ccfc",
+        "size_in_bytes": 3523
+      },
+      {
+        "_path": "site-packages/click_repl-0.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "faa4b13c09d8f8be6a07e8eafa3b012efb9257dc80d00140564dfa79c0032859",
+        "sha256_in_prefix": "faa4b13c09d8f8be6a07e8eafa3b012efb9257dc80d00140564dfa79c0032859",
+        "size_in_bytes": 1336
+      },
+      {
+        "_path": "site-packages/click_repl-0.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/click_repl-0.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/click_repl-0.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "fc650308865e2471a8407d78f7a04604ca0c5dabd4ee73df794382910f750f4a",
+        "sha256_in_prefix": "fc650308865e2471a8407d78f7a04604ca0c5dabd4ee73df794382910f750f4a",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/click_repl-0.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "17aac950d08170d7823f7b60960e782bd3465a80346b34b4f691f50775792db4",
+        "sha256_in_prefix": "17aac950d08170d7823f7b60960e782bd3465a80346b34b4f691f50775792db4",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/click_repl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b7798c0155ebb8ddd367bd9a5d71ea93fff2491c7bcb289af12f109c577c3aaf",
+        "sha256_in_prefix": "b7798c0155ebb8ddd367bd9a5d71ea93fff2491c7bcb289af12f109c577c3aaf",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "site-packages/click_repl/_completer.py",
+        "path_type": "hardlink",
+        "sha256": "d28b65ce5b586f273a04bbfe9065754be8ca3c049df9924f7f2897b11f4190b1",
+        "sha256_in_prefix": "d28b65ce5b586f273a04bbfe9065754be8ca3c049df9924f7f2897b11f4190b1",
+        "size_in_bytes": 9760
+      },
+      {
+        "_path": "site-packages/click_repl/_repl.py",
+        "path_type": "hardlink",
+        "sha256": "001cf6d88a0b90a11c7d4eff8076d74e4edef7aa31ad4803bae9b28ccb3e8daf",
+        "sha256_in_prefix": "001cf6d88a0b90a11c7d4eff8076d74e4edef7aa31ad4803bae9b28ccb3e8daf",
+        "size_in_bytes": 4513
+      },
+      {
+        "_path": "site-packages/click_repl/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "6f6eb6de3952195212ced702d3bc59e838353b019bb32870183904591950db25",
+        "sha256_in_prefix": "6f6eb6de3952195212ced702d3bc59e838353b019bb32870183904591950db25",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "site-packages/click_repl/utils.py",
+        "path_type": "hardlink",
+        "sha256": "dabfbe90c1b6e01685f1dfd1ca95f6292a5f29dad690f2366041dde5c1426cc6",
+        "sha256_in_prefix": "dabfbe90c1b6e01685f1dfd1ca95f6292a5f29dad690f2366041dde5c1426cc6",
+        "size_in_bytes": 6119
+      },
+      {
+        "_path": "lib/python3.9/site-packages/click_repl/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/click_repl/__pycache__/_completer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/click_repl/__pycache__/_repl.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/click_repl/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/click_repl/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "69c16e0b89e1fb4fc444af4798ef1222b3075d074cbcbe70b9af793668200a14",
+  "size": 15319,
+  "subdir": "noarch",
+  "timestamp": 1694959586000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/click-repl-0.3.0-pyhd8ed1ab_0.conda",
+  "version": "0.3.0"
+}

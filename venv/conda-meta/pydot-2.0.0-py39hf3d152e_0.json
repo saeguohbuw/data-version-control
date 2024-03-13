@@ -1,0 +1,164 @@
+{
+  "build": "py39hf3d152e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "graphviz >=2.38.0",
+    "pyparsing >=3",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/pydot-2.0.0-py39hf3d152e_0",
+  "files": [
+    "lib/python3.9/site-packages/pydot-2.0.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/pydot-2.0.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/pydot-2.0.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/pydot-2.0.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/pydot-2.0.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/pydot-2.0.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/pydot-2.0.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/pydot-2.0.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/pydot/__init__.py",
+    "lib/python3.9/site-packages/pydot/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydot/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydot/__pycache__/dot_parser.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydot/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/pydot/core.py",
+    "lib/python3.9/site-packages/pydot/dot_parser.py",
+    "lib/python3.9/site-packages/pydot/exceptions.py"
+  ],
+  "fn": "pydot-2.0.0-py39hf3d152e_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/pydot-2.0.0-py39hf3d152e_0",
+    "type": 1
+  },
+  "md5": "2dd24bf587dc5695a0adbab70c59768e",
+  "name": "pydot",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/pydot-2.0.0-py39hf3d152e_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/pydot-2.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot-2.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "9345fc15b3affed6d0dd75a9aa06380d56147eeb8735fe8307c1dbf2257262d2",
+        "sha256_in_prefix": "9345fc15b3affed6d0dd75a9aa06380d56147eeb8735fe8307c1dbf2257262d2",
+        "size_in_bytes": 1121
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot-2.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e262df635bf218781b993032dd7680fe613e38473e876c66bc6c9fc077889c52",
+        "sha256_in_prefix": "e262df635bf218781b993032dd7680fe613e38473e876c66bc6c9fc077889c52",
+        "size_in_bytes": 9573
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot-2.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "15fa4962be45779a052074c0ffa025b06d992f9e049480d3951ee34309fa0759",
+        "sha256_in_prefix": "15fa4962be45779a052074c0ffa025b06d992f9e049480d3951ee34309fa0759",
+        "size_in_bytes": 1126
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot-2.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot-2.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot-2.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3c86b2e5067530fdab62031d58f3df9641ac40d75db9f67cdd4bcb15b3c65465",
+        "sha256_in_prefix": "3c86b2e5067530fdab62031d58f3df9641ac40d75db9f67cdd4bcb15b3c65465",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot-2.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "80dc4c221b881bb1ccc075af9df3a6c150e234812743559d06fca97f22f4d605",
+        "sha256_in_prefix": "80dc4c221b881bb1ccc075af9df3a6c150e234812743559d06fca97f22f4d605",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0e0291075a3badcf5b8a5f94e669a7d9db014043f83b4b00641dc281e460ca8e",
+        "sha256_in_prefix": "0e0291075a3badcf5b8a5f94e669a7d9db014043f83b4b00641dc281e460ca8e",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b06fe48e5c92027f3cd8a6662bffacea57debd6e743cb50582fbb54d43b3a2ca",
+        "sha256_in_prefix": "b06fe48e5c92027f3cd8a6662bffacea57debd6e743cb50582fbb54d43b3a2ca",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot/__pycache__/core.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "502a6d976d30ed626f68b5ab832e3199aaa15ef81fbcd6dff40cb84a7a7686a7",
+        "sha256_in_prefix": "502a6d976d30ed626f68b5ab832e3199aaa15ef81fbcd6dff40cb84a7a7686a7",
+        "size_in_bytes": 44699
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot/__pycache__/dot_parser.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "91b89aa526e2c663e88e7a2e814acd6d2312411cc7362047c390545e55bca8e7",
+        "sha256_in_prefix": "91b89aa526e2c663e88e7a2e814acd6d2312411cc7362047c390545e55bca8e7",
+        "size_in_bytes": 10754
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b79bb67081761a77c2bf8001933a7d99316d4aa585f887839853352958300bc",
+        "sha256_in_prefix": "7b79bb67081761a77c2bf8001933a7d99316d4aa585f887839853352958300bc",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot/core.py",
+        "path_type": "hardlink",
+        "sha256": "a0d928e86d80821fd2c9624b61824c6b9088e11508a6b6aba6a85f9a65629c9c",
+        "sha256_in_prefix": "a0d928e86d80821fd2c9624b61824c6b9088e11508a6b6aba6a85f9a65629c9c",
+        "size_in_bytes": 54037
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot/dot_parser.py",
+        "path_type": "hardlink",
+        "sha256": "201cb46c96fed3cdc7584c428124a1da6e983dcf2c570ab4f42dec69ade773f2",
+        "sha256_in_prefix": "201cb46c96fed3cdc7584c428124a1da6e983dcf2c570ab4f42dec69ade773f2",
+        "size_in_bytes": 14709
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pydot/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "29e951a9f526b10f3032d7df20b9af7176e9317fb39bb0053c3cc7d9cff3ec29",
+        "sha256_in_prefix": "29e951a9f526b10f3032d7df20b9af7176e9317fb39bb0053c3cc7d9cff3ec29",
+        "size_in_bytes": 516
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d91b8ec7595d4c7596611bc4607ec4e6d39bbafa20db87a8147ca5f70ecae987",
+  "size": 45325,
+  "subdir": "linux-64",
+  "timestamp": 1704460926000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pydot-2.0.0-py39hf3d152e_0.conda",
+  "version": "2.0.0"
+}

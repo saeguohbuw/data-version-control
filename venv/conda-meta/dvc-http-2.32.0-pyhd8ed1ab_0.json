@@ -1,0 +1,244 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "aiohttp-retry >=2.5.0",
+    "fsspec",
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/dvc-http-2.32.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/dvc_http-2.32.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/dvc_http-2.32.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/dvc_http-2.32.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/dvc_http-2.32.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/dvc_http-2.32.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/dvc_http-2.32.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/dvc_http-2.32.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/dvc_http-2.32.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/dvc_http/__init__.py",
+    "lib/python3.9/site-packages/dvc_http/_dvc_http_version.py",
+    "lib/python3.9/site-packages/dvc_http/retry.py",
+    "lib/python3.9/site-packages/dvc_http/spec.py",
+    "lib/python3.9/site-packages/dvc_http/tests/__init__.py",
+    "lib/python3.9/site-packages/dvc_http/tests/cloud.py",
+    "lib/python3.9/site-packages/dvc_http/tests/conftest.py",
+    "lib/python3.9/site-packages/dvc_http/tests/fixtures.py",
+    "lib/python3.9/site-packages/dvc_http/tests/httpd.py",
+    "lib/python3.9/site-packages/dvc_http/tests/test_config.py",
+    "lib/python3.9/site-packages/dvc_http/tests/test_dvc.py",
+    "lib/python3.9/site-packages/dvc_http/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_http/__pycache__/_dvc_http_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_http/__pycache__/retry.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_http/__pycache__/spec.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_http/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_http/tests/__pycache__/cloud.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_http/tests/__pycache__/conftest.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_http/tests/__pycache__/fixtures.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_http/tests/__pycache__/httpd.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_http/tests/__pycache__/test_config.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_http/tests/__pycache__/test_dvc.cpython-39.pyc"
+  ],
+  "fn": "dvc-http-2.32.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/dvc-http-2.32.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "6915a9612a2aacf4df13cf87cb291576",
+  "name": "dvc-http",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/dvc-http-2.32.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dvc_http-2.32.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dvc_http-2.32.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "sha256_in_prefix": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/dvc_http-2.32.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c130e7976b0371a382ca70d090b227c55e3ab8946c1c1282e62e43527961fb75",
+        "sha256_in_prefix": "c130e7976b0371a382ca70d090b227c55e3ab8946c1c1282e62e43527961fb75",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "site-packages/dvc_http-2.32.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b01340a19d46b5e542c3f4ce90430c177e9cf47fe266df3e817ca23b00722580",
+        "sha256_in_prefix": "b01340a19d46b5e542c3f4ce90430c177e9cf47fe266df3e817ca23b00722580",
+        "size_in_bytes": 2148
+      },
+      {
+        "_path": "site-packages/dvc_http-2.32.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_http-2.32.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dvc_http-2.32.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5fc9a285b6b35b4968bc71ab88d40180de2211ca439cb79481af290bead9c09d",
+        "sha256_in_prefix": "5fc9a285b6b35b4968bc71ab88d40180de2211ca439cb79481af290bead9c09d",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/dvc_http-2.32.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fb4414bf21eef5ecf2d0a857883ccc6dfa9a9995cc0927169e506deced6035de",
+        "sha256_in_prefix": "fb4414bf21eef5ecf2d0a857883ccc6dfa9a9995cc0927169e506deced6035de",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/dvc_http/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1946db70e3f21870ae41c179fdcd81f457683ea610fe68ecf6630286e11a163a",
+        "sha256_in_prefix": "1946db70e3f21870ae41c179fdcd81f457683ea610fe68ecf6630286e11a163a",
+        "size_in_bytes": 5154
+      },
+      {
+        "_path": "site-packages/dvc_http/_dvc_http_version.py",
+        "path_type": "hardlink",
+        "sha256": "23ad2ab6ba4ff52bae180f5fb4f0e682ae3038da76bf48eed806249b0b9c9bfd",
+        "sha256_in_prefix": "23ad2ab6ba4ff52bae180f5fb4f0e682ae3038da76bf48eed806249b0b9c9bfd",
+        "size_in_bytes": 413
+      },
+      {
+        "_path": "site-packages/dvc_http/retry.py",
+        "path_type": "hardlink",
+        "sha256": "e141f6f7e9c45311bfeaf682aedef9dc337d0fea7fc99218cfe4cb5d5793aa0b",
+        "sha256_in_prefix": "e141f6f7e9c45311bfeaf682aedef9dc337d0fea7fc99218cfe4cb5d5793aa0b",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "site-packages/dvc_http/spec.py",
+        "path_type": "hardlink",
+        "sha256": "6e244591cc1c3fa60b267b418805bebf2bca68a3078b5ffdca431bef95c7eb86",
+        "sha256_in_prefix": "6e244591cc1c3fa60b267b418805bebf2bca68a3078b5ffdca431bef95c7eb86",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "site-packages/dvc_http/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_http/tests/cloud.py",
+        "path_type": "hardlink",
+        "sha256": "096a0364bca67dfe5996962fbafb782aecf9dd953968f650ca7c8f6fea9da9ff",
+        "sha256_in_prefix": "096a0364bca67dfe5996962fbafb782aecf9dd953968f650ca7c8f6fea9da9ff",
+        "size_in_bytes": 983
+      },
+      {
+        "_path": "site-packages/dvc_http/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "50d8675bec0231b95e45b976148ca4f6856e662ba190e95b52c9cbf572dfff2a",
+        "sha256_in_prefix": "50d8675bec0231b95e45b976148ca4f6856e662ba190e95b52c9cbf572dfff2a",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "site-packages/dvc_http/tests/fixtures.py",
+        "path_type": "hardlink",
+        "sha256": "5361c1b38aa2f88a01c996acbc17f0dac6e7d7135effeef4f00d8b5877bdabcb",
+        "sha256_in_prefix": "5361c1b38aa2f88a01c996acbc17f0dac6e7d7135effeef4f00d8b5877bdabcb",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "site-packages/dvc_http/tests/httpd.py",
+        "path_type": "hardlink",
+        "sha256": "87ac9e34a3721d92dd1e828ea9ddb1540cd7322bd15b148910b9c97eebf55ca3",
+        "sha256_in_prefix": "87ac9e34a3721d92dd1e828ea9ddb1540cd7322bd15b148910b9c97eebf55ca3",
+        "size_in_bytes": 2397
+      },
+      {
+        "_path": "site-packages/dvc_http/tests/test_config.py",
+        "path_type": "hardlink",
+        "sha256": "4500ce8806cd945a097dad6cd69c7db8cdc76ef70bd8027c08c4a3b0307f4a43",
+        "sha256_in_prefix": "4500ce8806cd945a097dad6cd69c7db8cdc76ef70bd8027c08c4a3b0307f4a43",
+        "size_in_bytes": 2795
+      },
+      {
+        "_path": "site-packages/dvc_http/tests/test_dvc.py",
+        "path_type": "hardlink",
+        "sha256": "e2a7e8f49ea5433a9ffeb019811b5886bee107eccf7316b1db0a1ed0569f7b9f",
+        "sha256_in_prefix": "e2a7e8f49ea5433a9ffeb019811b5886bee107eccf7316b1db0a1ed0569f7b9f",
+        "size_in_bytes": 947
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_http/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_http/__pycache__/_dvc_http_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_http/__pycache__/retry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_http/__pycache__/spec.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_http/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_http/tests/__pycache__/cloud.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_http/tests/__pycache__/conftest.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_http/tests/__pycache__/fixtures.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_http/tests/__pycache__/httpd.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_http/tests/__pycache__/test_config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_http/tests/__pycache__/test_dvc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e7f0594b6f4fc23bf2398029fa269b87f659efab266ea995de31a9b5edd7fbef",
+  "size": 17144,
+  "subdir": "noarch",
+  "timestamp": 1702477578000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dvc-http-2.32.0-pyhd8ed1ab_0.conda",
+  "version": "2.32.0"
+}

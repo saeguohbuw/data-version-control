@@ -1,0 +1,1317 @@
+{
+  "build": "py39hf3d152e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "amqp >=5.1.1,<6.0.0",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39",
+    "typing_extensions",
+    "vine"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/kombu-5.3.3-py39hf3d152e_0",
+  "files": [
+    "lib/python3.9/site-packages/kombu-5.3.3.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/kombu-5.3.3.dist-info/LICENSE",
+    "lib/python3.9/site-packages/kombu-5.3.3.dist-info/METADATA",
+    "lib/python3.9/site-packages/kombu-5.3.3.dist-info/RECORD",
+    "lib/python3.9/site-packages/kombu-5.3.3.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/kombu-5.3.3.dist-info/WHEEL",
+    "lib/python3.9/site-packages/kombu-5.3.3.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/kombu-5.3.3.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/kombu/__init__.py",
+    "lib/python3.9/site-packages/kombu/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/abstract.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/clocks.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/common.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/compat.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/compression.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/connection.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/entity.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/log.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/matcher.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/message.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/messaging.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/mixins.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/pidbox.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/pools.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/resource.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/serialization.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/__pycache__/simple.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/abstract.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/__init__.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/__pycache__/debug.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/__pycache__/hub.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/__pycache__/semaphore.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/__pycache__/timer.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/__init__.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/__pycache__/connection.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/__pycache__/ext.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/connection.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/ext.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__init__.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__pycache__/connection.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__pycache__/ext.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__pycache__/message.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__pycache__/queue.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/connection.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/ext.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/message.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/queue.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/debug.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/http/__init__.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/http/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/http/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/http/__pycache__/curl.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/asynchronous/http/base.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/http/curl.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/hub.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/semaphore.py",
+    "lib/python3.9/site-packages/kombu/asynchronous/timer.py",
+    "lib/python3.9/site-packages/kombu/clocks.py",
+    "lib/python3.9/site-packages/kombu/common.py",
+    "lib/python3.9/site-packages/kombu/compat.py",
+    "lib/python3.9/site-packages/kombu/compression.py",
+    "lib/python3.9/site-packages/kombu/connection.py",
+    "lib/python3.9/site-packages/kombu/entity.py",
+    "lib/python3.9/site-packages/kombu/exceptions.py",
+    "lib/python3.9/site-packages/kombu/log.py",
+    "lib/python3.9/site-packages/kombu/matcher.py",
+    "lib/python3.9/site-packages/kombu/message.py",
+    "lib/python3.9/site-packages/kombu/messaging.py",
+    "lib/python3.9/site-packages/kombu/mixins.py",
+    "lib/python3.9/site-packages/kombu/pidbox.py",
+    "lib/python3.9/site-packages/kombu/pools.py",
+    "lib/python3.9/site-packages/kombu/resource.py",
+    "lib/python3.9/site-packages/kombu/serialization.py",
+    "lib/python3.9/site-packages/kombu/simple.py",
+    "lib/python3.9/site-packages/kombu/transport/SLMQ.py",
+    "lib/python3.9/site-packages/kombu/transport/SQS.py",
+    "lib/python3.9/site-packages/kombu/transport/__init__.py",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/SLMQ.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/SQS.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/azureservicebus.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/azurestoragequeues.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/confluentkafka.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/consul.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/etcd.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/filesystem.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/librabbitmq.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/memory.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/mongodb.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/pyamqp.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/pyro.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/qpid.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/redis.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/__pycache__/zookeeper.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/azureservicebus.py",
+    "lib/python3.9/site-packages/kombu/transport/azurestoragequeues.py",
+    "lib/python3.9/site-packages/kombu/transport/base.py",
+    "lib/python3.9/site-packages/kombu/transport/confluentkafka.py",
+    "lib/python3.9/site-packages/kombu/transport/consul.py",
+    "lib/python3.9/site-packages/kombu/transport/etcd.py",
+    "lib/python3.9/site-packages/kombu/transport/filesystem.py",
+    "lib/python3.9/site-packages/kombu/transport/librabbitmq.py",
+    "lib/python3.9/site-packages/kombu/transport/memory.py",
+    "lib/python3.9/site-packages/kombu/transport/mongodb.py",
+    "lib/python3.9/site-packages/kombu/transport/pyamqp.py",
+    "lib/python3.9/site-packages/kombu/transport/pyro.py",
+    "lib/python3.9/site-packages/kombu/transport/qpid.py",
+    "lib/python3.9/site-packages/kombu/transport/redis.py",
+    "lib/python3.9/site-packages/kombu/transport/sqlalchemy/__init__.py",
+    "lib/python3.9/site-packages/kombu/transport/sqlalchemy/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/sqlalchemy/__pycache__/models.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/sqlalchemy/models.py",
+    "lib/python3.9/site-packages/kombu/transport/virtual/__init__.py",
+    "lib/python3.9/site-packages/kombu/transport/virtual/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/virtual/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/virtual/__pycache__/exchange.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/transport/virtual/base.py",
+    "lib/python3.9/site-packages/kombu/transport/virtual/exchange.py",
+    "lib/python3.9/site-packages/kombu/transport/zookeeper.py",
+    "lib/python3.9/site-packages/kombu/utils/__init__.py",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/amq_manager.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/collections.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/compat.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/debug.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/div.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/encoding.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/eventio.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/functional.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/imports.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/json.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/limits.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/objects.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/scheduling.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/text.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/time.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/url.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/__pycache__/uuid.cpython-39.pyc",
+    "lib/python3.9/site-packages/kombu/utils/amq_manager.py",
+    "lib/python3.9/site-packages/kombu/utils/collections.py",
+    "lib/python3.9/site-packages/kombu/utils/compat.py",
+    "lib/python3.9/site-packages/kombu/utils/debug.py",
+    "lib/python3.9/site-packages/kombu/utils/div.py",
+    "lib/python3.9/site-packages/kombu/utils/encoding.py",
+    "lib/python3.9/site-packages/kombu/utils/eventio.py",
+    "lib/python3.9/site-packages/kombu/utils/functional.py",
+    "lib/python3.9/site-packages/kombu/utils/imports.py",
+    "lib/python3.9/site-packages/kombu/utils/json.py",
+    "lib/python3.9/site-packages/kombu/utils/limits.py",
+    "lib/python3.9/site-packages/kombu/utils/objects.py",
+    "lib/python3.9/site-packages/kombu/utils/scheduling.py",
+    "lib/python3.9/site-packages/kombu/utils/text.py",
+    "lib/python3.9/site-packages/kombu/utils/time.py",
+    "lib/python3.9/site-packages/kombu/utils/url.py",
+    "lib/python3.9/site-packages/kombu/utils/uuid.py"
+  ],
+  "fn": "kombu-5.3.3-py39hf3d152e_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/kombu-5.3.3-py39hf3d152e_0",
+    "type": 1
+  },
+  "md5": "f26f57df21be94d4097f118dfc593dde",
+  "name": "kombu",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/kombu-5.3.3-py39hf3d152e_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/kombu-5.3.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu-5.3.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "72216de09e6340d2c1aa67f833c3b6aeeee2e6922721366699811b632640fd3b",
+        "sha256_in_prefix": "72216de09e6340d2c1aa67f833c3b6aeeee2e6922721366699811b632640fd3b",
+        "size_in_bytes": 1664
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu-5.3.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6b4d74217cb29ad6e43e5b0d6b6db31e87c87d5b2ecf80860c2df3e369ae7b35",
+        "sha256_in_prefix": "6b4d74217cb29ad6e43e5b0d6b6db31e87c87d5b2ecf80860c2df3e369ae7b35",
+        "size_in_bytes": 3068
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu-5.3.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "97c5ba4d59bd68d3987f5695fa680a759a905c940dd24341f916523ab8d81b84",
+        "sha256_in_prefix": "97c5ba4d59bd68d3987f5695fa680a759a905c940dd24341f916523ab8d81b84",
+        "size_in_bytes": 10931
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu-5.3.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu-5.3.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5e8f7ed4fbe4ba29abc9dba360902317ba4292b8ae5c1a543c48e66b59d9c89d",
+        "sha256_in_prefix": "5e8f7ed4fbe4ba29abc9dba360902317ba4292b8ae5c1a543c48e66b59d9c89d",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu-5.3.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "19144520278bf00d09849cff2afa2f5a939a5d871bd75e1494e2e06575648d0e",
+        "sha256_in_prefix": "19144520278bf00d09849cff2afa2f5a939a5d871bd75e1494e2e06575648d0e",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu-5.3.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ba84d9f6b7510732d9bbf1e7b7fdedc6a8b70d030868bc05af72d727c1d3d06e",
+        "sha256_in_prefix": "ba84d9f6b7510732d9bbf1e7b7fdedc6a8b70d030868bc05af72d727c1d3d06e",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9781d2430b164dc92712ace5b5b4db670b926b86c1fb816f35082c680de613f0",
+        "sha256_in_prefix": "9781d2430b164dc92712ace5b5b4db670b926b86c1fb816f35082c680de613f0",
+        "size_in_bytes": 3899
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f738297dd30f8bf7a0fefaaa23ba3f648ec1a8289d83954a76faecafeeac6517",
+        "sha256_in_prefix": "f738297dd30f8bf7a0fefaaa23ba3f648ec1a8289d83954a76faecafeeac6517",
+        "size_in_bytes": 3124
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/abstract.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "43d5303b3bee6ebf905fc3af82bdda99a2f83f5b1981aa2d5b924fcd826ab923",
+        "sha256_in_prefix": "43d5303b3bee6ebf905fc3af82bdda99a2f83f5b1981aa2d5b924fcd826ab923",
+        "size_in_bytes": 5318
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/clocks.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d5cbd6a1edb8f3b47929a76810aceb6b4d843e7b3627b6edd2bcc2ee46c36a90",
+        "sha256_in_prefix": "d5cbd6a1edb8f3b47929a76810aceb6b4d843e7b3627b6edd2bcc2ee46c36a90",
+        "size_in_bytes": 5818
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/common.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0589fbfdae6ac240612d7db8636f634db45eaa12601a4fd457e62ef3aa02fc77",
+        "sha256_in_prefix": "0589fbfdae6ac240612d7db8636f634db45eaa12601a4fd457e62ef3aa02fc77",
+        "size_in_bytes": 13064
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/compat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5e0a10e895fde6646f5b604e3403df114d2d4bba7808b6b837333d103c39b20",
+        "sha256_in_prefix": "c5e0a10e895fde6646f5b604e3403df114d2d4bba7808b6b837333d103c39b20",
+        "size_in_bytes": 6725
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/compression.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f8c4fdc748aba23b09a45639109d3cd34c0f552c82c9203979f034ac0024a34",
+        "sha256_in_prefix": "3f8c4fdc748aba23b09a45639109d3cd34c0f552c82c9203979f034ac0024a34",
+        "size_in_bytes": 3122
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/connection.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "682faf6bee7776bb884862324dd9eaeb3cfa4e8569d2f26b0bc92fd60a74b2b6",
+        "sha256_in_prefix": "682faf6bee7776bb884862324dd9eaeb3cfa4e8569d2f26b0bc92fd60a74b2b6",
+        "size_in_bytes": 35479
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/entity.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b442cfd01dde7433c6f3d1f8d7eb07750faf15bdd3353ba94dfea5879ed452d",
+        "sha256_in_prefix": "6b442cfd01dde7433c6f3d1f8d7eb07750faf15bdd3353ba94dfea5879ed452d",
+        "size_in_bytes": 29402
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "11452d011d984c949532913cf8aef3b31bf68fed4e41f1bd54e294819e00f501",
+        "sha256_in_prefix": "11452d011d984c949532913cf8aef3b31bf68fed4e41f1bd54e294819e00f501",
+        "size_in_bytes": 4280
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/log.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "63d6140122b82c37e10c0d24976b2d36a62bf460ad3df717e0d7bc7b5ac92946",
+        "sha256_in_prefix": "63d6140122b82c37e10c0d24976b2d36a62bf460ad3df717e0d7bc7b5ac92946",
+        "size_in_bytes": 5114
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/matcher.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7a7eda5e993292c86d86e0331472db19fa44485f2d456a05f3503fbdee9a651",
+        "sha256_in_prefix": "d7a7eda5e993292c86d86e0331472db19fa44485f2d456a05f3503fbdee9a651",
+        "size_in_bytes": 3266
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/message.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c60f556baaacc4e16172ba66c344fa08072c262ff364ed0a59e902db3c98b0ef",
+        "sha256_in_prefix": "c60f556baaacc4e16172ba66c344fa08072c262ff364ed0a59e902db3c98b0ef",
+        "size_in_bytes": 6832
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/messaging.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb8c992c0d29b1429537cb4de0c8417800be6439fad0654c5213c978d64d2071",
+        "sha256_in_prefix": "cb8c992c0d29b1429537cb4de0c8417800be6439fad0654c5213c978d64d2071",
+        "size_in_bytes": 19191
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/mixins.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "55c3d36ea4b55862f726094a3b9e361418008e5ecbfd6e031a107ba1b532363b",
+        "sha256_in_prefix": "55c3d36ea4b55862f726094a3b9e361418008e5ecbfd6e031a107ba1b532363b",
+        "size_in_bytes": 10293
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/pidbox.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b0d069fc88e6b1d34e7f7545c0ff651aee87a73be6d87348bb0be0512dc895e",
+        "sha256_in_prefix": "7b0d069fc88e6b1d34e7f7545c0ff651aee87a73be6d87348bb0be0512dc895e",
+        "size_in_bytes": 11229
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/pools.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c68a089c931b3d5358bf40c9a2694b04981f521cff8650527089a4970c37c8d",
+        "sha256_in_prefix": "4c68a089c931b3d5358bf40c9a2694b04981f521cff8650527089a4970c37c8d",
+        "size_in_bytes": 5315
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/resource.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1321b316d059a3f91f5709836db8d529ba54cdc106fbc1b7a0c14fca35b4fc22",
+        "sha256_in_prefix": "1321b316d059a3f91f5709836db8d529ba54cdc106fbc1b7a0c14fca35b4fc22",
+        "size_in_bytes": 7354
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/serialization.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "014676cf9431b7bb90fb0ad395ff0968d82e3bf278667e6d49bfe892b91385cd",
+        "sha256_in_prefix": "014676cf9431b7bb90fb0ad395ff0968d82e3bf278667e6d49bfe892b91385cd",
+        "size_in_bytes": 13986
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/__pycache__/simple.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5851c42910956476aa00926fb34d173e9e3e9f49ef43e9eb2c4dcfc1564a768b",
+        "sha256_in_prefix": "5851c42910956476aa00926fb34d173e9e3e9f49ef43e9eb2c4dcfc1564a768b",
+        "size_in_bytes": 4684
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/abstract.py",
+        "path_type": "hardlink",
+        "sha256": "991b0de58f8b5c68cd7af95ff3fcacafa49b894d36aeef0fe9989224693a9ad8",
+        "sha256_in_prefix": "991b0de58f8b5c68cd7af95ff3fcacafa49b894d36aeef0fe9989224693a9ad8",
+        "size_in_bytes": 4426
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ab955d4f7a12aca6aebdd10e0ff7a7da22dc7d1de506b326f233054b8a69ae77",
+        "sha256_in_prefix": "ab955d4f7a12aca6aebdd10e0ff7a7da22dc7d1de506b326f233054b8a69ae77",
+        "size_in_bytes": 237
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "58ffdd0a7da39488cda11236c19127a8853110ec57e0f88a7a2fbd3144e4f1d9",
+        "sha256_in_prefix": "58ffdd0a7da39488cda11236c19127a8853110ec57e0f88a7a2fbd3144e4f1d9",
+        "size_in_bytes": 434
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/__pycache__/debug.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "edb1c857ee04ba4e414a1f91f4265f0addb4da77e018aaf487801934d8aae381",
+        "sha256_in_prefix": "edb1c857ee04ba4e414a1f91f4265f0addb4da77e018aaf487801934d8aae381",
+        "size_in_bytes": 2535
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/__pycache__/hub.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "75f1e819c63ecf3637c6ee1a7bf45a3164773ad05c4cb0621c9f236cbd240fc8",
+        "sha256_in_prefix": "75f1e819c63ecf3637c6ee1a7bf45a3164773ad05c4cb0621c9f236cbd240fc8",
+        "size_in_bytes": 10360
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/__pycache__/semaphore.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e42991546ebe8fdba874a5da4daf94853ea4b8c1af0249cb4190cc00caba055",
+        "sha256_in_prefix": "7e42991546ebe8fdba874a5da4daf94853ea4b8c1af0249cb4190cc00caba055",
+        "size_in_bytes": 4331
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/__pycache__/timer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "df8477bc584bf573c18d6f37c40ec80d06ac8dae18aa1a67c8cd7af4bf6b6153",
+        "sha256_in_prefix": "df8477bc584bf573c18d6f37c40ec80d06ac8dae18aa1a67c8cd7af4bf6b6153",
+        "size_in_bytes": 7851
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8191626242aec0afc82e230ea47f7e4e7baca4fc5f44f897106a9a9b7b78d6dd",
+        "sha256_in_prefix": "8191626242aec0afc82e230ea47f7e4e7baca4fc5f44f897106a9a9b7b78d6dd",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7ddac6ce845150ad9b9e1bc2084fb6504ea33d123a07d60378a2984a8701b4b",
+        "sha256_in_prefix": "c7ddac6ce845150ad9b9e1bc2084fb6504ea33d123a07d60378a2984a8701b4b",
+        "size_in_bytes": 643
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/__pycache__/connection.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d42d111f42195a6a423ac9f39c1dc3b9b2026022ff9195d7b08f7fd58c5a8b6b",
+        "sha256_in_prefix": "d42d111f42195a6a423ac9f39c1dc3b9b2026022ff9195d7b08f7fd58c5a8b6b",
+        "size_in_bytes": 9221
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/__pycache__/ext.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "563d22a44df8b7096e445b90a9e886c20a5f16ffd883f6c3184df7d37846756b",
+        "sha256_in_prefix": "563d22a44df8b7096e445b90a9e886c20a5f16ffd883f6c3184df7d37846756b",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/connection.py",
+        "path_type": "hardlink",
+        "sha256": "18f7d95f411e7e244e038f5de08bece3118973743711585a6acbf943a3a05c39",
+        "sha256_in_prefix": "18f7d95f411e7e244e038f5de08bece3118973743711585a6acbf943a3a05c39",
+        "size_in_bytes": 8538
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/ext.py",
+        "path_type": "hardlink",
+        "sha256": "6448e1a6f8b3016a8a0f7052c466b5faa970bc77c49b78315aba50e8771dc26c",
+        "sha256_in_prefix": "6448e1a6f8b3016a8a0f7052c466b5faa970bc77c49b78315aba50e8771dc26c",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "26b93597e95ebeeb9ce265986fa8cb28fb1f69fb9187e78b884bfdd338ca2c60",
+        "sha256_in_prefix": "26b93597e95ebeeb9ce265986fa8cb28fb1f69fb9187e78b884bfdd338ca2c60",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__pycache__/connection.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "26ac1a67061b79baac63620486b23a584d996d9de61b0314affe91923e398908",
+        "sha256_in_prefix": "26ac1a67061b79baac63620486b23a584d996d9de61b0314affe91923e398908",
+        "size_in_bytes": 6839
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__pycache__/ext.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f519eef74c1341d4b963dd6156ad8a7a3a4bd7ed1b1d0b44366c44bc16a2fcad",
+        "sha256_in_prefix": "f519eef74c1341d4b963dd6156ad8a7a3a4bd7ed1b1d0b44366c44bc16a2fcad",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__pycache__/message.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b56a30269e6ac5072ee12f68480b0072ec3e796d2fb2afb4880fe051adbe5dd4",
+        "sha256_in_prefix": "b56a30269e6ac5072ee12f68480b0072ec3e796d2fb2afb4880fe051adbe5dd4",
+        "size_in_bytes": 1438
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/__pycache__/queue.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a35804ec0018276d9022e4ef17fca6a90d6867bebec09815241ec4bfe9558a0",
+        "sha256_in_prefix": "6a35804ec0018276d9022e4ef17fca6a90d6867bebec09815241ec4bfe9558a0",
+        "size_in_bytes": 4873
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/connection.py",
+        "path_type": "hardlink",
+        "sha256": "03cbfdeeece8da3230ea6cea3ba34f056551de5b65c86573fb53fa71c5f8af31",
+        "sha256_in_prefix": "03cbfdeeece8da3230ea6cea3ba34f056551de5b65c86573fb53fa71c5f8af31",
+        "size_in_bytes": 6808
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/ext.py",
+        "path_type": "hardlink",
+        "sha256": "9d59c6176214fc54890edb9e26377a742639bb73e7b865cbb987a4f293dea612",
+        "sha256_in_prefix": "9d59c6176214fc54890edb9e26377a742639bb73e7b865cbb987a4f293dea612",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/message.py",
+        "path_type": "hardlink",
+        "sha256": "c8bb242cfa9c2c2ca0799fddfe832870fe29d62fddeae3dc93bc4b9cf7a59877",
+        "sha256_in_prefix": "c8bb242cfa9c2c2ca0799fddfe832870fe29d62fddeae3dc93bc4b9cf7a59877",
+        "size_in_bytes": 892
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/aws/sqs/queue.py",
+        "path_type": "hardlink",
+        "sha256": "d9fb26afacdf835d3a518234a984a87d6c4ed255f979e6b4cec67f774fffccef",
+        "sha256_in_prefix": "d9fb26afacdf835d3a518234a984a87d6c4ed255f979e6b4cec67f774fffccef",
+        "size_in_bytes": 4402
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/debug.py",
+        "path_type": "hardlink",
+        "sha256": "5e1621845170946f722bf1256f8cffa63af60a0db8aba32e970763b482ed1748",
+        "sha256_in_prefix": "5e1621845170946f722bf1256f8cffa63af60a0db8aba32e970763b482ed1748",
+        "size_in_bytes": 1773
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/http/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "64faff6dad080ae2d1f7aa33625be15a2213a9eb7d9e5ec835005dc70ca63fef",
+        "sha256_in_prefix": "64faff6dad080ae2d1f7aa33625be15a2213a9eb7d9e5ec835005dc70ca63fef",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/http/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0ffc4e1bf20d3c33ab852879bd0bfd7f00d4fc2da5014b588bbcb2bebd4a86a",
+        "sha256_in_prefix": "e0ffc4e1bf20d3c33ab852879bd0bfd7f00d4fc2da5014b588bbcb2bebd4a86a",
+        "size_in_bytes": 1109
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/http/__pycache__/base.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "076fcc00cf6f150146724e505978e19b63b513d0fac5a34ec51809deac68317d",
+        "sha256_in_prefix": "076fcc00cf6f150146724e505978e19b63b513d0fac5a34ec51809deac68317d",
+        "size_in_bytes": 10154
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/http/__pycache__/curl.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d48625988795b451de046a4c003d2798af4742c3f4ccf1f4e2c2ff7a5db6497",
+        "sha256_in_prefix": "4d48625988795b451de046a4c003d2798af4742c3f4ccf1f4e2c2ff7a5db6497",
+        "size_in_bytes": 8213
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/http/base.py",
+        "path_type": "hardlink",
+        "sha256": "bb43064c3eb887dccf8965de66d478e4411c914a8ae5108b058d4534f6ddc4d5",
+        "sha256_in_prefix": "bb43064c3eb887dccf8965de66d478e4411c914a8ae5108b058d4534f6ddc4d5",
+        "size_in_bytes": 9592
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/http/curl.py",
+        "path_type": "hardlink",
+        "sha256": "c3343bb8a0c3c7ef50560fbee692be81b56d24f951bd51c096360a6393bb0f35",
+        "sha256_in_prefix": "c3343bb8a0c3c7ef50560fbee692be81b56d24f951bd51c096360a6393bb0f35",
+        "size_in_bytes": 9752
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/hub.py",
+        "path_type": "hardlink",
+        "sha256": "b7bd13228a2883f3f3d5276467eadc2930097c8ab036dddf8717d49c5521f375",
+        "sha256_in_prefix": "b7bd13228a2883f3f3d5276467eadc2930097c8ab036dddf8717d49c5521f375",
+        "size_in_bytes": 11946
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/semaphore.py",
+        "path_type": "hardlink",
+        "sha256": "d87437a135caa6cd8bf488a1f6428886fa81468af2f286d80718449f82706797",
+        "sha256_in_prefix": "d87437a135caa6cd8bf488a1f6428886fa81468af2f286d80718449f82706797",
+        "size_in_bytes": 3521
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/asynchronous/timer.py",
+        "path_type": "hardlink",
+        "sha256": "716244921060acfc266f36e5d001b2663b59f7bb80dc6424ab028ce3d1277521",
+        "sha256_in_prefix": "716244921060acfc266f36e5d001b2663b59f7bb80dc6424ab028ce3d1277521",
+        "size_in_bytes": 6940
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/clocks.py",
+        "path_type": "hardlink",
+        "sha256": "c08c3066a99d07bc86a9f7c2bcdf041137abe48e19cfb84f26b3e23f89dca383",
+        "sha256_in_prefix": "c08c3066a99d07bc86a9f7c2bcdf041137abe48e19cfb84f26b3e23f89dca383",
+        "size_in_bytes": 4825
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/common.py",
+        "path_type": "hardlink",
+        "sha256": "075000a319792c1f8dd393f9130dd544f2a9d800ba15dab387bfbc67690c808b",
+        "sha256_in_prefix": "075000a319792c1f8dd393f9130dd544f2a9d800ba15dab387bfbc67690c808b",
+        "size_in_bytes": 13529
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/compat.py",
+        "path_type": "hardlink",
+        "sha256": "5fc7e750d06405064ca024081c3059092b6875097b80b898b685acd919dee5fd",
+        "sha256_in_prefix": "5fc7e750d06405064ca024081c3059092b6875097b80b898b685acd919dee5fd",
+        "size_in_bytes": 6752
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/compression.py",
+        "path_type": "hardlink",
+        "sha256": "c08a4d5c2b61e6da9bf1ebecee778eed75b06041915087da323dc010a875c0c0",
+        "sha256_in_prefix": "c08a4d5c2b61e6da9bf1ebecee778eed75b06041915087da323dc010a875c0c0",
+        "size_in_bytes": 2984
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/connection.py",
+        "path_type": "hardlink",
+        "sha256": "64786bd06ac4947514d92cb81bec3c358fbf5e0850dfd3f1b908833ac0f7011b",
+        "sha256_in_prefix": "64786bd06ac4947514d92cb81bec3c358fbf5e0850dfd3f1b908833ac0f7011b",
+        "size_in_bytes": 40488
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/entity.py",
+        "path_type": "hardlink",
+        "sha256": "cef514222edc2f5e080ec497fe3f2902c7788ceea2d5cad94e1ab04acd27ed0b",
+        "sha256_in_prefix": "cef514222edc2f5e080ec497fe3f2902c7788ceea2d5cad94e1ab04acd27ed0b",
+        "size_in_bytes": 33036
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "632eb26e667be7d7d437837bcc576890a4facd4bba549e39c3afc29c8ceb817e",
+        "sha256_in_prefix": "632eb26e667be7d7d437837bcc576890a4facd4bba549e39c3afc29c8ceb817e",
+        "size_in_bytes": 2838
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/log.py",
+        "path_type": "hardlink",
+        "sha256": "6de9f87a967625cbd07449fd6aa62c44d746747f98fec103f3dd218ba33c2a9e",
+        "sha256_in_prefix": "6de9f87a967625cbd07449fd6aa62c44d746747f98fec103f3dd218ba33c2a9e",
+        "size_in_bytes": 4066
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/matcher.py",
+        "path_type": "hardlink",
+        "sha256": "7a5b90a66f8bdeb2ec9d0bff406f8e90407d5410813c428d5a6227280c1fe374",
+        "sha256_in_prefix": "7a5b90a66f8bdeb2ec9d0bff406f8e90407d5410813c428d5a6227280c1fe374",
+        "size_in_bytes": 4269
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/message.py",
+        "path_type": "hardlink",
+        "sha256": "85c90dd6c14b7f935a223511a86d0396af3a01d73203bc270a74bcbe207065ce",
+        "sha256_in_prefix": "85c90dd6c14b7f935a223511a86d0396af3a01d73203bc270a74bcbe207065ce",
+        "size_in_bytes": 8151
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/messaging.py",
+        "path_type": "hardlink",
+        "sha256": "36a89921adfb40ec23492b858a4eaa87dc3238bbdd2e5023126b20a1e10f3e42",
+        "sha256_in_prefix": "36a89921adfb40ec23492b858a4eaa87dc3238bbdd2e5023126b20a1e10f3e42",
+        "size_in_bytes": 24268
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/mixins.py",
+        "path_type": "hardlink",
+        "sha256": "63ae0460f89972e530f838a6a1eafdcf4ae41384e1377ee61e8bcca3c036c5d9",
+        "sha256_in_prefix": "63ae0460f89972e530f838a6a1eafdcf4ae41384e1377ee61e8bcca3c036c5d9",
+        "size_in_bytes": 9701
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/pidbox.py",
+        "path_type": "hardlink",
+        "sha256": "1cd6b744449859cad0d71e81546dbfd5ca8598c5edc41c3a6f24d734169fce89",
+        "sha256_in_prefix": "1cd6b744449859cad0d71e81546dbfd5ca8598c5edc41c3a6f24d734169fce89",
+        "size_in_bytes": 14789
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/pools.py",
+        "path_type": "hardlink",
+        "sha256": "947446416aacf82bdee532ddc8f8a9b316791d95ec81d06144a2a355761ff382",
+        "sha256_in_prefix": "947446416aacf82bdee532ddc8f8a9b316791d95ec81d06144a2a355761ff382",
+        "size_in_bytes": 3975
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/resource.py",
+        "path_type": "hardlink",
+        "sha256": "d841baf72710c73d6a2414939c415a55998c21fc4b5b1e1ac0889934a4b91831",
+        "sha256_in_prefix": "d841baf72710c73d6a2414939c415a55998c21fc4b5b1e1ac0889934a4b91831",
+        "size_in_bytes": 7735
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/serialization.py",
+        "path_type": "hardlink",
+        "sha256": "5c0c3c0b4ea9214c36cd3c5b03c674fe8d6478a8c7e688e9954f1fd278978356",
+        "sha256_in_prefix": "5c0c3c0b4ea9214c36cd3c5b03c674fe8d6478a8c7e688e9954f1fd278978356",
+        "size_in_bytes": 15446
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/simple.py",
+        "path_type": "hardlink",
+        "sha256": "a3b7dbb5f2cb8bf75fccf2d403e8311b2f8169f86cddb23fd704906b62f947f0",
+        "sha256_in_prefix": "a3b7dbb5f2cb8bf75fccf2d403e8311b2f8169f86cddb23fd704906b62f947f0",
+        "size_in_bytes": 5302
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/SLMQ.py",
+        "path_type": "hardlink",
+        "sha256": "a64bf4fb4e003aa9081500adde2045b7bdbbdf4cba50f624f9d536a0db299253",
+        "sha256_in_prefix": "a64bf4fb4e003aa9081500adde2045b7bdbbdf4cba50f624f9d536a0db299253",
+        "size_in_bytes": 6215
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/SQS.py",
+        "path_type": "hardlink",
+        "sha256": "6db494be37d779351798bac241c1f966ab3b6ae5002b0629fadd4cd310813449",
+        "sha256_in_prefix": "6db494be37d779351798bac241c1f966ab3b6ae5002b0629fadd4cd310813449",
+        "size_in_bytes": 34576
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "34ac33fd021fd28db3b28f288399ae1b44e42af840724bc09a585ed44e2d6545",
+        "sha256_in_prefix": "34ac33fd021fd28db3b28f288399ae1b44e42af840724bc09a585ed44e2d6545",
+        "size_in_bytes": 3342
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/SLMQ.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f2da7d693c53ef6fb97f9d42ed0530b6760b0282dd3d50c755515f5f688a4c0",
+        "sha256_in_prefix": "4f2da7d693c53ef6fb97f9d42ed0530b6760b0282dd3d50c755515f5f688a4c0",
+        "size_in_bytes": 6460
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/SQS.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5863a43875f6167b72a8f81d5a279bc5cdf01df4b761495a74881b3a7bf1aa0f",
+        "sha256_in_prefix": "5863a43875f6167b72a8f81d5a279bc5cdf01df4b761495a74881b3a7bf1aa0f",
+        "size_in_bytes": 27604
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fcac072cf2d1490bf81697d7495035ffbbf8b2b5132831c625d71aa72ec59d79",
+        "sha256_in_prefix": "fcac072cf2d1490bf81697d7495035ffbbf8b2b5132831c625d71aa72ec59d79",
+        "size_in_bytes": 2857
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/azureservicebus.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef8bdec815d6cbbfcbc78b24ab5ac16edbf9bd693a74dcf44d931aabb3d18b3c",
+        "sha256_in_prefix": "ef8bdec815d6cbbfcbc78b24ab5ac16edbf9bd693a74dcf44d931aabb3d18b3c",
+        "size_in_bytes": 14818
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/azurestoragequeues.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a392a1f82548962e2ef41289090dcb4c5a88afbe3d01177e20cbc0db1685678e",
+        "sha256_in_prefix": "a392a1f82548962e2ef41289090dcb4c5a88afbe3d01177e20cbc0db1685678e",
+        "size_in_bytes": 8153
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/base.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "443b9acfc145f471a98415a37187d9c761a944233a2535c092de06ba329a2532",
+        "sha256_in_prefix": "443b9acfc145f471a98415a37187d9c761a944233a2535c092de06ba329a2532",
+        "size_in_bytes": 9976
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/confluentkafka.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7641167a294beaf18248984a7d1d8e918b24e3f50844b9c39e73d0f9955d2f9",
+        "sha256_in_prefix": "d7641167a294beaf18248984a7d1d8e918b24e3f50844b9c39e73d0f9955d2f9",
+        "size_in_bytes": 12334
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/consul.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "618ce0b8880b97aa7fd60e10263592268a29bcc3e9cb3d600710d85772094784",
+        "sha256_in_prefix": "618ce0b8880b97aa7fd60e10263592268a29bcc3e9cb3d600710d85772094784",
+        "size_in_bytes": 9675
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/etcd.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b2f20d06913aa5798f335054079dfdadd98da0df346b10b15b69533faf7b685",
+        "sha256_in_prefix": "1b2f20d06913aa5798f335054079dfdadd98da0df346b10b15b69533faf7b685",
+        "size_in_bytes": 8830
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/filesystem.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "581a761e04261d9150534d834050cb2b627ff39fccd1e492a48d1615de49a9f3",
+        "sha256_in_prefix": "581a761e04261d9150534d834050cb2b627ff39fccd1e492a48d1615de49a9f3",
+        "size_in_bytes": 9896
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/librabbitmq.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2f232143d7bdff66911aa947f4cf2d8630de0886a4b8bbc9d7b03c291fa8bd8",
+        "sha256_in_prefix": "f2f232143d7bdff66911aa947f4cf2d8630de0886a4b8bbc9d7b03c291fa8bd8",
+        "size_in_bytes": 6169
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/memory.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed042e3f23822c35fd432baa9c4fd29c93032271d774cc012799bed1ff9d3ecf",
+        "sha256_in_prefix": "ed042e3f23822c35fd432baa9c4fd29c93032271d774cc012799bed1ff9d3ecf",
+        "size_in_bytes": 3617
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/mongodb.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "40c9cc9661d1ebc719eee8f84e09a69c863ad055615680e667aeb18cf000a979",
+        "sha256_in_prefix": "40c9cc9661d1ebc719eee8f84e09a69c863ad055615680e667aeb18cf000a979",
+        "size_in_bytes": 13251
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/pyamqp.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a86a98a44445d3823e2b84d0f28724be46cb5c758b7482f897efbdc21383391",
+        "sha256_in_prefix": "3a86a98a44445d3823e2b84d0f28724be46cb5c758b7482f897efbdc21383391",
+        "size_in_bytes": 7988
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/pyro.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9856181702489c0551018c7acb62297d132852b5f620a125426be24ec8a218cd",
+        "sha256_in_prefix": "9856181702489c0551018c7acb62297d132852b5f620a125426be24ec8a218cd",
+        "size_in_bytes": 7177
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/qpid.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe7ac690dddf5dec8fca3a44a1c969e9bf9e4d300961f428bd1a10f3097f2a9b",
+        "sha256_in_prefix": "fe7ac690dddf5dec8fca3a44a1c969e9bf9e4d300961f428bd1a10f3097f2a9b",
+        "size_in_bytes": 67651
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/redis.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "be09b9099ffb24900b09141101277251271c5044dadaef057079334ed0a1fc33",
+        "sha256_in_prefix": "be09b9099ffb24900b09141101277251271c5044dadaef057079334ed0a1fc33",
+        "size_in_bytes": 40074
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/__pycache__/zookeeper.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ffb7c45206ccc12364f4c398943ed0fb3c56b25a04fc1fd4c5c31060a20826b",
+        "sha256_in_prefix": "5ffb7c45206ccc12364f4c398943ed0fb3c56b25a04fc1fd4c5c31060a20826b",
+        "size_in_bytes": 6145
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/azureservicebus.py",
+        "path_type": "hardlink",
+        "sha256": "0ce7468029383fdab8ae9b93f6ed692781e6e19686c15b398358459e5d852181",
+        "sha256_in_prefix": "0ce7468029383fdab8ae9b93f6ed692781e6e19686c15b398358459e5d852181",
+        "size_in_bytes": 18167
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/azurestoragequeues.py",
+        "path_type": "hardlink",
+        "sha256": "d23d85122521836a66184b9ee15dc2290362ff0b06c02434d4f696049b3c3199",
+        "sha256_in_prefix": "d23d85122521836a66184b9ee15dc2290362ff0b06c02434d4f696049b3c3199",
+        "size_in_bytes": 8894
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/base.py",
+        "path_type": "hardlink",
+        "sha256": "e346c12750357ecfa03770a3635a6fba5fb5daa8d6d39ed4640c4ebe03161a45",
+        "sha256_in_prefix": "e346c12750357ecfa03770a3635a6fba5fb5daa8d6d39ed4640c4ebe03161a45",
+        "size_in_bytes": 7687
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/confluentkafka.py",
+        "path_type": "hardlink",
+        "sha256": "bc9e7e6d5bfbaa7eb6e6a0cfc2b2112964e45c7e9a74dcc2cb8afc96da785bd6",
+        "sha256_in_prefix": "bc9e7e6d5bfbaa7eb6e6a0cfc2b2112964e45c7e9a74dcc2cb8afc96da785bd6",
+        "size_in_bytes": 12141
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/consul.py",
+        "path_type": "hardlink",
+        "sha256": "d9dd7288b2fad8a9ed2a40a07c7251fba775cf07620f3c495a99c56b571bcd8b",
+        "sha256_in_prefix": "d9dd7288b2fad8a9ed2a40a07c7251fba775cf07620f3c495a99c56b571bcd8b",
+        "size_in_bytes": 9424
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/etcd.py",
+        "path_type": "hardlink",
+        "sha256": "506654fd5f18ac7fb3075b477b1198d73ff19b5222f96e68a143b335e9bf971d",
+        "sha256_in_prefix": "506654fd5f18ac7fb3075b477b1198d73ff19b5222f96e68a143b335e9bf971d",
+        "size_in_bytes": 8644
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/filesystem.py",
+        "path_type": "hardlink",
+        "sha256": "29f3af6f23e9cd37252751c3965dff13fdbe8782a8d99392deb4ffb924f6cbab",
+        "sha256_in_prefix": "29f3af6f23e9cd37252751c3965dff13fdbe8782a8d99392deb4ffb924f6cbab",
+        "size_in_bytes": 10416
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/librabbitmq.py",
+        "path_type": "hardlink",
+        "sha256": "3ebff5ef97044c30b0d6ee3cad19f3f80771b1b6c7ef4679d227812fc11cafac",
+        "sha256_in_prefix": "3ebff5ef97044c30b0d6ee3cad19f3f80771b1b6c7ef4679d227812fc11cafac",
+        "size_in_bytes": 6022
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/memory.py",
+        "path_type": "hardlink",
+        "sha256": "2c06c161f825fe8575d1e0e8b36364f8edb46e013811fa64b33d6efe699f0485",
+        "sha256_in_prefix": "2c06c161f825fe8575d1e0e8b36364f8edb46e013811fa64b33d6efe699f0485",
+        "size_in_bytes": 2404
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/mongodb.py",
+        "path_type": "hardlink",
+        "sha256": "d07e4de36ec08cc4f82c13a7405dac10b5574c4cdb9311261b5f5a52900f5395",
+        "sha256_in_prefix": "d07e4de36ec08cc4f82c13a7405dac10b5574c4cdb9311261b5f5a52900f5395",
+        "size_in_bytes": 15446
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/pyamqp.py",
+        "path_type": "hardlink",
+        "sha256": "adbee6ffed3e288a2b32e84e3911b9a46dab735406acfec5878f275e2c69f517",
+        "sha256_in_prefix": "adbee6ffed3e288a2b32e84e3911b9a46dab735406acfec5878f275e2c69f517",
+        "size_in_bytes": 7752
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/pyro.py",
+        "path_type": "hardlink",
+        "sha256": "b6cc026bb6b02557944a655896141f7adb8a39bec33506dfd8f6d4fae5469b1a",
+        "sha256_in_prefix": "b6cc026bb6b02557944a655896141f7adb8a39bec33506dfd8f6d4fae5469b1a",
+        "size_in_bytes": 5844
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/qpid.py",
+        "path_type": "hardlink",
+        "sha256": "3be966e0c7118b1c7a1bf3b15c02786ede43e834e0b143b1c7d293f138cf07b0",
+        "sha256_in_prefix": "3be966e0c7118b1c7a1bf3b15c02786ede43e834e0b143b1c7d293f138cf07b0",
+        "size_in_bytes": 71681
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/redis.py",
+        "path_type": "hardlink",
+        "sha256": "0f82369871e65bbf2f20ba6defa0445e670a5d0ac567bc746e151b729a013be7",
+        "sha256_in_prefix": "0f82369871e65bbf2f20ba6defa0445e670a5d0ac567bc746e151b729a013be7",
+        "size_in_bytes": 48685
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/sqlalchemy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a1a57415a6a1964164f31cd51d03f8da896f7d2f9038d769277e6b980a8fada9",
+        "sha256_in_prefix": "a1a57415a6a1964164f31cd51d03f8da896f7d2f9038d769277e6b980a8fada9",
+        "size_in_bytes": 7448
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/sqlalchemy/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bce6f0b34742ba3442a1140433e69f3260d52eaf3d0ca1e3cf8517b77fee96d7",
+        "sha256_in_prefix": "bce6f0b34742ba3442a1140433e69f3260d52eaf3d0ca1e3cf8517b77fee96d7",
+        "size_in_bytes": 6957
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/sqlalchemy/__pycache__/models.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "71f5f23185b31904f55819f0f0c0723127ffe327ea8a477027030c2ca043202e",
+        "sha256_in_prefix": "71f5f23185b31904f55819f0f0c0723127ffe327ea8a477027030c2ca043202e",
+        "size_in_bytes": 2795
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/sqlalchemy/models.py",
+        "path_type": "hardlink",
+        "sha256": "4f8ca3c57e6fab40f87eb961ff3abf26ce199868cf0b8c499131f2a6571ccfa7",
+        "sha256_in_prefix": "4f8ca3c57e6fab40f87eb961ff3abf26ce199868cf0b8c499131f2a6571ccfa7",
+        "size_in_bytes": 2302
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/virtual/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2e15b0b22996a3bd7464213f3e14f4c7b950782548887784cea08f6c80abf0d1",
+        "sha256_in_prefix": "2e15b0b22996a3bd7464213f3e14f4c7b950782548887784cea08f6c80abf0d1",
+        "size_in_bytes": 476
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/virtual/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "eff7f21ab24953aa0d78a7e519fd4565c48734102b5a4cc56c26ead1d9fc7d83",
+        "sha256_in_prefix": "eff7f21ab24953aa0d78a7e519fd4565c48734102b5a4cc56c26ead1d9fc7d83",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/virtual/__pycache__/base.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d6d3df7891049eed1e1c99f032cfe2d43f771a4f349bdb4bf431c7823aa64d5e",
+        "sha256_in_prefix": "d6d3df7891049eed1e1c99f032cfe2d43f771a4f349bdb4bf431c7823aa64d5e",
+        "size_in_bytes": 30577
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/virtual/__pycache__/exchange.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b32c26c7e0e5d3d40715c87af170b0b5bc168708f58a19c7da56bfccaa96541",
+        "sha256_in_prefix": "6b32c26c7e0e5d3d40715c87af170b0b5bc168708f58a19c7da56bfccaa96541",
+        "size_in_bytes": 6094
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/virtual/base.py",
+        "path_type": "hardlink",
+        "sha256": "baf7c386dcab4a590870a30c8062e06cc8b9980c523dd52225ec492188fb0610",
+        "sha256_in_prefix": "baf7c386dcab4a590870a30c8062e06cc8b9980c523dd52225ec492188fb0610",
+        "size_in_bytes": 34231
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/virtual/exchange.py",
+        "path_type": "hardlink",
+        "sha256": "5c1d4679c1049ceb46e7cec1a1c75fbbe34454f8c1cdde7c9bb2f7e168791090",
+        "sha256_in_prefix": "5c1d4679c1049ceb46e7cec1a1c75fbbe34454f8c1cdde7c9bb2f7e168791090",
+        "size_in_bytes": 4894
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/transport/zookeeper.py",
+        "path_type": "hardlink",
+        "sha256": "07a92e08f608ee1ed33855d392bae5d32f60556bdc902a41a25ace9f1c56dc85",
+        "sha256_in_prefix": "07a92e08f608ee1ed33855d392bae5d32f60556bdc902a41a25ace9f1c56dc85",
+        "size_in_bytes": 6339
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6673fd178b810ddecf94dac7e08fc1c0d761d02ba99414543f223e85f35d884d",
+        "sha256_in_prefix": "6673fd178b810ddecf94dac7e08fc1c0d761d02ba99414543f223e85f35d884d",
+        "size_in_bytes": 698
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "abc4a0ffb6633f0b5a9031107b20a4e0804dd8703e67dcb1f0ab75289630fa91",
+        "sha256_in_prefix": "abc4a0ffb6633f0b5a9031107b20a4e0804dd8703e67dcb1f0ab75289630fa91",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/amq_manager.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "78d3e124abb279960ab3581b886f0726c80a47eee58a6a83f0dd13698f76d94f",
+        "sha256_in_prefix": "78d3e124abb279960ab3581b886f0726c80a47eee58a6a83f0dd13698f76d94f",
+        "size_in_bytes": 847
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/collections.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e5ba88663061a8926cb729aa73eb1e690b7f79fcc805e7bd5fe9ac645f31e98",
+        "sha256_in_prefix": "8e5ba88663061a8926cb729aa73eb1e690b7f79fcc805e7bd5fe9ac645f31e98",
+        "size_in_bytes": 1798
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/compat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e84bf60858c2454cc8422e7caca9e62e8d16de4db1ef5f3ded3a5eb97c065c8",
+        "sha256_in_prefix": "0e84bf60858c2454cc8422e7caca9e62e8d16de4db1ef5f3ded3a5eb97c065c8",
+        "size_in_bytes": 3178
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/debug.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c5bbf95f234dbe9895ef6e206d56ff64e66de31c38aaa76b8fd94de415f24f6",
+        "sha256_in_prefix": "0c5bbf95f234dbe9895ef6e206d56ff64e66de31c38aaa76b8fd94de415f24f6",
+        "size_in_bytes": 2231
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/div.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b34c23c103eb0cd12652250ce0ca299769e0df057507f161cac80102a5d478bd",
+        "sha256_in_prefix": "b34c23c103eb0cd12652250ce0ca299769e0df057507f161cac80102a5d478bd",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/encoding.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "98a868c36d5d36224e3c8d5f5ee18d7aa93c4421746458594117364129d513e0",
+        "sha256_in_prefix": "98a868c36d5d36224e3c8d5f5ee18d7aa93c4421746458594117364129d513e0",
+        "size_in_bytes": 2752
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/eventio.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b95acfed19e7e6ad2ea3d2f7ced15c91d4ee80f0bab8f0a0d6471d07cbde3605",
+        "sha256_in_prefix": "b95acfed19e7e6ad2ea3d2f7ced15c91d4ee80f0bab8f0a0d6471d07cbde3605",
+        "size_in_bytes": 9190
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/functional.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "912579e45d152fd1719e4582e4a38154ceec88126194bea515e2cd1978dbda2a",
+        "sha256_in_prefix": "912579e45d152fd1719e4582e4a38154ceec88126194bea515e2cd1978dbda2a",
+        "size_in_bytes": 12196
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/imports.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b198fce88351342f4ad5258296f1e426ddd4f58b6f6f051a52524c9a4b18315",
+        "sha256_in_prefix": "8b198fce88351342f4ad5258296f1e426ddd4f58b6f6f051a52524c9a4b18315",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/json.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a1b5a6ac5bfd966afa9c1c68d124c1de27f301c0b4d1d80266c13916d4acabaf",
+        "sha256_in_prefix": "a1b5a6ac5bfd966afa9c1c68d124c1de27f301c0b4d1d80266c13916d4acabaf",
+        "size_in_bytes": 3711
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/limits.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "82d255e9a430c259fdafdfcf16d46af38e81e239a983cf74d841307cc72149d9",
+        "sha256_in_prefix": "82d255e9a430c259fdafdfcf16d46af38e81e239a983cf74d841307cc72149d9",
+        "size_in_bytes": 2915
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/objects.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "39cd5939d1f8485a88bb53a3d4740215b8f5d2313316c3ee6aecbd82e531efbb",
+        "sha256_in_prefix": "39cd5939d1f8485a88bb53a3d4740215b8f5d2313316c3ee6aecbd82e531efbb",
+        "size_in_bytes": 2079
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/scheduling.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1be3f229349c381367cc70bc733f9297742a40fa4f56be4b697670826db04612",
+        "sha256_in_prefix": "1be3f229349c381367cc70bc733f9297742a40fa4f56be4b697670826db04612",
+        "size_in_bytes": 3905
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/text.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "17179a4d59b7dbd68e9eac40c00624d10a3067f2f74f2666a168792e80510fe4",
+        "sha256_in_prefix": "17179a4d59b7dbd68e9eac40c00624d10a3067f2f74f2666a168792e80510fe4",
+        "size_in_bytes": 2457
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/time.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f83ee7bae2599734f67408435039211218c45c0264a65a322461eb287bb719d",
+        "sha256_in_prefix": "3f83ee7bae2599734f67408435039211218c45c0264a65a322461eb287bb719d",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/url.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a8dd7fa110fb18aada49aaf4faff2f9a4be2464daa05a81af18017af83cfd4a",
+        "sha256_in_prefix": "6a8dd7fa110fb18aada49aaf4faff2f9a4be2464daa05a81af18017af83cfd4a",
+        "size_in_bytes": 3585
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/__pycache__/uuid.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b3fb9a9961db572e7ee090c966f4f05e2ff6b5a87aac41387ce09a9bc020053",
+        "sha256_in_prefix": "9b3fb9a9961db572e7ee090c966f4f05e2ff6b5a87aac41387ce09a9bc020053",
+        "size_in_bytes": 585
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/amq_manager.py",
+        "path_type": "hardlink",
+        "sha256": "4d9e8be562949d3290c8f529858a5792d88c40060347ad215aa2c12b87e4f2e0",
+        "sha256_in_prefix": "4d9e8be562949d3290c8f529858a5792d88c40060347ad215aa2c12b87e4f2e0",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/collections.py",
+        "path_type": "hardlink",
+        "sha256": "c53c3e66055dc1316042bf279775eaddae9b153a3ae92f60e299b658fe12259f",
+        "sha256_in_prefix": "c53c3e66055dc1316042bf279775eaddae9b153a3ae92f60e299b658fe12259f",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/compat.py",
+        "path_type": "hardlink",
+        "sha256": "016e03083e26dab66f329e49c65b34d85be438183cf7d6841ed1b4c0e201199e",
+        "sha256_in_prefix": "016e03083e26dab66f329e49c65b34d85be438183cf7d6841ed1b4c0e201199e",
+        "size_in_bytes": 3444
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/debug.py",
+        "path_type": "hardlink",
+        "sha256": "36fee631ffc329364b11a169054518c424928a4bb0061b09b2fc884756db8a92",
+        "sha256_in_prefix": "36fee631ffc329364b11a169054518c424928a4bb0061b09b2fc884756db8a92",
+        "size_in_bytes": 1673
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/div.py",
+        "path_type": "hardlink",
+        "sha256": "cb9a09d6e488c0d1948368db14ab0054706ab8c76df23fbe404b1446facff273",
+        "sha256_in_prefix": "cb9a09d6e488c0d1948368db14ab0054706ab8c76df23fbe404b1446facff273",
+        "size_in_bytes": 908
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/encoding.py",
+        "path_type": "hardlink",
+        "sha256": "4031a56cc4cf26ce7ed4361e33400a1b0d68197de0a3ed65c52502667732427c",
+        "sha256_in_prefix": "4031a56cc4cf26ce7ed4361e33400a1b0d68197de0a3ed65c52502667732427c",
+        "size_in_bytes": 2297
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/eventio.py",
+        "path_type": "hardlink",
+        "sha256": "78a8ff8a4de99fd75c2e754fd6c0e1e48a1b05b5bd6a695053eb4b450d030859",
+        "sha256_in_prefix": "78a8ff8a4de99fd75c2e754fd6c0e1e48a1b05b5bd6a695053eb4b450d030859",
+        "size_in_bytes": 10159
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/functional.py",
+        "path_type": "hardlink",
+        "sha256": "1c9d8596fd2255634ee740a0a295e3d800b4691b096a1b0424e2fe6adea496c0",
+        "sha256_in_prefix": "1c9d8596fd2255634ee740a0a295e3d800b4691b096a1b0424e2fe6adea496c0",
+        "size_in_bytes": 10699
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/imports.py",
+        "path_type": "hardlink",
+        "sha256": "53e507b6b919703d724b362b88d3df46224b35294f48fde8b416478bc7a9c8bd",
+        "sha256_in_prefix": "53e507b6b919703d724b362b88d3df46224b35294f48fde8b416478bc7a9c8bd",
+        "size_in_bytes": 2089
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/json.py",
+        "path_type": "hardlink",
+        "sha256": "8d58174babc2b508a615e991a0dfcad928a2ea1685f261bce2ed6e169f74a944",
+        "sha256_in_prefix": "8d58174babc2b508a615e991a0dfcad928a2ea1685f261bce2ed6e169f74a944",
+        "size_in_bytes": 3587
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/limits.py",
+        "path_type": "hardlink",
+        "sha256": "6707002327482361c4594e442659bd2a3140d4c550f332ac2c78470f0dfdbb12",
+        "sha256_in_prefix": "6707002327482361c4594e442659bd2a3140d4c550f332ac2c78470f0dfdbb12",
+        "size_in_bytes": 2551
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/objects.py",
+        "path_type": "hardlink",
+        "sha256": "17a97fb2798cece69d722c11d204313674e0dd0fbaf8c961261c482486c09222",
+        "sha256_in_prefix": "17a97fb2798cece69d722c11d204313674e0dd0fbaf8c961261c482486c09222",
+        "size_in_bytes": 2043
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/scheduling.py",
+        "path_type": "hardlink",
+        "sha256": "75f7f65f4b238707c20cf2849d5e175744f87abb5588484ea8925cdeb013770c",
+        "sha256_in_prefix": "75f7f65f4b238707c20cf2849d5e175744f87abb5588484ea8925cdeb013770c",
+        "size_in_bytes": 2928
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/text.py",
+        "path_type": "hardlink",
+        "sha256": "4443b97b2de994566b7ca1dc7ce6ef199f85d4752aa23f31c3b5e20f7d0e5585",
+        "sha256_in_prefix": "4443b97b2de994566b7ca1dc7ce6ef199f85d4752aa23f31c3b5e20f7d0e5585",
+        "size_in_bytes": 2200
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/time.py",
+        "path_type": "hardlink",
+        "sha256": "9dee01ed5c367a92fbccb8fed942bf6f4cc49cb9be7bf58eca6578a5694cc47c",
+        "sha256_in_prefix": "9dee01ed5c367a92fbccb8fed942bf6f4cc49cb9be7bf58eca6578a5694cc47c",
+        "size_in_bytes": 272
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/url.py",
+        "path_type": "hardlink",
+        "sha256": "8e70f83ab337e84f2e38934635ed23c4ba247df551bde50217e881e05eac2b5f",
+        "sha256_in_prefix": "8e70f83ab337e84f2e38934635ed23c4ba247df551bde50217e881e05eac2b5f",
+        "size_in_bytes": 3804
+      },
+      {
+        "_path": "lib/python3.9/site-packages/kombu/utils/uuid.py",
+        "path_type": "hardlink",
+        "sha256": "54b8bb1c72599f80558ed5132d9c59cba46048e54d0e16cb5710070615101ca1",
+        "sha256_in_prefix": "54b8bb1c72599f80558ed5132d9c59cba46048e54d0e16cb5710070615101ca1",
+        "size_in_bytes": 327
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "959fd3ff3e219f4746162a66808f4385d09ce002921a6f8a954116e0d7e07087",
+  "size": 309602,
+  "subdir": "linux-64",
+  "timestamp": 1699281898000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/kombu-5.3.3-py39hf3d152e_0.conda",
+  "version": "5.3.3"
+}

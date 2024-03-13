@@ -1,0 +1,168 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "aiohttp",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/aiohttp-retry-2.8.3-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/aiohttp_retry-2.8.3.dist-info/AUTHORS",
+    "lib/python3.9/site-packages/aiohttp_retry-2.8.3.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/aiohttp_retry-2.8.3.dist-info/LICENSE",
+    "lib/python3.9/site-packages/aiohttp_retry-2.8.3.dist-info/METADATA",
+    "lib/python3.9/site-packages/aiohttp_retry-2.8.3.dist-info/RECORD",
+    "lib/python3.9/site-packages/aiohttp_retry-2.8.3.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/aiohttp_retry-2.8.3.dist-info/WHEEL",
+    "lib/python3.9/site-packages/aiohttp_retry-2.8.3.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/aiohttp_retry-2.8.3.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/aiohttp_retry/__init__.py",
+    "lib/python3.9/site-packages/aiohttp_retry/client.py",
+    "lib/python3.9/site-packages/aiohttp_retry/py.typed",
+    "lib/python3.9/site-packages/aiohttp_retry/retry_options.py",
+    "lib/python3.9/site-packages/aiohttp_retry/types.py",
+    "lib/python3.9/site-packages/aiohttp_retry/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/aiohttp_retry/__pycache__/client.cpython-39.pyc",
+    "lib/python3.9/site-packages/aiohttp_retry/__pycache__/retry_options.cpython-39.pyc",
+    "lib/python3.9/site-packages/aiohttp_retry/__pycache__/types.cpython-39.pyc"
+  ],
+  "fn": "aiohttp-retry-2.8.3-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/aiohttp-retry-2.8.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "63075586964c3e0d53e1a8d804d89090",
+  "name": "aiohttp-retry",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/aiohttp-retry-2.8.3-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/aiohttp_retry-2.8.3.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "1a52515c19e8828777780cc5acbdd8063f25acdcb53d5a1e68a0a7366db33793",
+        "sha256_in_prefix": "1a52515c19e8828777780cc5acbdd8063f25acdcb53d5a1e68a0a7366db33793",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "site-packages/aiohttp_retry-2.8.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/aiohttp_retry-2.8.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "aca6126cf5c5e84cab41ea3bc61f53578616316a83ebe130cde0d4b766e8a1fe",
+        "sha256_in_prefix": "aca6126cf5c5e84cab41ea3bc61f53578616316a83ebe130cde0d4b766e8a1fe",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "site-packages/aiohttp_retry-2.8.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6118063582e9f5fe9def9a2bee4eb72c6bcb80fcbb9f1a68fc755317ff66732e",
+        "sha256_in_prefix": "6118063582e9f5fe9def9a2bee4eb72c6bcb80fcbb9f1a68fc755317ff66732e",
+        "size_in_bytes": 8862
+      },
+      {
+        "_path": "site-packages/aiohttp_retry-2.8.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "aebc60cbf5bdf42d4ec7ddf8d0804a6176572ca822e1a0931d2b2b65f9c277d8",
+        "sha256_in_prefix": "aebc60cbf5bdf42d4ec7ddf8d0804a6176572ca822e1a0931d2b2b65f9c277d8",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "site-packages/aiohttp_retry-2.8.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/aiohttp_retry-2.8.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/aiohttp_retry-2.8.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "85a1093cd21b42ad3a5444f92b749491c8e4ceb0bc480a4061a3c30e4e9bc612",
+        "sha256_in_prefix": "85a1093cd21b42ad3a5444f92b749491c8e4ceb0bc480a4061a3c30e4e9bc612",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/aiohttp_retry-2.8.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6fee326c3ec7ecf0fbb0d503a1dea97acea07c7b8475ed711133b87c7a803288",
+        "sha256_in_prefix": "6fee326c3ec7ecf0fbb0d503a1dea97acea07c7b8475ed711133b87c7a803288",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/aiohttp_retry/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "307a3e2ffe5881c974afff613fbe9c761af4ace62aefb5313f948b352a01f2ad",
+        "sha256_in_prefix": "307a3e2ffe5881c974afff613fbe9c761af4ace62aefb5313f948b352a01f2ad",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/aiohttp_retry/client.py",
+        "path_type": "hardlink",
+        "sha256": "a04fbb4d1d4838a96aac82119689b96b2879bc68e609e7b521e9d45aa5a45576",
+        "sha256_in_prefix": "a04fbb4d1d4838a96aac82119689b96b2879bc68e609e7b521e9d45aa5a45576",
+        "size_in_bytes": 12463
+      },
+      {
+        "_path": "site-packages/aiohttp_retry/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/aiohttp_retry/retry_options.py",
+        "path_type": "hardlink",
+        "sha256": "20f6ffdb4d3aa8b663883aaf98e393fe1cd122652b8c26f6bf2ff2cbff951c0b",
+        "sha256_in_prefix": "20f6ffdb4d3aa8b663883aaf98e393fe1cd122652b8c26f6bf2ff2cbff951c0b",
+        "size_in_bytes": 7893
+      },
+      {
+        "_path": "site-packages/aiohttp_retry/types.py",
+        "path_type": "hardlink",
+        "sha256": "94ede76fffc6f29d63581703f69b4a87f607804cbaa4f387fc708d33af411fcb",
+        "sha256_in_prefix": "94ede76fffc6f29d63581703f69b4a87f607804cbaa4f387fc708d33af411fcb",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "lib/python3.9/site-packages/aiohttp_retry/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/aiohttp_retry/__pycache__/client.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/aiohttp_retry/__pycache__/retry_options.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/aiohttp_retry/__pycache__/types.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1a0098aa927a06daae6457eaaeee29092c1f6c174b2e1d3a523816d22b447bfe",
+  "size": 13142,
+  "subdir": "noarch",
+  "timestamp": 1660544804000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/aiohttp-retry-2.8.3-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.8.3"
+}

@@ -1,0 +1,201 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "dulwich",
+    "python >=3.8",
+    "requests",
+    "voluptuous"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/dvc-studio-client-0.20.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/dvc_studio_client-0.20.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/dvc_studio_client-0.20.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/dvc_studio_client-0.20.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/dvc_studio_client-0.20.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/dvc_studio_client-0.20.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/dvc_studio_client-0.20.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/dvc_studio_client-0.20.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/dvc_studio_client-0.20.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/dvc_studio_client/__init__.py",
+    "lib/python3.9/site-packages/dvc_studio_client/auth.py",
+    "lib/python3.9/site-packages/dvc_studio_client/config.py",
+    "lib/python3.9/site-packages/dvc_studio_client/env.py",
+    "lib/python3.9/site-packages/dvc_studio_client/model_registry.py",
+    "lib/python3.9/site-packages/dvc_studio_client/post_live_metrics.py",
+    "lib/python3.9/site-packages/dvc_studio_client/py.typed",
+    "lib/python3.9/site-packages/dvc_studio_client/schema.py",
+    "lib/python3.9/site-packages/dvc_studio_client/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_studio_client/__pycache__/auth.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_studio_client/__pycache__/config.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_studio_client/__pycache__/env.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_studio_client/__pycache__/model_registry.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_studio_client/__pycache__/post_live_metrics.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_studio_client/__pycache__/schema.cpython-39.pyc"
+  ],
+  "fn": "dvc-studio-client-0.20.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/dvc-studio-client-0.20.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "ebedafb4704c48d7ad274acb1d0b2475",
+  "name": "dvc-studio-client",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/dvc-studio-client-0.20.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dvc_studio_client-0.20.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dvc_studio_client-0.20.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "sha256_in_prefix": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "size_in_bytes": 11340
+      },
+      {
+        "_path": "site-packages/dvc_studio_client-0.20.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c7d04a0dc72b4e78cd5be11a659d9d4656118575d81a271364d196f679a42084",
+        "sha256_in_prefix": "c7d04a0dc72b4e78cd5be11a659d9d4656118575d81a271364d196f679a42084",
+        "size_in_bytes": 4312
+      },
+      {
+        "_path": "site-packages/dvc_studio_client-0.20.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bc7995cc1caf1645b2d91c2c2704e70703e415c5f7fe2ba5dc3329fe31841105",
+        "sha256_in_prefix": "bc7995cc1caf1645b2d91c2c2704e70703e415c5f7fe2ba5dc3329fe31841105",
+        "size_in_bytes": 1850
+      },
+      {
+        "_path": "site-packages/dvc_studio_client-0.20.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_studio_client-0.20.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dvc_studio_client-0.20.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e6b3c0362e9c10a8d29deaf372c9f1afcd0b945d752ae3291977fe2c9ce14a4c",
+        "sha256_in_prefix": "e6b3c0362e9c10a8d29deaf372c9f1afcd0b945d752ae3291977fe2c9ce14a4c",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "site-packages/dvc_studio_client-0.20.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cf503b1ad49b64ee040b414171e0bfd04d68b7e0b55d8b02f33173a30e35b828",
+        "sha256_in_prefix": "cf503b1ad49b64ee040b414171e0bfd04d68b7e0b55d8b02f33173a30e35b828",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/dvc_studio_client/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6c92c6af3c4f8e477a617226be6545d32b449c3f4faa6a8ad737f7f3edd51ac5",
+        "sha256_in_prefix": "6c92c6af3c4f8e477a617226be6545d32b449c3f4faa6a8ad737f7f3edd51ac5",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "site-packages/dvc_studio_client/auth.py",
+        "path_type": "hardlink",
+        "sha256": "abc67b42223e3177e66a304a57f435f41def134ef7fc8c58c7a100c8d24f0b3e",
+        "sha256_in_prefix": "abc67b42223e3177e66a304a57f435f41def134ef7fc8c58c7a100c8d24f0b3e",
+        "size_in_bytes": 6906
+      },
+      {
+        "_path": "site-packages/dvc_studio_client/config.py",
+        "path_type": "hardlink",
+        "sha256": "979f35ebe3cdd481f0eb8b8b0e7a065b30b53198b063cefe04d0f8fa168c2588",
+        "sha256_in_prefix": "979f35ebe3cdd481f0eb8b8b0e7a065b30b53198b063cefe04d0f8fa168c2588",
+        "size_in_bytes": 4116
+      },
+      {
+        "_path": "site-packages/dvc_studio_client/env.py",
+        "path_type": "hardlink",
+        "sha256": "31056c106e69c9ee5857a12deb479bd766269573cfec20fbe9280ee600ec1933",
+        "sha256_in_prefix": "31056c106e69c9ee5857a12deb479bd766269573cfec20fbe9280ee600ec1933",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "site-packages/dvc_studio_client/model_registry.py",
+        "path_type": "hardlink",
+        "sha256": "fec69be6ab3069c2157727fbf5bda03a06bf1ee90232f968d358ce4bf6870bee",
+        "sha256_in_prefix": "fec69be6ab3069c2157727fbf5bda03a06bf1ee90232f968d358ce4bf6870bee",
+        "size_in_bytes": 1914
+      },
+      {
+        "_path": "site-packages/dvc_studio_client/post_live_metrics.py",
+        "path_type": "hardlink",
+        "sha256": "c8e95ea7d7d21b8242ce6fc1137a1859a481ef36e3de8a40aa0fedfaa5dd9355",
+        "sha256_in_prefix": "c8e95ea7d7d21b8242ce6fc1137a1859a481ef36e3de8a40aa0fedfaa5dd9355",
+        "size_in_bytes": 9110
+      },
+      {
+        "_path": "site-packages/dvc_studio_client/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_studio_client/schema.py",
+        "path_type": "hardlink",
+        "sha256": "ee7620d5cf4a5d52091b44435a1344e821dd5e0ec832f5821bda96a5fe0d514e",
+        "sha256_in_prefix": "ee7620d5cf4a5d52091b44435a1344e821dd5e0ec832f5821bda96a5fe0d514e",
+        "size_in_bytes": 1692
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_studio_client/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_studio_client/__pycache__/auth.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_studio_client/__pycache__/config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_studio_client/__pycache__/env.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_studio_client/__pycache__/model_registry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_studio_client/__pycache__/post_live_metrics.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_studio_client/__pycache__/schema.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "136ddb343f5f77a28253f27d5b950f223823a6d5afaf1088b5ee9fa286451995",
+  "size": 20186,
+  "subdir": "noarch",
+  "timestamp": 1708067831000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dvc-studio-client-0.20.0-pyhd8ed1ab_0.conda",
+  "version": "0.20.0"
+}

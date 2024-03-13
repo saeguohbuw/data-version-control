@@ -1,0 +1,172 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/shtab-1.7.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/shtab-1.7.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/shtab-1.7.1.dist-info/LICENCE",
+    "lib/python3.9/site-packages/shtab-1.7.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/shtab-1.7.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/shtab-1.7.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/shtab-1.7.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/shtab-1.7.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/shtab-1.7.1.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/shtab-1.7.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/shtab/__init__.py",
+    "lib/python3.9/site-packages/shtab/__main__.py",
+    "lib/python3.9/site-packages/shtab/_dist_ver.py",
+    "lib/python3.9/site-packages/shtab/main.py",
+    "lib/python3.9/site-packages/shtab/py.typed",
+    "lib/python3.9/site-packages/shtab/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/shtab/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/shtab/__pycache__/_dist_ver.cpython-39.pyc",
+    "lib/python3.9/site-packages/shtab/__pycache__/main.cpython-39.pyc",
+    "bin/shtab"
+  ],
+  "fn": "shtab-1.7.1-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/shtab-1.7.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "c5cf937409ac178717946edbfa82a5da",
+  "name": "shtab",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/shtab-1.7.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/shtab-1.7.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/shtab-1.7.1.dist-info/LICENCE",
+        "path_type": "hardlink",
+        "sha256": "5f92c4df863a4b815435cfcfcca3581a6bfd03d183d51438fef450dea5bedb84",
+        "sha256_in_prefix": "5f92c4df863a4b815435cfcfcca3581a6bfd03d183d51438fef450dea5bedb84",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "site-packages/shtab-1.7.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "adddcfa3ef7b00914cbf4ea1db6ca0b682cad784169cfb5713305b95bcd164da",
+        "sha256_in_prefix": "adddcfa3ef7b00914cbf4ea1db6ca0b682cad784169cfb5713305b95bcd164da",
+        "size_in_bytes": 7321
+      },
+      {
+        "_path": "site-packages/shtab-1.7.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "58a8e7c5d68a5688e7a4d99d10c6616d3c4e29f1a45f1700d131072ce7417b71",
+        "sha256_in_prefix": "58a8e7c5d68a5688e7a4d99d10c6616d3c4e29f1a45f1700d131072ce7417b71",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "site-packages/shtab-1.7.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/shtab-1.7.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/shtab-1.7.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c2663a634adce354046002de1f80d6f92336a32fc40d73b50fba4f3e57e75d49",
+        "sha256_in_prefix": "c2663a634adce354046002de1f80d6f92336a32fc40d73b50fba4f3e57e75d49",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/shtab-1.7.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "a4b3fba617a697c4932a47e5d472b79d2216eed4e3bcbb2a6684cecd7fb61d60",
+        "sha256_in_prefix": "a4b3fba617a697c4932a47e5d472b79d2216eed4e3bcbb2a6684cecd7fb61d60",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "site-packages/shtab-1.7.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "92f41568dcd00fa7f127d71b3544891154b0ea3e8bad2bf5fec3d500b7884b9b",
+        "sha256_in_prefix": "92f41568dcd00fa7f127d71b3544891154b0ea3e8bad2bf5fec3d500b7884b9b",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/shtab/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f5f4bcf6d9f9953e44e12e2dba85405cded5f8b07be3f305c2505c1800c89316",
+        "sha256_in_prefix": "f5f4bcf6d9f9953e44e12e2dba85405cded5f8b07be3f305c2505c1800c89316",
+        "size_in_bytes": 31458
+      },
+      {
+        "_path": "site-packages/shtab/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "7f0cbf4101c552871dfaf15466b42aa3057810f2c167f868a99377abb062a9ab",
+        "sha256_in_prefix": "7f0cbf4101c552871dfaf15466b42aa3057810f2c167f868a99377abb062a9ab",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "site-packages/shtab/_dist_ver.py",
+        "path_type": "hardlink",
+        "sha256": "b797f1620b24cb565de172b1baa755fdd0e59d5295826a2c9815f5023c1c284d",
+        "sha256_in_prefix": "b797f1620b24cb565de172b1baa755fdd0e59d5295826a2c9815f5023c1c284d",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/shtab/main.py",
+        "path_type": "hardlink",
+        "sha256": "f331db182d97e26f91ba7f127993a4f9a9e4b360f18e9b0c852b2c66077a0422",
+        "sha256_in_prefix": "f331db182d97e26f91ba7f127993a4f9a9e4b360f18e9b0c852b2c66077a0422",
+        "size_in_bytes": 2119
+      },
+      {
+        "_path": "site-packages/shtab/py.typed",
+        "path_type": "hardlink",
+        "sha256": "0d6b6f9bd5529b384996f3c1a6568eeab45f009375bf7fdf5cfc912a7087d841",
+        "sha256_in_prefix": "0d6b6f9bd5529b384996f3c1a6568eeab45f009375bf7fdf5cfc912a7087d841",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "lib/python3.9/site-packages/shtab/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/shtab/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/shtab/__pycache__/_dist_ver.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/shtab/__pycache__/main.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/shtab",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a258670d134b76f474dcd82dfddd8362298b26b4c98b979b8f08d0e891026c03",
+  "size": 19535,
+  "subdir": "noarch",
+  "timestamp": 1709842501000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/shtab-1.7.1-pyhd8ed1ab_0.conda",
+  "version": "1.7.1"
+}

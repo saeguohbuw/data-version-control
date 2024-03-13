@@ -1,0 +1,190 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/diskcache-5.6.3-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/diskcache-5.6.3.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/diskcache-5.6.3.dist-info/LICENSE",
+    "lib/python3.9/site-packages/diskcache-5.6.3.dist-info/METADATA",
+    "lib/python3.9/site-packages/diskcache-5.6.3.dist-info/RECORD",
+    "lib/python3.9/site-packages/diskcache-5.6.3.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/diskcache-5.6.3.dist-info/WHEEL",
+    "lib/python3.9/site-packages/diskcache-5.6.3.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/diskcache-5.6.3.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/diskcache/__init__.py",
+    "lib/python3.9/site-packages/diskcache/cli.py",
+    "lib/python3.9/site-packages/diskcache/core.py",
+    "lib/python3.9/site-packages/diskcache/djangocache.py",
+    "lib/python3.9/site-packages/diskcache/fanout.py",
+    "lib/python3.9/site-packages/diskcache/persistent.py",
+    "lib/python3.9/site-packages/diskcache/recipes.py",
+    "lib/python3.9/site-packages/diskcache/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/diskcache/__pycache__/cli.cpython-39.pyc",
+    "lib/python3.9/site-packages/diskcache/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/diskcache/__pycache__/djangocache.cpython-39.pyc",
+    "lib/python3.9/site-packages/diskcache/__pycache__/fanout.cpython-39.pyc",
+    "lib/python3.9/site-packages/diskcache/__pycache__/persistent.cpython-39.pyc",
+    "lib/python3.9/site-packages/diskcache/__pycache__/recipes.cpython-39.pyc"
+  ],
+  "fn": "diskcache-5.6.3-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/diskcache-5.6.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "4c33109f652b5d8c995ab243436c9370",
+  "name": "diskcache",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/diskcache-5.6.3-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/diskcache-5.6.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/diskcache-5.6.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "583546baa3fd93607d845126570677a401f508e228b5044fefbc3949af179672",
+        "sha256_in_prefix": "583546baa3fd93607d845126570677a401f508e228b5044fefbc3949af179672",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "site-packages/diskcache-5.6.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6fc70cff43a3c6666531e6c268e90059fb93ae58aed708163c0ceecab24dbaef",
+        "sha256_in_prefix": "6fc70cff43a3c6666531e6c268e90059fb93ae58aed708163c0ceecab24dbaef",
+        "size_in_bytes": 20458
+      },
+      {
+        "_path": "site-packages/diskcache-5.6.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5769556f5f2ba60731b2298604e57bb30a190b6c26f17d9f89bdb31b00134ebf",
+        "sha256_in_prefix": "5769556f5f2ba60731b2298604e57bb30a190b6c26f17d9f89bdb31b00134ebf",
+        "size_in_bytes": 1571
+      },
+      {
+        "_path": "site-packages/diskcache-5.6.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/diskcache-5.6.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/diskcache-5.6.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "415157a41452b842de43a3641230397a0ca055844d85f20414e1e8f89bb66d1d",
+        "sha256_in_prefix": "415157a41452b842de43a3641230397a0ca055844d85f20414e1e8f89bb66d1d",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/diskcache-5.6.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0397ea83f00780e41cff4a35359f94a3906c6fb095ddf47df49fa9d7e178cae0",
+        "sha256_in_prefix": "0397ea83f00780e41cff4a35359f94a3906c6fb095ddf47df49fa9d7e178cae0",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/diskcache/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "25c12dcf6db81becac1e6832c5621ddbc034c107c22227f499dbf8b6a0be6719",
+        "sha256_in_prefix": "25c12dcf6db81becac1e6832c5621ddbc034c107c22227f499dbf8b6a0be6719",
+        "size_in_bytes": 1262
+      },
+      {
+        "_path": "site-packages/diskcache/cli.py",
+        "path_type": "hardlink",
+        "sha256": "455bfa1729fb87fd04e41a00549cdb6e33963c31d73b466336087d83908144ff",
+        "sha256_in_prefix": "455bfa1729fb87fd04e41a00549cdb6e33963c31d73b466336087d83908144ff",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/diskcache/core.py",
+        "path_type": "hardlink",
+        "sha256": "a229e61e76025ef476417551681a2a3dff2233bf4ce6901e8b16a395a27d4cdb",
+        "sha256_in_prefix": "a229e61e76025ef476417551681a2a3dff2233bf4ce6901e8b16a395a27d4cdb",
+        "size_in_bytes": 81867
+      },
+      {
+        "_path": "site-packages/diskcache/djangocache.py",
+        "path_type": "hardlink",
+        "sha256": "497f2397677ebdf38c1bb85766eba1d950a764450ffa61c68d82e933645d31a4",
+        "sha256_in_prefix": "497f2397677ebdf38c1bb85766eba1d950a764450ffa61c68d82e933645d31a4",
+        "size_in_bytes": 16110
+      },
+      {
+        "_path": "site-packages/diskcache/fanout.py",
+        "path_type": "hardlink",
+        "sha256": "1381a4fa9b801ac6a2ab27f8e5894b7554dfd9133583b432f933d2ba0d44969a",
+        "sha256_in_prefix": "1381a4fa9b801ac6a2ab27f8e5894b7554dfd9133583b432f933d2ba0d44969a",
+        "size_in_bytes": 22725
+      },
+      {
+        "_path": "site-packages/diskcache/persistent.py",
+        "path_type": "hardlink",
+        "sha256": "0a2af708f7ad01f0021e5084cd8d4fe41fd8ad93cf796aaca0aae4b81071702a",
+        "sha256_in_prefix": "0a2af708f7ad01f0021e5084cd8d4fe41fd8ad93cf796aaca0aae4b81071702a",
+        "size_in_bytes": 34681
+      },
+      {
+        "_path": "site-packages/diskcache/recipes.py",
+        "path_type": "hardlink",
+        "sha256": "76be82b59ebb9d17b75cc5018f627a0ffb9fb6ab8c8bfacda59060f22ea57d13",
+        "sha256_in_prefix": "76be82b59ebb9d17b75cc5018f627a0ffb9fb6ab8c8bfacda59060f22ea57d13",
+        "size_in_bytes": 14922
+      },
+      {
+        "_path": "lib/python3.9/site-packages/diskcache/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/diskcache/__pycache__/cli.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/diskcache/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/diskcache/__pycache__/djangocache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/diskcache/__pycache__/fanout.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/diskcache/__pycache__/persistent.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/diskcache/__pycache__/recipes.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2547a3aa97f0862e55d9d4bbef457b087d35f4bff05766c8169c82719bc61e17",
+  "size": 40074,
+  "subdir": "noarch",
+  "timestamp": 1693471512000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/diskcache-5.6.3-pyhd8ed1ab_0.conda",
+  "version": "5.6.3"
+}

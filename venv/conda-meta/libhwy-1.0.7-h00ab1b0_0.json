@@ -1,0 +1,530 @@
+{
+  "build": "h00ab1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/libhwy-1.0.7-h00ab1b0_0",
+  "files": [
+    "include/hwy/aligned_allocator.h",
+    "include/hwy/base.h",
+    "include/hwy/cache_control.h",
+    "include/hwy/contrib/algo/copy-inl.h",
+    "include/hwy/contrib/algo/find-inl.h",
+    "include/hwy/contrib/algo/transform-inl.h",
+    "include/hwy/contrib/dot/dot-inl.h",
+    "include/hwy/contrib/image/image.h",
+    "include/hwy/contrib/math/math-inl.h",
+    "include/hwy/contrib/sort/order.h",
+    "include/hwy/contrib/sort/shared-inl.h",
+    "include/hwy/contrib/sort/sorting_networks-inl.h",
+    "include/hwy/contrib/sort/traits-inl.h",
+    "include/hwy/contrib/sort/traits128-inl.h",
+    "include/hwy/contrib/sort/vqsort-inl.h",
+    "include/hwy/contrib/sort/vqsort.h",
+    "include/hwy/contrib/unroller/unroller-inl.h",
+    "include/hwy/detect_compiler_arch.h",
+    "include/hwy/detect_targets.h",
+    "include/hwy/foreach_target.h",
+    "include/hwy/highway.h",
+    "include/hwy/highway_export.h",
+    "include/hwy/nanobenchmark.h",
+    "include/hwy/ops/arm_neon-inl.h",
+    "include/hwy/ops/arm_sve-inl.h",
+    "include/hwy/ops/emu128-inl.h",
+    "include/hwy/ops/generic_ops-inl.h",
+    "include/hwy/ops/ppc_vsx-inl.h",
+    "include/hwy/ops/rvv-inl.h",
+    "include/hwy/ops/scalar-inl.h",
+    "include/hwy/ops/set_macros-inl.h",
+    "include/hwy/ops/shared-inl.h",
+    "include/hwy/ops/tuple-inl.h",
+    "include/hwy/ops/wasm_128-inl.h",
+    "include/hwy/ops/x86_128-inl.h",
+    "include/hwy/ops/x86_256-inl.h",
+    "include/hwy/ops/x86_512-inl.h",
+    "include/hwy/per_target.h",
+    "include/hwy/print-inl.h",
+    "include/hwy/print.h",
+    "include/hwy/robust_statistics.h",
+    "include/hwy/targets.h",
+    "include/hwy/tests/hwy_gtest.h",
+    "include/hwy/tests/test_util-inl.h",
+    "include/hwy/tests/test_util.h",
+    "include/hwy/timer-inl.h",
+    "include/hwy/timer.h",
+    "lib/cmake/hwy/hwy-config-release.cmake",
+    "lib/cmake/hwy/hwy-config-version.cmake",
+    "lib/cmake/hwy/hwy-config.cmake",
+    "lib/libhwy.so",
+    "lib/libhwy.so.1",
+    "lib/libhwy.so.1.0.7",
+    "lib/libhwy_contrib.so",
+    "lib/libhwy_contrib.so.1",
+    "lib/libhwy_contrib.so.1.0.7",
+    "lib/libhwy_test.so",
+    "lib/libhwy_test.so.1",
+    "lib/libhwy_test.so.1.0.7",
+    "lib/pkgconfig/libhwy-contrib.pc",
+    "lib/pkgconfig/libhwy-test.pc",
+    "lib/pkgconfig/libhwy.pc"
+  ],
+  "fn": "libhwy-1.0.7-h00ab1b0_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/libhwy-1.0.7-h00ab1b0_0",
+    "type": 1
+  },
+  "md5": "271c74eadb196f7ae588d95a11e9acd3",
+  "name": "libhwy",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/libhwy-1.0.7-h00ab1b0_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/hwy/aligned_allocator.h",
+        "path_type": "hardlink",
+        "sha256": "e1d6d997dd716b31643be0ac2dcf7cf5976f117b0ecb452dfbec21f7b5b84bd6",
+        "sha256_in_prefix": "e1d6d997dd716b31643be0ac2dcf7cf5976f117b0ecb452dfbec21f7b5b84bd6",
+        "size_in_bytes": 8428
+      },
+      {
+        "_path": "include/hwy/base.h",
+        "path_type": "hardlink",
+        "sha256": "5e4123ff2f68d5dcc7b6440b18b4e3db909692eb2e8aa4dc1ce6828f55d85b93",
+        "sha256_in_prefix": "5e4123ff2f68d5dcc7b6440b18b4e3db909692eb2e8aa4dc1ce6828f55d85b93",
+        "size_in_bytes": 46304
+      },
+      {
+        "_path": "include/hwy/cache_control.h",
+        "path_type": "hardlink",
+        "sha256": "5a54ddf0e27b88a20ef00c8c4f711dfc18b7d3befaa969b30f30bd5d5f02c38a",
+        "sha256_in_prefix": "5a54ddf0e27b88a20ef00c8c4f711dfc18b7d3befaa969b30f30bd5d5f02c38a",
+        "size_in_bytes": 3727
+      },
+      {
+        "_path": "include/hwy/contrib/algo/copy-inl.h",
+        "path_type": "hardlink",
+        "sha256": "9403f5084f27a40b60ae2b1be4338e3d361f1c43b254b57d80b2f3d73711c9c1",
+        "sha256_in_prefix": "9403f5084f27a40b60ae2b1be4338e3d361f1c43b254b57d80b2f3d73711c9c1",
+        "size_in_bytes": 5014
+      },
+      {
+        "_path": "include/hwy/contrib/algo/find-inl.h",
+        "path_type": "hardlink",
+        "sha256": "857ebc4077f7867ae376b8b578bed3b1640da40c16bacbef3a2a1ec539e72f02",
+        "sha256_in_prefix": "857ebc4077f7867ae376b8b578bed3b1640da40c16bacbef3a2a1ec539e72f02",
+        "size_in_bytes": 3572
+      },
+      {
+        "_path": "include/hwy/contrib/algo/transform-inl.h",
+        "path_type": "hardlink",
+        "sha256": "4bb9e60e759257262f0546874f019de046dd251889a22c66d2eff570ef1cfaf9",
+        "sha256_in_prefix": "4bb9e60e759257262f0546874f019de046dd251889a22c66d2eff570ef1cfaf9",
+        "size_in_bytes": 9271
+      },
+      {
+        "_path": "include/hwy/contrib/dot/dot-inl.h",
+        "path_type": "hardlink",
+        "sha256": "6dd7a6c7384710a166f91472cfdf485ae04094014ba1271bc18e68495db7c2eb",
+        "sha256_in_prefix": "6dd7a6c7384710a166f91472cfdf485ae04094014ba1271bc18e68495db7c2eb",
+        "size_in_bytes": 9579
+      },
+      {
+        "_path": "include/hwy/contrib/image/image.h",
+        "path_type": "hardlink",
+        "sha256": "067762b8ce1bc072fb5a72599ebdccf93e1992c2fae1be5d87370a219d112dd2",
+        "sha256_in_prefix": "067762b8ce1bc072fb5a72599ebdccf93e1992c2fae1be5d87370a219d112dd2",
+        "size_in_bytes": 17282
+      },
+      {
+        "_path": "include/hwy/contrib/math/math-inl.h",
+        "path_type": "hardlink",
+        "sha256": "5d5a5697d21c81c327acc616b87d9a26ba0ba34fd98861a54e264ea4c66ac4e1",
+        "sha256_in_prefix": "5d5a5697d21c81c327acc616b87d9a26ba0ba34fd98861a54e264ea4c66ac4e1",
+        "size_in_bytes": 51560
+      },
+      {
+        "_path": "include/hwy/contrib/sort/order.h",
+        "path_type": "hardlink",
+        "sha256": "9b207228f5291bd0aeb6f7d6111d5e2f37ca3e311c1b49ace5b964cc58e3f57f",
+        "sha256_in_prefix": "9b207228f5291bd0aeb6f7d6111d5e2f37ca3e311c1b49ace5b964cc58e3f57f",
+        "size_in_bytes": 1189
+      },
+      {
+        "_path": "include/hwy/contrib/sort/shared-inl.h",
+        "path_type": "hardlink",
+        "sha256": "e738b5153fbb28f77ae623016204cbbe5d4bcfb304dc1554b07a6b3ca4d7058b",
+        "sha256_in_prefix": "e738b5153fbb28f77ae623016204cbbe5d4bcfb304dc1554b07a6b3ca4d7058b",
+        "size_in_bytes": 5936
+      },
+      {
+        "_path": "include/hwy/contrib/sort/sorting_networks-inl.h",
+        "path_type": "hardlink",
+        "sha256": "dfebf92bc4570391d53b2b69598d8c2901c646cbc81e15e745043547787c85ff",
+        "sha256_in_prefix": "dfebf92bc4570391d53b2b69598d8c2901c646cbc81e15e745043547787c85ff",
+        "size_in_bytes": 28823
+      },
+      {
+        "_path": "include/hwy/contrib/sort/traits-inl.h",
+        "path_type": "hardlink",
+        "sha256": "7ad45869d182dca62f465109a6c80fba15398f774cf803101e9b5ee14c9f6761",
+        "sha256_in_prefix": "7ad45869d182dca62f465109a6c80fba15398f774cf803101e9b5ee14c9f6761",
+        "size_in_bytes": 21029
+      },
+      {
+        "_path": "include/hwy/contrib/sort/traits128-inl.h",
+        "path_type": "hardlink",
+        "sha256": "37dfe79c8b4bccee9fedb9cc5bfa668177265dd0ccb708938efa19946dc0375a",
+        "sha256_in_prefix": "37dfe79c8b4bccee9fedb9cc5bfa668177265dd0ccb708938efa19946dc0375a",
+        "size_in_bytes": 16753
+      },
+      {
+        "_path": "include/hwy/contrib/sort/vqsort-inl.h",
+        "path_type": "hardlink",
+        "sha256": "28ee618fcf1ac13c437eab06ae7a6a26ca456fd23d6bcbf0a02054362ff60a49",
+        "sha256_in_prefix": "28ee618fcf1ac13c437eab06ae7a6a26ca456fd23d6bcbf0a02054362ff60a49",
+        "size_in_bytes": 75502
+      },
+      {
+        "_path": "include/hwy/contrib/sort/vqsort.h",
+        "path_type": "hardlink",
+        "sha256": "7a37aca0fc66b8c8d8e09dbe28bc13c9981904d697adc35b30f07dd6bf015bd9",
+        "sha256_in_prefix": "7a37aca0fc66b8c8d8e09dbe28bc13c9981904d697adc35b30f07dd6bf015bd9",
+        "size_in_bytes": 7972
+      },
+      {
+        "_path": "include/hwy/contrib/unroller/unroller-inl.h",
+        "path_type": "hardlink",
+        "sha256": "d5ad04fc95a0a6ae16ee9d3302cf1d66ece5ac32be42524bdc75c14c97bf0477",
+        "sha256_in_prefix": "d5ad04fc95a0a6ae16ee9d3302cf1d66ece5ac32be42524bdc75c14c97bf0477",
+        "size_in_bytes": 14410
+      },
+      {
+        "_path": "include/hwy/detect_compiler_arch.h",
+        "path_type": "hardlink",
+        "sha256": "64d47ca590b753ddfb36a9545047e3e63987ceae9a609e484b2e9304f41b87b4",
+        "sha256_in_prefix": "64d47ca590b753ddfb36a9545047e3e63987ceae9a609e484b2e9304f41b87b4",
+        "size_in_bytes": 8496
+      },
+      {
+        "_path": "include/hwy/detect_targets.h",
+        "path_type": "hardlink",
+        "sha256": "68740d9394c89e5af26c5543d0b5c0bd5cdb22d8e800416a3a08636f56dcaf40",
+        "sha256_in_prefix": "68740d9394c89e5af26c5543d0b5c0bd5cdb22d8e800416a3a08636f56dcaf40",
+        "size_in_bytes": 23689
+      },
+      {
+        "_path": "include/hwy/foreach_target.h",
+        "path_type": "hardlink",
+        "sha256": "6cec31513fb91c2aebcd3c73f3e373e6fd57c8391cbc122d2a303c54cf639caa",
+        "sha256_in_prefix": "6cec31513fb91c2aebcd3c73f3e373e6fd57c8391cbc122d2a303c54cf639caa",
+        "size_in_bytes": 8799
+      },
+      {
+        "_path": "include/hwy/highway.h",
+        "path_type": "hardlink",
+        "sha256": "1d440d25d2c1562100b818576aff5ed7d6801a29258d8b8f73d9a5e1de67bfcb",
+        "sha256_in_prefix": "1d440d25d2c1562100b818576aff5ed7d6801a29258d8b8f73d9a5e1de67bfcb",
+        "size_in_bytes": 16385
+      },
+      {
+        "_path": "include/hwy/highway_export.h",
+        "path_type": "hardlink",
+        "sha256": "8a883413b083c721f879163780630aa3ec741b386b3db6d05ac042292b904d45",
+        "sha256_in_prefix": "8a883413b083c721f879163780630aa3ec741b386b3db6d05ac042292b904d45",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "include/hwy/nanobenchmark.h",
+        "path_type": "hardlink",
+        "sha256": "1c9f13ec8359b3488964d315e589e029f691c27f981fbcc4eafe3deb39a1c547",
+        "sha256_in_prefix": "1c9f13ec8359b3488964d315e589e029f691c27f981fbcc4eafe3deb39a1c547",
+        "size_in_bytes": 7374
+      },
+      {
+        "_path": "include/hwy/ops/arm_neon-inl.h",
+        "path_type": "hardlink",
+        "sha256": "dbe238229e8fe8b6dfa8658da031f731ee99ab12619484bd6d80b30c0e4be793",
+        "sha256_in_prefix": "dbe238229e8fe8b6dfa8658da031f731ee99ab12619484bd6d80b30c0e4be793",
+        "size_in_bytes": 327368
+      },
+      {
+        "_path": "include/hwy/ops/arm_sve-inl.h",
+        "path_type": "hardlink",
+        "sha256": "17c44e62512fb9933fbd21b9dc84a2d919b5396cd07ec01c379e9fbf6db2d761",
+        "sha256_in_prefix": "17c44e62512fb9933fbd21b9dc84a2d919b5396cd07ec01c379e9fbf6db2d761",
+        "size_in_bytes": 192485
+      },
+      {
+        "_path": "include/hwy/ops/emu128-inl.h",
+        "path_type": "hardlink",
+        "sha256": "2c3200a85331116895b112fc8e7ddbb6f72e87134ad6dfd1771ff0d619d0024d",
+        "sha256_in_prefix": "2c3200a85331116895b112fc8e7ddbb6f72e87134ad6dfd1771ff0d619d0024d",
+        "size_in_bytes": 86460
+      },
+      {
+        "_path": "include/hwy/ops/generic_ops-inl.h",
+        "path_type": "hardlink",
+        "sha256": "93ae967045f390c059dd2923bad77be1c27cb490968d4246e222ecd1fe31156c",
+        "sha256_in_prefix": "93ae967045f390c059dd2923bad77be1c27cb490968d4246e222ecd1fe31156c",
+        "size_in_bytes": 189354
+      },
+      {
+        "_path": "include/hwy/ops/ppc_vsx-inl.h",
+        "path_type": "hardlink",
+        "sha256": "1c37db4f3bcba81b3abd2e7b413d7500951eeecb622e15eba4b6df1a54f4cd18",
+        "sha256_in_prefix": "1c37db4f3bcba81b3abd2e7b413d7500951eeecb622e15eba4b6df1a54f4cd18",
+        "size_in_bytes": 215339
+      },
+      {
+        "_path": "include/hwy/ops/rvv-inl.h",
+        "path_type": "hardlink",
+        "sha256": "2261cb91c3b45c885d0c53b5277ec99e859f94faa20651c944533d45ff0d1d37",
+        "sha256_in_prefix": "2261cb91c3b45c885d0c53b5277ec99e859f94faa20651c944533d45ff0d1d37",
+        "size_in_bytes": 214993
+      },
+      {
+        "_path": "include/hwy/ops/scalar-inl.h",
+        "path_type": "hardlink",
+        "sha256": "62cd004b28a992d38c150d164b9fc0e1a33f44659ef10f7346f520e68ce8fb36",
+        "sha256_in_prefix": "62cd004b28a992d38c150d164b9fc0e1a33f44659ef10f7346f520e68ce8fb36",
+        "size_in_bytes": 63070
+      },
+      {
+        "_path": "include/hwy/ops/set_macros-inl.h",
+        "path_type": "hardlink",
+        "sha256": "17dfaae2a348c5e102b1ae2da734e8573f40b856b83120e7d79e5cf07a71ce99",
+        "sha256_in_prefix": "17dfaae2a348c5e102b1ae2da734e8573f40b856b83120e7d79e5cf07a71ce99",
+        "size_in_bytes": 15637
+      },
+      {
+        "_path": "include/hwy/ops/shared-inl.h",
+        "path_type": "hardlink",
+        "sha256": "3b1786f8554bbff14e4bb2dc97cf9aab8682a8777f49909115dac8747869b19b",
+        "sha256_in_prefix": "3b1786f8554bbff14e4bb2dc97cf9aab8682a8777f49909115dac8747869b19b",
+        "size_in_bytes": 22054
+      },
+      {
+        "_path": "include/hwy/ops/tuple-inl.h",
+        "path_type": "hardlink",
+        "sha256": "fac389d4ebda9e4cc7c058647f04193aa9c5f3cc4851e817a7f5c103af869c1d",
+        "sha256_in_prefix": "fac389d4ebda9e4cc7c058647f04193aa9c5f3cc4851e817a7f5c103af869c1d",
+        "size_in_bytes": 3397
+      },
+      {
+        "_path": "include/hwy/ops/wasm_128-inl.h",
+        "path_type": "hardlink",
+        "sha256": "9fb92bff49e680fc56f3dcd2cd32e18772097d2abdf19f91b291decab61e05d3",
+        "sha256_in_prefix": "9fb92bff49e680fc56f3dcd2cd32e18772097d2abdf19f91b291decab61e05d3",
+        "size_in_bytes": 228429
+      },
+      {
+        "_path": "include/hwy/ops/x86_128-inl.h",
+        "path_type": "hardlink",
+        "sha256": "67c2b16e7fe67c7df4135e737be4c90e05e3105792bf149e8505f56aed618fb3",
+        "sha256_in_prefix": "67c2b16e7fe67c7df4135e737be4c90e05e3105792bf149e8505f56aed618fb3",
+        "size_in_bytes": 418215
+      },
+      {
+        "_path": "include/hwy/ops/x86_256-inl.h",
+        "path_type": "hardlink",
+        "sha256": "0aa6940f8bc7ce5f69e6b9d5f25f0555716723d5875165eedb87b19cba76de62",
+        "sha256_in_prefix": "0aa6940f8bc7ce5f69e6b9d5f25f0555716723d5875165eedb87b19cba76de62",
+        "size_in_bytes": 283532
+      },
+      {
+        "_path": "include/hwy/ops/x86_512-inl.h",
+        "path_type": "hardlink",
+        "sha256": "da79344ceb221def53fcf9c52a595958441dc9f4d231cb97333411dc4e049c78",
+        "sha256_in_prefix": "da79344ceb221def53fcf9c52a595958441dc9f4d231cb97333411dc4e049c78",
+        "size_in_bytes": 261202
+      },
+      {
+        "_path": "include/hwy/per_target.h",
+        "path_type": "hardlink",
+        "sha256": "5e8b159a757721fc7e6fe803038ceca7fd7045fc9f8e8393709cff715f9267ee",
+        "sha256_in_prefix": "5e8b159a757721fc7e6fe803038ceca7fd7045fc9f8e8393709cff715f9267ee",
+        "size_in_bytes": 1632
+      },
+      {
+        "_path": "include/hwy/print-inl.h",
+        "path_type": "hardlink",
+        "sha256": "9a99cdbee5b85302725e982d5d4b67c0cd29e1a0b43d6cfa1e1542eae69ba6e6",
+        "sha256_in_prefix": "9a99cdbee5b85302725e982d5d4b67c0cd29e1a0b43d6cfa1e1542eae69ba6e6",
+        "size_in_bytes": 1915
+      },
+      {
+        "_path": "include/hwy/print.h",
+        "path_type": "hardlink",
+        "sha256": "56b755654ac1e40f6fda306f95811770ac9c4802ef6840019f479ad09a6880b3",
+        "sha256_in_prefix": "56b755654ac1e40f6fda306f95811770ac9c4802ef6840019f479ad09a6880b3",
+        "size_in_bytes": 2100
+      },
+      {
+        "_path": "include/hwy/robust_statistics.h",
+        "path_type": "hardlink",
+        "sha256": "8b79efcbc2c874e82713fa34928bdc99eaad9f7e0749d2907451eff8ff4c713f",
+        "sha256_in_prefix": "8b79efcbc2c874e82713fa34928bdc99eaad9f7e0749d2907451eff8ff4c713f",
+        "size_in_bytes": 4842
+      },
+      {
+        "_path": "include/hwy/targets.h",
+        "path_type": "hardlink",
+        "sha256": "6751c891775caec37a9a53938d5b20baf72f83f5f955721d9c6ba13fc92df044",
+        "sha256_in_prefix": "6751c891775caec37a9a53938d5b20baf72f83f5f955721d9c6ba13fc92df044",
+        "size_in_bytes": 14064
+      },
+      {
+        "_path": "include/hwy/tests/hwy_gtest.h",
+        "path_type": "hardlink",
+        "sha256": "de8d5611c0bf16115d20da2700b5256b1c6763540a3288d37bec645a8a3b1430",
+        "sha256_in_prefix": "de8d5611c0bf16115d20da2700b5256b1c6763540a3288d37bec645a8a3b1430",
+        "size_in_bytes": 6133
+      },
+      {
+        "_path": "include/hwy/tests/test_util-inl.h",
+        "path_type": "hardlink",
+        "sha256": "19a5700a29dac88754977eb5953fb7c91a5d1fc4446b7df53791ffe42955cb93",
+        "sha256_in_prefix": "19a5700a29dac88754977eb5953fb7c91a5d1fc4446b7df53791ffe42955cb93",
+        "size_in_bytes": 24441
+      },
+      {
+        "_path": "include/hwy/tests/test_util.h",
+        "path_type": "hardlink",
+        "sha256": "8bdac75d64166a562500b54c8c8653aa03076c76bb276b1d76ab451d7cb4d9b7",
+        "sha256_in_prefix": "8bdac75d64166a562500b54c8c8653aa03076c76bb276b1d76ab451d7cb4d9b7",
+        "size_in_bytes": 5361
+      },
+      {
+        "_path": "include/hwy/timer-inl.h",
+        "path_type": "hardlink",
+        "sha256": "7bf525dbd04b4664b7d773b30eb80fae34c18e6eb90641a647e603528d05d3f9",
+        "sha256_in_prefix": "7bf525dbd04b4664b7d773b30eb80fae34c18e6eb90641a647e603528d05d3f9",
+        "size_in_bytes": 7225
+      },
+      {
+        "_path": "include/hwy/timer.h",
+        "path_type": "hardlink",
+        "sha256": "6d281c56cba4ed8e1e66778b34510a77180ff6ee207a4ea51317eee9b199c192",
+        "sha256_in_prefix": "6d281c56cba4ed8e1e66778b34510a77180ff6ee207a4ea51317eee9b199c192",
+        "size_in_bytes": 2133
+      },
+      {
+        "_path": "lib/cmake/hwy/hwy-config-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "4adf15d4866b10d935e7d46fab47a312a83c2609d7a485cec43ff80c74f9ce1a",
+        "sha256_in_prefix": "4adf15d4866b10d935e7d46fab47a312a83c2609d7a485cec43ff80c74f9ce1a",
+        "size_in_bytes": 1781
+      },
+      {
+        "_path": "lib/cmake/hwy/hwy-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "58214df4058d7d087460a8f4280b00d694acdf1ef94b22112ff8ee9f78627901",
+        "sha256_in_prefix": "58214df4058d7d087460a8f4280b00d694acdf1ef94b22112ff8ee9f78627901",
+        "size_in_bytes": 2762
+      },
+      {
+        "_path": "lib/cmake/hwy/hwy-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "9597327ea7d1c2e219176fb0099c31c6364a3147bd3cb5ee4eaddc72fdad5d50",
+        "sha256_in_prefix": "9597327ea7d1c2e219176fb0099c31c6364a3147bd3cb5ee4eaddc72fdad5d50",
+        "size_in_bytes": 4737
+      },
+      {
+        "_path": "lib/libhwy.so",
+        "path_type": "softlink",
+        "sha256": "58d2418305b76ffd143c5354ff43de7a4c85b181204fb87aa78b2ee9e15cf1fa",
+        "size_in_bytes": 57928
+      },
+      {
+        "_path": "lib/libhwy.so.1",
+        "path_type": "softlink",
+        "sha256": "58d2418305b76ffd143c5354ff43de7a4c85b181204fb87aa78b2ee9e15cf1fa",
+        "size_in_bytes": 57928
+      },
+      {
+        "_path": "lib/libhwy.so.1.0.7",
+        "path_type": "hardlink",
+        "sha256": "58d2418305b76ffd143c5354ff43de7a4c85b181204fb87aa78b2ee9e15cf1fa",
+        "sha256_in_prefix": "58d2418305b76ffd143c5354ff43de7a4c85b181204fb87aa78b2ee9e15cf1fa",
+        "size_in_bytes": 57928
+      },
+      {
+        "_path": "lib/libhwy_contrib.so",
+        "path_type": "softlink",
+        "sha256": "8826a5ce71db92baf3690ddfc60ec57b3db191be69cc8d049a33a5d77d38b39c",
+        "size_in_bytes": 4534416
+      },
+      {
+        "_path": "lib/libhwy_contrib.so.1",
+        "path_type": "softlink",
+        "sha256": "8826a5ce71db92baf3690ddfc60ec57b3db191be69cc8d049a33a5d77d38b39c",
+        "size_in_bytes": 4534416
+      },
+      {
+        "_path": "lib/libhwy_contrib.so.1.0.7",
+        "path_type": "hardlink",
+        "sha256": "8826a5ce71db92baf3690ddfc60ec57b3db191be69cc8d049a33a5d77d38b39c",
+        "sha256_in_prefix": "8826a5ce71db92baf3690ddfc60ec57b3db191be69cc8d049a33a5d77d38b39c",
+        "size_in_bytes": 4534416
+      },
+      {
+        "_path": "lib/libhwy_test.so",
+        "path_type": "softlink",
+        "sha256": "4c878eadd82decad77286aaeaa8a52c98dca34f8a7a916587ee52b2fda4f4f4d",
+        "size_in_bytes": 16096
+      },
+      {
+        "_path": "lib/libhwy_test.so.1",
+        "path_type": "softlink",
+        "sha256": "4c878eadd82decad77286aaeaa8a52c98dca34f8a7a916587ee52b2fda4f4f4d",
+        "size_in_bytes": 16096
+      },
+      {
+        "_path": "lib/libhwy_test.so.1.0.7",
+        "path_type": "hardlink",
+        "sha256": "4c878eadd82decad77286aaeaa8a52c98dca34f8a7a916587ee52b2fda4f4f4d",
+        "sha256_in_prefix": "4c878eadd82decad77286aaeaa8a52c98dca34f8a7a916587ee52b2fda4f4f4d",
+        "size_in_bytes": 16096
+      },
+      {
+        "_path": "lib/pkgconfig/libhwy-contrib.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libhwy_1693393618832/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "110b3049881103486599b449dde37f19baa5927ca6af31f9bdf9f805059828c9",
+        "sha256_in_prefix": "716e3423cd6ac8766fc0e364de76592478c1ead96050859f6f13d2a1fe842ded",
+        "size_in_bytes": 499
+      },
+      {
+        "_path": "lib/pkgconfig/libhwy-test.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libhwy_1693393618832/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "ded110b0b8a96941292baf1f6c8a488d1bf5dcfb538c6eda11fa36cd6632e5bd",
+        "sha256_in_prefix": "ec888ba69a7df28dacaecbee7a9ffee1a118570777eb2f8e32a5c2383873c643",
+        "size_in_bytes": 519
+      },
+      {
+        "_path": "lib/pkgconfig/libhwy.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libhwy_1693393618832/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "1aceb1560e1984c8759ec61441e3af37455d5c72d6cdb32254e6c59cb196dfef",
+        "sha256_in_prefix": "8dc5b10b06a4b52b77d09f57d80e79a4f9b2627afb2bd524e10300f3417056e0",
+        "size_in_bytes": 498
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5d3bfd5830e6d029ad90bdc597a8ec896b751dd3c4adc70a934c9295753ac25d",
+  "size": 1058695,
+  "subdir": "linux-64",
+  "timestamp": 1693394157000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libhwy-1.0.7-h00ab1b0_0.conda",
+  "version": "1.0.7"
+}

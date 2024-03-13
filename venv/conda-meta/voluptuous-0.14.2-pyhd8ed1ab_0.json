@@ -1,0 +1,185 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/voluptuous-0.14.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/voluptuous-0.14.2.dist-info/COPYING",
+    "lib/python3.9/site-packages/voluptuous-0.14.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/voluptuous-0.14.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/voluptuous-0.14.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/voluptuous-0.14.2.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/voluptuous-0.14.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/voluptuous-0.14.2.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/voluptuous-0.14.2.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/voluptuous/__init__.py",
+    "lib/python3.9/site-packages/voluptuous/error.py",
+    "lib/python3.9/site-packages/voluptuous/humanize.py",
+    "lib/python3.9/site-packages/voluptuous/py.typed",
+    "lib/python3.9/site-packages/voluptuous/schema_builder.py",
+    "lib/python3.9/site-packages/voluptuous/util.py",
+    "lib/python3.9/site-packages/voluptuous/validators.py",
+    "lib/python3.9/site-packages/voluptuous/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/voluptuous/__pycache__/error.cpython-39.pyc",
+    "lib/python3.9/site-packages/voluptuous/__pycache__/humanize.cpython-39.pyc",
+    "lib/python3.9/site-packages/voluptuous/__pycache__/schema_builder.cpython-39.pyc",
+    "lib/python3.9/site-packages/voluptuous/__pycache__/util.cpython-39.pyc",
+    "lib/python3.9/site-packages/voluptuous/__pycache__/validators.cpython-39.pyc"
+  ],
+  "fn": "voluptuous-0.14.2-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/voluptuous-0.14.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "d61310a459c334702a00a2b7f4fc534c",
+  "name": "voluptuous",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/voluptuous-0.14.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/voluptuous-0.14.2.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "247b4976b7a7fa4d89d9587caa5095561eb46dc5457f2279f62a62b5452adea9",
+        "sha256_in_prefix": "247b4976b7a7fa4d89d9587caa5095561eb46dc5457f2279f62a62b5452adea9",
+        "size_in_bytes": 1486
+      },
+      {
+        "_path": "site-packages/voluptuous-0.14.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/voluptuous-0.14.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d5e2c4d7e35bc594833a7ab5682c76a5728424dd17c9885aa88735d5e0779832",
+        "sha256_in_prefix": "d5e2c4d7e35bc594833a7ab5682c76a5728424dd17c9885aa88735d5e0779832",
+        "size_in_bytes": 20691
+      },
+      {
+        "_path": "site-packages/voluptuous-0.14.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6a3d9c53e8075d5def20f40dc2dafad6b119004f9e344f0f7a473209bce7d494",
+        "sha256_in_prefix": "6a3d9c53e8075d5def20f40dc2dafad6b119004f9e344f0f7a473209bce7d494",
+        "size_in_bytes": 1559
+      },
+      {
+        "_path": "site-packages/voluptuous-0.14.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/voluptuous-0.14.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/voluptuous-0.14.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a552d5ca7e8b8735f76b7916b2729f3e49dcaf307e4c5f4d1c9319e90fe0a545",
+        "sha256_in_prefix": "a552d5ca7e8b8735f76b7916b2729f3e49dcaf307e4c5f4d1c9319e90fe0a545",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/voluptuous-0.14.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4d37556fb33ebe775bebb52a4e6031b958e90146a4ae5016258aafa37c3822a7",
+        "sha256_in_prefix": "4d37556fb33ebe775bebb52a4e6031b958e90146a4ae5016258aafa37c3822a7",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/voluptuous/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0376dc47b86f00d159914592f3c296d9b17535893625288785c269ddb154ed56",
+        "sha256_in_prefix": "0376dc47b86f00d159914592f3c296d9b17535893625288785c269ddb154ed56",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "site-packages/voluptuous/error.py",
+        "path_type": "hardlink",
+        "sha256": "aa2a6669d2612f2717e33223bba8fc4fcae32478a210b543bf7092a010839f03",
+        "sha256_in_prefix": "aa2a6669d2612f2717e33223bba8fc4fcae32478a210b543bf7092a010839f03",
+        "size_in_bytes": 4606
+      },
+      {
+        "_path": "site-packages/voluptuous/humanize.py",
+        "path_type": "hardlink",
+        "sha256": "09606bac4e9f2bbde238cd7dc3508af7f7ff42b73ddaed8f4088e7806f3e102d",
+        "sha256_in_prefix": "09606bac4e9f2bbde238cd7dc3508af7f7ff42b73ddaed8f4088e7806f3e102d",
+        "size_in_bytes": 1905
+      },
+      {
+        "_path": "site-packages/voluptuous/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/voluptuous/schema_builder.py",
+        "path_type": "hardlink",
+        "sha256": "1fc6ada9fcfdb7c4513ea0d6b62b2cd1aec6ae72283075c7105ff365638191bf",
+        "sha256_in_prefix": "1fc6ada9fcfdb7c4513ea0d6b62b2cd1aec6ae72283075c7105ff365638191bf",
+        "size_in_bytes": 45313
+      },
+      {
+        "_path": "site-packages/voluptuous/util.py",
+        "path_type": "hardlink",
+        "sha256": "04dc6454967aa9b83ca43598fd338c9682cb80d8338b1575650f6b85375b160b",
+        "sha256_in_prefix": "04dc6454967aa9b83ca43598fd338c9682cb80d8338b1575650f6b85375b160b",
+        "size_in_bytes": 3174
+      },
+      {
+        "_path": "site-packages/voluptuous/validators.py",
+        "path_type": "hardlink",
+        "sha256": "6f61dbd4d6fa8574f516b29e2cc7899aa713192244e001af7d0ea98076487157",
+        "sha256_in_prefix": "6f61dbd4d6fa8574f516b29e2cc7899aa713192244e001af7d0ea98076487157",
+        "size_in_bytes": 36355
+      },
+      {
+        "_path": "lib/python3.9/site-packages/voluptuous/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/voluptuous/__pycache__/error.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/voluptuous/__pycache__/humanize.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/voluptuous/__pycache__/schema_builder.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/voluptuous/__pycache__/util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/voluptuous/__pycache__/validators.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ff338b235fcbd764e97aec5bed53ea95eaf42f6edb4b34c697da2fce0e46b1cf",
+  "size": 33402,
+  "subdir": "noarch",
+  "timestamp": 1706967766000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/voluptuous-0.14.2-pyhd8ed1ab_0.conda",
+  "version": "0.14.2"
+}

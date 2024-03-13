@@ -1,0 +1,2146 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "backports.zoneinfo >=0.2.1",
+    "billiard >=4.2.0,<5.0",
+    "click >=8.1.2,<9.0",
+    "click-didyoumean >=0.3.0",
+    "click-plugins >=1.1.1",
+    "click-repl >=0.2.0",
+    "importlib-metadata >=3.6",
+    "kombu >=5.3.3,<6.0",
+    "python >=3.8",
+    "python-dateutil >=2.8.2",
+    "python-tzdata >=2022.7",
+    "vine >=5.1.0,<6.0"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/celery-5.3.5-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/celery-5.3.5.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/celery-5.3.5.dist-info/LICENSE",
+    "lib/python3.9/site-packages/celery-5.3.5.dist-info/METADATA",
+    "lib/python3.9/site-packages/celery-5.3.5.dist-info/RECORD",
+    "lib/python3.9/site-packages/celery-5.3.5.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/celery-5.3.5.dist-info/WHEEL",
+    "lib/python3.9/site-packages/celery-5.3.5.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/celery-5.3.5.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/celery-5.3.5.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/celery/__init__.py",
+    "lib/python3.9/site-packages/celery/__main__.py",
+    "lib/python3.9/site-packages/celery/_state.py",
+    "lib/python3.9/site-packages/celery/app/__init__.py",
+    "lib/python3.9/site-packages/celery/app/amqp.py",
+    "lib/python3.9/site-packages/celery/app/annotations.py",
+    "lib/python3.9/site-packages/celery/app/autoretry.py",
+    "lib/python3.9/site-packages/celery/app/backends.py",
+    "lib/python3.9/site-packages/celery/app/base.py",
+    "lib/python3.9/site-packages/celery/app/builtins.py",
+    "lib/python3.9/site-packages/celery/app/control.py",
+    "lib/python3.9/site-packages/celery/app/defaults.py",
+    "lib/python3.9/site-packages/celery/app/events.py",
+    "lib/python3.9/site-packages/celery/app/log.py",
+    "lib/python3.9/site-packages/celery/app/registry.py",
+    "lib/python3.9/site-packages/celery/app/routes.py",
+    "lib/python3.9/site-packages/celery/app/task.py",
+    "lib/python3.9/site-packages/celery/app/trace.py",
+    "lib/python3.9/site-packages/celery/app/utils.py",
+    "lib/python3.9/site-packages/celery/apps/__init__.py",
+    "lib/python3.9/site-packages/celery/apps/beat.py",
+    "lib/python3.9/site-packages/celery/apps/multi.py",
+    "lib/python3.9/site-packages/celery/apps/worker.py",
+    "lib/python3.9/site-packages/celery/backends/__init__.py",
+    "lib/python3.9/site-packages/celery/backends/arangodb.py",
+    "lib/python3.9/site-packages/celery/backends/asynchronous.py",
+    "lib/python3.9/site-packages/celery/backends/azureblockblob.py",
+    "lib/python3.9/site-packages/celery/backends/base.py",
+    "lib/python3.9/site-packages/celery/backends/cache.py",
+    "lib/python3.9/site-packages/celery/backends/cassandra.py",
+    "lib/python3.9/site-packages/celery/backends/consul.py",
+    "lib/python3.9/site-packages/celery/backends/cosmosdbsql.py",
+    "lib/python3.9/site-packages/celery/backends/couchbase.py",
+    "lib/python3.9/site-packages/celery/backends/couchdb.py",
+    "lib/python3.9/site-packages/celery/backends/database/__init__.py",
+    "lib/python3.9/site-packages/celery/backends/database/models.py",
+    "lib/python3.9/site-packages/celery/backends/database/session.py",
+    "lib/python3.9/site-packages/celery/backends/dynamodb.py",
+    "lib/python3.9/site-packages/celery/backends/elasticsearch.py",
+    "lib/python3.9/site-packages/celery/backends/filesystem.py",
+    "lib/python3.9/site-packages/celery/backends/mongodb.py",
+    "lib/python3.9/site-packages/celery/backends/redis.py",
+    "lib/python3.9/site-packages/celery/backends/rpc.py",
+    "lib/python3.9/site-packages/celery/backends/s3.py",
+    "lib/python3.9/site-packages/celery/beat.py",
+    "lib/python3.9/site-packages/celery/bin/__init__.py",
+    "lib/python3.9/site-packages/celery/bin/amqp.py",
+    "lib/python3.9/site-packages/celery/bin/base.py",
+    "lib/python3.9/site-packages/celery/bin/beat.py",
+    "lib/python3.9/site-packages/celery/bin/call.py",
+    "lib/python3.9/site-packages/celery/bin/celery.py",
+    "lib/python3.9/site-packages/celery/bin/control.py",
+    "lib/python3.9/site-packages/celery/bin/events.py",
+    "lib/python3.9/site-packages/celery/bin/graph.py",
+    "lib/python3.9/site-packages/celery/bin/list.py",
+    "lib/python3.9/site-packages/celery/bin/logtool.py",
+    "lib/python3.9/site-packages/celery/bin/migrate.py",
+    "lib/python3.9/site-packages/celery/bin/multi.py",
+    "lib/python3.9/site-packages/celery/bin/purge.py",
+    "lib/python3.9/site-packages/celery/bin/result.py",
+    "lib/python3.9/site-packages/celery/bin/shell.py",
+    "lib/python3.9/site-packages/celery/bin/upgrade.py",
+    "lib/python3.9/site-packages/celery/bin/worker.py",
+    "lib/python3.9/site-packages/celery/bootsteps.py",
+    "lib/python3.9/site-packages/celery/canvas.py",
+    "lib/python3.9/site-packages/celery/concurrency/__init__.py",
+    "lib/python3.9/site-packages/celery/concurrency/asynpool.py",
+    "lib/python3.9/site-packages/celery/concurrency/base.py",
+    "lib/python3.9/site-packages/celery/concurrency/eventlet.py",
+    "lib/python3.9/site-packages/celery/concurrency/gevent.py",
+    "lib/python3.9/site-packages/celery/concurrency/prefork.py",
+    "lib/python3.9/site-packages/celery/concurrency/solo.py",
+    "lib/python3.9/site-packages/celery/concurrency/thread.py",
+    "lib/python3.9/site-packages/celery/contrib/__init__.py",
+    "lib/python3.9/site-packages/celery/contrib/abortable.py",
+    "lib/python3.9/site-packages/celery/contrib/migrate.py",
+    "lib/python3.9/site-packages/celery/contrib/pytest.py",
+    "lib/python3.9/site-packages/celery/contrib/rdb.py",
+    "lib/python3.9/site-packages/celery/contrib/sphinx.py",
+    "lib/python3.9/site-packages/celery/contrib/testing/__init__.py",
+    "lib/python3.9/site-packages/celery/contrib/testing/app.py",
+    "lib/python3.9/site-packages/celery/contrib/testing/manager.py",
+    "lib/python3.9/site-packages/celery/contrib/testing/mocks.py",
+    "lib/python3.9/site-packages/celery/contrib/testing/tasks.py",
+    "lib/python3.9/site-packages/celery/contrib/testing/worker.py",
+    "lib/python3.9/site-packages/celery/events/__init__.py",
+    "lib/python3.9/site-packages/celery/events/cursesmon.py",
+    "lib/python3.9/site-packages/celery/events/dispatcher.py",
+    "lib/python3.9/site-packages/celery/events/dumper.py",
+    "lib/python3.9/site-packages/celery/events/event.py",
+    "lib/python3.9/site-packages/celery/events/receiver.py",
+    "lib/python3.9/site-packages/celery/events/snapshot.py",
+    "lib/python3.9/site-packages/celery/events/state.py",
+    "lib/python3.9/site-packages/celery/exceptions.py",
+    "lib/python3.9/site-packages/celery/fixups/__init__.py",
+    "lib/python3.9/site-packages/celery/fixups/django.py",
+    "lib/python3.9/site-packages/celery/loaders/__init__.py",
+    "lib/python3.9/site-packages/celery/loaders/app.py",
+    "lib/python3.9/site-packages/celery/loaders/base.py",
+    "lib/python3.9/site-packages/celery/loaders/default.py",
+    "lib/python3.9/site-packages/celery/local.py",
+    "lib/python3.9/site-packages/celery/platforms.py",
+    "lib/python3.9/site-packages/celery/result.py",
+    "lib/python3.9/site-packages/celery/schedules.py",
+    "lib/python3.9/site-packages/celery/security/__init__.py",
+    "lib/python3.9/site-packages/celery/security/certificate.py",
+    "lib/python3.9/site-packages/celery/security/key.py",
+    "lib/python3.9/site-packages/celery/security/serialization.py",
+    "lib/python3.9/site-packages/celery/security/utils.py",
+    "lib/python3.9/site-packages/celery/signals.py",
+    "lib/python3.9/site-packages/celery/states.py",
+    "lib/python3.9/site-packages/celery/utils/__init__.py",
+    "lib/python3.9/site-packages/celery/utils/abstract.py",
+    "lib/python3.9/site-packages/celery/utils/collections.py",
+    "lib/python3.9/site-packages/celery/utils/debug.py",
+    "lib/python3.9/site-packages/celery/utils/deprecated.py",
+    "lib/python3.9/site-packages/celery/utils/dispatch/__init__.py",
+    "lib/python3.9/site-packages/celery/utils/dispatch/signal.py",
+    "lib/python3.9/site-packages/celery/utils/functional.py",
+    "lib/python3.9/site-packages/celery/utils/graph.py",
+    "lib/python3.9/site-packages/celery/utils/imports.py",
+    "lib/python3.9/site-packages/celery/utils/iso8601.py",
+    "lib/python3.9/site-packages/celery/utils/log.py",
+    "lib/python3.9/site-packages/celery/utils/nodenames.py",
+    "lib/python3.9/site-packages/celery/utils/objects.py",
+    "lib/python3.9/site-packages/celery/utils/saferepr.py",
+    "lib/python3.9/site-packages/celery/utils/serialization.py",
+    "lib/python3.9/site-packages/celery/utils/static/__init__.py",
+    "lib/python3.9/site-packages/celery/utils/static/celery_128.png",
+    "lib/python3.9/site-packages/celery/utils/sysinfo.py",
+    "lib/python3.9/site-packages/celery/utils/term.py",
+    "lib/python3.9/site-packages/celery/utils/text.py",
+    "lib/python3.9/site-packages/celery/utils/threads.py",
+    "lib/python3.9/site-packages/celery/utils/time.py",
+    "lib/python3.9/site-packages/celery/utils/timer2.py",
+    "lib/python3.9/site-packages/celery/worker/__init__.py",
+    "lib/python3.9/site-packages/celery/worker/autoscale.py",
+    "lib/python3.9/site-packages/celery/worker/components.py",
+    "lib/python3.9/site-packages/celery/worker/consumer/__init__.py",
+    "lib/python3.9/site-packages/celery/worker/consumer/agent.py",
+    "lib/python3.9/site-packages/celery/worker/consumer/connection.py",
+    "lib/python3.9/site-packages/celery/worker/consumer/consumer.py",
+    "lib/python3.9/site-packages/celery/worker/consumer/control.py",
+    "lib/python3.9/site-packages/celery/worker/consumer/events.py",
+    "lib/python3.9/site-packages/celery/worker/consumer/gossip.py",
+    "lib/python3.9/site-packages/celery/worker/consumer/heart.py",
+    "lib/python3.9/site-packages/celery/worker/consumer/mingle.py",
+    "lib/python3.9/site-packages/celery/worker/consumer/tasks.py",
+    "lib/python3.9/site-packages/celery/worker/control.py",
+    "lib/python3.9/site-packages/celery/worker/heartbeat.py",
+    "lib/python3.9/site-packages/celery/worker/loops.py",
+    "lib/python3.9/site-packages/celery/worker/pidbox.py",
+    "lib/python3.9/site-packages/celery/worker/request.py",
+    "lib/python3.9/site-packages/celery/worker/state.py",
+    "lib/python3.9/site-packages/celery/worker/strategy.py",
+    "lib/python3.9/site-packages/celery/worker/worker.py",
+    "lib/python3.9/site-packages/celery/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/_state.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/amqp.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/annotations.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/autoretry.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/backends.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/builtins.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/control.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/defaults.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/events.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/log.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/registry.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/routes.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/task.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/trace.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/app/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/apps/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/apps/__pycache__/beat.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/apps/__pycache__/multi.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/apps/__pycache__/worker.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/arangodb.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/asynchronous.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/azureblockblob.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/cache.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/cassandra.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/consul.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/cosmosdbsql.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/couchbase.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/couchdb.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/database/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/database/__pycache__/models.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/database/__pycache__/session.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/dynamodb.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/elasticsearch.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/filesystem.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/mongodb.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/redis.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/rpc.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/backends/__pycache__/s3.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/beat.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/amqp.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/beat.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/call.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/celery.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/control.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/events.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/graph.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/list.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/logtool.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/migrate.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/multi.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/purge.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/result.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/shell.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/upgrade.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/bin/__pycache__/worker.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/bootsteps.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/canvas.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/concurrency/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/concurrency/__pycache__/asynpool.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/concurrency/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/concurrency/__pycache__/eventlet.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/concurrency/__pycache__/gevent.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/concurrency/__pycache__/prefork.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/concurrency/__pycache__/solo.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/concurrency/__pycache__/thread.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/__pycache__/abortable.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/__pycache__/migrate.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/__pycache__/pytest.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/__pycache__/rdb.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/__pycache__/sphinx.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/app.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/manager.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/mocks.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/tasks.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/worker.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/events/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/events/__pycache__/cursesmon.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/events/__pycache__/dispatcher.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/events/__pycache__/dumper.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/events/__pycache__/event.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/events/__pycache__/receiver.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/events/__pycache__/snapshot.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/events/__pycache__/state.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/fixups/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/fixups/__pycache__/django.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/loaders/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/loaders/__pycache__/app.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/loaders/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/loaders/__pycache__/default.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/local.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/platforms.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/result.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/schedules.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/security/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/security/__pycache__/certificate.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/security/__pycache__/key.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/security/__pycache__/serialization.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/security/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/signals.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/__pycache__/states.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/abstract.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/collections.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/debug.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/deprecated.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/dispatch/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/dispatch/__pycache__/signal.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/functional.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/graph.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/imports.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/iso8601.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/log.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/nodenames.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/objects.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/saferepr.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/serialization.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/static/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/sysinfo.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/term.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/text.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/threads.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/time.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/utils/__pycache__/timer2.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/__pycache__/autoscale.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/__pycache__/components.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/agent.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/connection.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/consumer.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/control.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/events.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/gossip.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/heart.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/mingle.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/tasks.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/__pycache__/control.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/__pycache__/heartbeat.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/__pycache__/loops.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/__pycache__/pidbox.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/__pycache__/request.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/__pycache__/state.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/__pycache__/strategy.cpython-39.pyc",
+    "lib/python3.9/site-packages/celery/worker/__pycache__/worker.cpython-39.pyc",
+    "bin/celery"
+  ],
+  "fn": "celery-5.3.5-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/celery-5.3.5-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "aaab3d20cc5af95d4b77d3e34be9a186",
+  "name": "celery",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/celery-5.3.5-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/celery-5.3.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/celery-5.3.5.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c358cdf77f28bbab50d4a754e123118339c15230349e82bf66489cece3ac093a",
+        "sha256_in_prefix": "c358cdf77f28bbab50d4a754e123118339c15230349e82bf66489cece3ac093a",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "site-packages/celery-5.3.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c2fb597398c02eedd831ec88f9f703eb41a0f5bb9cd17a1c4a926916a0927a71",
+        "sha256_in_prefix": "c2fb597398c02eedd831ec88f9f703eb41a0f5bb9cd17a1c4a926916a0927a71",
+        "size_in_bytes": 21087
+      },
+      {
+        "_path": "site-packages/celery-5.3.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0cbd5c7bb368afb30c126040e38c01692506f66b9284b19fd2da855e4e2ae2ab",
+        "sha256_in_prefix": "0cbd5c7bb368afb30c126040e38c01692506f66b9284b19fd2da855e4e2ae2ab",
+        "size_in_bytes": 21928
+      },
+      {
+        "_path": "site-packages/celery-5.3.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/celery-5.3.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/celery-5.3.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "57fac693145b3f970bf9ffa04c4bf1db53336df0c652997e37807812a798cc27",
+        "sha256_in_prefix": "57fac693145b3f970bf9ffa04c4bf1db53336df0c652997e37807812a798cc27",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/celery-5.3.5.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "1647c53d57df761aaf60e3c792913ce648b4f678b47bdd3aa0d7562dd37bcff4",
+        "sha256_in_prefix": "1647c53d57df761aaf60e3c792913ce648b4f678b47bdd3aa0d7562dd37bcff4",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "site-packages/celery-5.3.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b1043e6b91cdb19222d80f0388a4270751ce0c531f9abcc8019204f2dfd788e0",
+        "sha256_in_prefix": "b1043e6b91cdb19222d80f0388a4270751ce0c531f9abcc8019204f2dfd788e0",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/celery/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a2811759e9523217018c6718d53030230af746c43df7d53259244096b348aa61",
+        "sha256_in_prefix": "a2811759e9523217018c6718d53030230af746c43df7d53259244096b348aa61",
+        "size_in_bytes": 5949
+      },
+      {
+        "_path": "site-packages/celery/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "d224f758273cd2603cf1785d0314e9b7f83a4c54609b01d273d186f8788fce41",
+        "sha256_in_prefix": "d224f758273cd2603cf1785d0314e9b7f83a4c54609b01d273d186f8788fce41",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "site-packages/celery/_state.py",
+        "path_type": "hardlink",
+        "sha256": "93b4fd0b37984793d94abd0c8d256f16ceb3a5f9196a5f41ae5f31bbebcfa579",
+        "sha256_in_prefix": "93b4fd0b37984793d94abd0c8d256f16ceb3a5f9196a5f41ae5f31bbebcfa579",
+        "size_in_bytes": 5029
+      },
+      {
+        "_path": "site-packages/celery/app/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6bace3fc9f5269ac2b949bb7aefc02558f23eff6c8182ccf9fb647e62525a8d1",
+        "sha256_in_prefix": "6bace3fc9f5269ac2b949bb7aefc02558f23eff6c8182ccf9fb647e62525a8d1",
+        "size_in_bytes": 2430
+      },
+      {
+        "_path": "site-packages/celery/app/amqp.py",
+        "path_type": "hardlink",
+        "sha256": "0987903e90c20a7037f012ce429197d0d09266ad066344ecb198d6d21acc632c",
+        "sha256_in_prefix": "0987903e90c20a7037f012ce429197d0d09266ad066344ecb198d6d21acc632c",
+        "size_in_bytes": 23236
+      },
+      {
+        "_path": "site-packages/celery/app/annotations.py",
+        "path_type": "hardlink",
+        "sha256": "f77cee28d084ee970c0f72b9b4ce4731e54243995f251ff486d169a2db6039e5",
+        "sha256_in_prefix": "f77cee28d084ee970c0f72b9b4ce4731e54243995f251ff486d169a2db6039e5",
+        "size_in_bytes": 1445
+      },
+      {
+        "_path": "site-packages/celery/app/autoretry.py",
+        "path_type": "hardlink",
+        "sha256": "3df4a2f2c6fbee3279ee57abf98e5f7dda835af1cc285810fdba550f9f77eed7",
+        "sha256_in_prefix": "3df4a2f2c6fbee3279ee57abf98e5f7dda835af1cc285810fdba550f9f77eed7",
+        "size_in_bytes": 2506
+      },
+      {
+        "_path": "site-packages/celery/app/backends.py",
+        "path_type": "hardlink",
+        "sha256": "fff1aa7729452526bd1bf24349d5ddb3281f7bb1632bb7e09f87d981eb5d50cc",
+        "sha256_in_prefix": "fff1aa7729452526bd1bf24349d5ddb3281f7bb1632bb7e09f87d981eb5d50cc",
+        "size_in_bytes": 2702
+      },
+      {
+        "_path": "site-packages/celery/app/base.py",
+        "path_type": "hardlink",
+        "sha256": "6f19db5eeac0b1e784e814550c783fd741be082430eac2bba4f8a6f233bd102f",
+        "sha256_in_prefix": "6f19db5eeac0b1e784e814550c783fd741be082430eac2bba4f8a6f233bd102f",
+        "size_in_bytes": 50463
+      },
+      {
+        "_path": "site-packages/celery/app/builtins.py",
+        "path_type": "hardlink",
+        "sha256": "8273b2134eccf338316ad4e66f40f4bcacedc75b1065a462fe13bf77e14b354b",
+        "sha256_in_prefix": "8273b2134eccf338316ad4e66f40f4bcacedc75b1065a462fe13bf77e14b354b",
+        "size_in_bytes": 6673
+      },
+      {
+        "_path": "site-packages/celery/app/control.py",
+        "path_type": "hardlink",
+        "sha256": "9db1f148eae5aecefa5c5ee714f837e96bc8e557d5ead52931a7e72e3d0ca245",
+        "sha256_in_prefix": "9db1f148eae5aecefa5c5ee714f837e96bc8e557d5ead52931a7e72e3d0ca245",
+        "size_in_bytes": 29171
+      },
+      {
+        "_path": "site-packages/celery/app/defaults.py",
+        "path_type": "hardlink",
+        "sha256": "5f322648b02bc0344425625b82dd5b0f3f8281dc6dabd7017d28b16bce484346",
+        "sha256_in_prefix": "5f322648b02bc0344425625b82dd5b0f3f8281dc6dabd7017d28b16bce484346",
+        "size_in_bytes": 15014
+      },
+      {
+        "_path": "site-packages/celery/app/events.py",
+        "path_type": "hardlink",
+        "sha256": "f59ca3761515bebb7ac4b74e30e5533cdee08f274b59018daf886f1683eba2e0",
+        "sha256_in_prefix": "f59ca3761515bebb7ac4b74e30e5533cdee08f274b59018daf886f1683eba2e0",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "site-packages/celery/app/log.py",
+        "path_type": "hardlink",
+        "sha256": "b80966a0b407df8ecfd56ae85f5dc9d97a257a799cc81222d9af9a0fa90c9d99",
+        "sha256_in_prefix": "b80966a0b407df8ecfd56ae85f5dc9d97a257a799cc81222d9af9a0fa90c9d99",
+        "size_in_bytes": 9067
+      },
+      {
+        "_path": "site-packages/celery/app/registry.py",
+        "path_type": "hardlink",
+        "sha256": "8a67465056fd092e22899d69c40c1c4006ded4928a8f2bfd593cbde2a1c742f9",
+        "sha256_in_prefix": "8a67465056fd092e22899d69c40c1c4006ded4928a8f2bfd593cbde2a1c742f9",
+        "size_in_bytes": 2001
+      },
+      {
+        "_path": "site-packages/celery/app/routes.py",
+        "path_type": "hardlink",
+        "sha256": "0cc76be679849ea2565e42c5233596c4cdaccfd658780fbef057926b129c0428",
+        "sha256_in_prefix": "0cc76be679849ea2565e42c5233596c4cdaccfd658780fbef057926b129c0428",
+        "size_in_bytes": 4527
+      },
+      {
+        "_path": "site-packages/celery/app/task.py",
+        "path_type": "hardlink",
+        "sha256": "7e13fc537c90d860f8e006ca616376cf1e70b3c6731a559aa11041698ebccc31",
+        "sha256_in_prefix": "7e13fc537c90d860f8e006ca616376cf1e70b3c6731a559aa11041698ebccc31",
+        "size_in_bytes": 43779
+      },
+      {
+        "_path": "site-packages/celery/app/trace.py",
+        "path_type": "hardlink",
+        "sha256": "71b95723ca09214fc298962fbc44ba073711b16f6de8d82e42ecc398ecdd2966",
+        "sha256_in_prefix": "71b95723ca09214fc298962fbc44ba073711b16f6de8d82e42ecc398ecdd2966",
+        "size_in_bytes": 28434
+      },
+      {
+        "_path": "site-packages/celery/app/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e767b9bbe3d425bc041ed36bfd776924d9ee1dd0bd736aba14f92206eff54a66",
+        "sha256_in_prefix": "e767b9bbe3d425bc041ed36bfd776924d9ee1dd0bd736aba14f92206eff54a66",
+        "size_in_bytes": 13160
+      },
+      {
+        "_path": "site-packages/celery/apps/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/celery/apps/beat.py",
+        "path_type": "hardlink",
+        "sha256": "057ecd7c73bf058cbd3ae5537129f2ace4d54b57ac84572d1c3a5819f80a4f90",
+        "sha256_in_prefix": "057ecd7c73bf058cbd3ae5537129f2ace4d54b57ac84572d1c3a5819f80a4f90",
+        "size_in_bytes": 5724
+      },
+      {
+        "_path": "site-packages/celery/apps/multi.py",
+        "path_type": "hardlink",
+        "sha256": "d69ba3926d22b089e3011f481e7a3926e72e59cc19009d66b6a254d43564250a",
+        "sha256_in_prefix": "d69ba3926d22b089e3011f481e7a3926e72e59cc19009d66b6a254d43564250a",
+        "size_in_bytes": 16360
+      },
+      {
+        "_path": "site-packages/celery/apps/worker.py",
+        "path_type": "hardlink",
+        "sha256": "075fee5cbb5c95cad00151eea5df41f295ee6e4e1308e232b466d622c122a1e4",
+        "sha256_in_prefix": "075fee5cbb5c95cad00151eea5df41f295ee6e4e1308e232b466d622c122a1e4",
+        "size_in_bytes": 13208
+      },
+      {
+        "_path": "site-packages/celery/backends/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d6437dd9d7f58c3a77802ea6ac6119236784fa438450829d38e1d101daf2d9ad",
+        "sha256_in_prefix": "d6437dd9d7f58c3a77802ea6ac6119236784fa438450829d38e1d101daf2d9ad",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "site-packages/celery/backends/arangodb.py",
+        "path_type": "hardlink",
+        "sha256": "68cc2e0609552718a058df0bf4d5a1faad8d8cf41e830fffc6045c4cc2dfe5e5",
+        "sha256_in_prefix": "68cc2e0609552718a058df0bf4d5a1faad8d8cf41e830fffc6045c4cc2dfe5e5",
+        "size_in_bytes": 5937
+      },
+      {
+        "_path": "site-packages/celery/backends/asynchronous.py",
+        "path_type": "hardlink",
+        "sha256": "d7fb42ad4443560d05bd9851ce54466304e6b1d58ad789c1cef3ee961c09791e",
+        "sha256_in_prefix": "d7fb42ad4443560d05bd9851ce54466304e6b1d58ad789c1cef3ee961c09791e",
+        "size_in_bytes": 10309
+      },
+      {
+        "_path": "site-packages/celery/backends/azureblockblob.py",
+        "path_type": "hardlink",
+        "sha256": "ee36e34e60a1abfb8996fce0d3a769f6af7eb0c1cab92d19dcbca35e383271d9",
+        "sha256_in_prefix": "ee36e34e60a1abfb8996fce0d3a769f6af7eb0c1cab92d19dcbca35e383271d9",
+        "size_in_bytes": 5127
+      },
+      {
+        "_path": "site-packages/celery/backends/base.py",
+        "path_type": "hardlink",
+        "sha256": "038ae00a61af0a394ba9f246b90c9d1380dfb7d58651f293a9aefd14021402c9",
+        "sha256_in_prefix": "038ae00a61af0a394ba9f246b90c9d1380dfb7d58651f293a9aefd14021402c9",
+        "size_in_bytes": 43970
+      },
+      {
+        "_path": "site-packages/celery/backends/cache.py",
+        "path_type": "hardlink",
+        "sha256": "fe8f44066041c8db1b23f505f8f2795b4bbeab0709dfb4398da22b0293cee2af",
+        "sha256_in_prefix": "fe8f44066041c8db1b23f505f8f2795b4bbeab0709dfb4398da22b0293cee2af",
+        "size_in_bytes": 4831
+      },
+      {
+        "_path": "site-packages/celery/backends/cassandra.py",
+        "path_type": "hardlink",
+        "sha256": "c41e73dc9b4daa69da418f1b8ecb7e3d1d5d9cd819ad7f252b0110a5889186ff",
+        "sha256_in_prefix": "c41e73dc9b4daa69da418f1b8ecb7e3d1d5d9cd819ad7f252b0110a5889186ff",
+        "size_in_bytes": 9006
+      },
+      {
+        "_path": "site-packages/celery/backends/consul.py",
+        "path_type": "hardlink",
+        "sha256": "a0007ff787ed4bde668f2710e182f8cc8740fad1a6c05caadc1d0eadec813cd4",
+        "sha256_in_prefix": "a0007ff787ed4bde668f2710e182f8cc8740fad1a6c05caadc1d0eadec813cd4",
+        "size_in_bytes": 3816
+      },
+      {
+        "_path": "site-packages/celery/backends/cosmosdbsql.py",
+        "path_type": "hardlink",
+        "sha256": "5dd0950a3c4eef55e1b2088cf43b9e2678262b1fed1347ab7b11dfdfbf8986a1",
+        "sha256_in_prefix": "5dd0950a3c4eef55e1b2088cf43b9e2678262b1fed1347ab7b11dfdfbf8986a1",
+        "size_in_bytes": 6777
+      },
+      {
+        "_path": "site-packages/celery/backends/couchbase.py",
+        "path_type": "hardlink",
+        "sha256": "7f2ca285f24d5ba8568159472ae4c21e4cd69438e4cd64005a1816dc627301db",
+        "sha256_in_prefix": "7f2ca285f24d5ba8568159472ae4c21e4cd69438e4cd64005a1816dc627301db",
+        "size_in_bytes": 3393
+      },
+      {
+        "_path": "site-packages/celery/backends/couchdb.py",
+        "path_type": "hardlink",
+        "sha256": "33fcf4ce03453f0170f3da5a6b990843dc7da3b5513f0b8a08b660a058450e90",
+        "sha256_in_prefix": "33fcf4ce03453f0170f3da5a6b990843dc7da3b5513f0b8a08b660a058450e90",
+        "size_in_bytes": 2935
+      },
+      {
+        "_path": "site-packages/celery/backends/database/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "18c059432d01d628311ce5cff98a182a4af414ebb10307ac622e8c173f3045d4",
+        "sha256_in_prefix": "18c059432d01d628311ce5cff98a182a4af414ebb10307ac622e8c173f3045d4",
+        "size_in_bytes": 7751
+      },
+      {
+        "_path": "site-packages/celery/backends/database/models.py",
+        "path_type": "hardlink",
+        "sha256": "ffa59932fe77c7c2358814426b8858df92da05478b2192730eeb23bd2fbc6808",
+        "sha256_in_prefix": "ffa59932fe77c7c2358814426b8858df92da05478b2192730eeb23bd2fbc6808",
+        "size_in_bytes": 3351
+      },
+      {
+        "_path": "site-packages/celery/backends/database/session.py",
+        "path_type": "hardlink",
+        "sha256": "df3bbb5f0628139d9a4ba76c4a625a9ea96f4bab2c8deb7b8523546e58b09cba",
+        "sha256_in_prefix": "df3bbb5f0628139d9a4ba76c4a625a9ea96f4bab2c8deb7b8523546e58b09cba",
+        "size_in_bytes": 3011
+      },
+      {
+        "_path": "site-packages/celery/backends/dynamodb.py",
+        "path_type": "hardlink",
+        "sha256": "b046f84ce72b1053af154d7dcd14a65d9fad68d0c981b6f4fd1fb82a935181c8",
+        "sha256_in_prefix": "b046f84ce72b1053af154d7dcd14a65d9fad68d0c981b6f4fd1fb82a935181c8",
+        "size_in_bytes": 17179
+      },
+      {
+        "_path": "site-packages/celery/backends/elasticsearch.py",
+        "path_type": "hardlink",
+        "sha256": "8465dc32060043903a2cd17f7bd8478509906314f7ef7cab5edec183a926185d",
+        "sha256_in_prefix": "8465dc32060043903a2cd17f7bd8478509906314f7ef7cab5edec183a926185d",
+        "size_in_bytes": 9564
+      },
+      {
+        "_path": "site-packages/celery/backends/filesystem.py",
+        "path_type": "hardlink",
+        "sha256": "43ef1108f1bb4da0d52443a7c0c7d2f0683281cf0161c2ae0658f0cf039e81e7",
+        "sha256_in_prefix": "43ef1108f1bb4da0d52443a7c0c7d2f0683281cf0161c2ae0658f0cf039e81e7",
+        "size_in_bytes": 3776
+      },
+      {
+        "_path": "site-packages/celery/backends/mongodb.py",
+        "path_type": "hardlink",
+        "sha256": "5c82f5a1811aa3e6296e6134081fec1983ff1499d23fcfc264da2e06273172b8",
+        "sha256_in_prefix": "5c82f5a1811aa3e6296e6134081fec1983ff1499d23fcfc264da2e06273172b8",
+        "size_in_bytes": 11419
+      },
+      {
+        "_path": "site-packages/celery/backends/redis.py",
+        "path_type": "hardlink",
+        "sha256": "c27978e5a30b7f8492997d890c48852259cd68a63723a3c18c978beda744b820",
+        "sha256_in_prefix": "c27978e5a30b7f8492997d890c48852259cd68a63723a3c18c978beda744b820",
+        "size_in_bytes": 26389
+      },
+      {
+        "_path": "site-packages/celery/backends/rpc.py",
+        "path_type": "hardlink",
+        "sha256": "3dfce3a73ef39ce7e61d1111b907ce9535be7a7b40b25f34de8735f845a99d36",
+        "sha256_in_prefix": "3dfce3a73ef39ce7e61d1111b907ce9535be7a7b40b25f34de8735f845a99d36",
+        "size_in_bytes": 12077
+      },
+      {
+        "_path": "site-packages/celery/backends/s3.py",
+        "path_type": "hardlink",
+        "sha256": "3142f8f9b10709c4cbe775d7c9bd36d33c8b613af8e030e33a1e815ed929f654",
+        "sha256_in_prefix": "3142f8f9b10709c4cbe775d7c9bd36d33c8b613af8e030e33a1e815ed929f654",
+        "size_in_bytes": 2752
+      },
+      {
+        "_path": "site-packages/celery/beat.py",
+        "path_type": "hardlink",
+        "sha256": "8ff64403bdc1ecd5af94655b5d570b78eabfb4593424d4f81e201576f1fb1c6e",
+        "sha256_in_prefix": "8ff64403bdc1ecd5af94655b5d570b78eabfb4593424d4f81e201576f1fb1c6e",
+        "size_in_bytes": 24455
+      },
+      {
+        "_path": "site-packages/celery/bin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/celery/bin/amqp.py",
+        "path_type": "hardlink",
+        "sha256": "2d33b4159ccab36674301c6471c6831be75012c99b68b2e12a9fb4811e077500",
+        "sha256_in_prefix": "2d33b4159ccab36674301c6471c6831be75012c99b68b2e12a9fb4811e077500",
+        "size_in_bytes": 10023
+      },
+      {
+        "_path": "site-packages/celery/bin/base.py",
+        "path_type": "hardlink",
+        "sha256": "9a617e6881515ce05d8dccc615e3d73912b661dc4b23e729b2756b0dc352980c",
+        "sha256_in_prefix": "9a617e6881515ce05d8dccc615e3d73912b661dc4b23e729b2756b0dc352980c",
+        "size_in_bytes": 8525
+      },
+      {
+        "_path": "site-packages/celery/bin/beat.py",
+        "path_type": "hardlink",
+        "sha256": "aa28e31112c61072136954869058314f1b4f60ec25d0b5003640b6b365263409",
+        "sha256_in_prefix": "aa28e31112c61072136954869058314f1b4f60ec25d0b5003640b6b365263409",
+        "size_in_bytes": 2592
+      },
+      {
+        "_path": "site-packages/celery/bin/call.py",
+        "path_type": "hardlink",
+        "sha256": "ff8728ff29f680ce6e18fefb163795a9f6bbc3a566ac40c64822cf497611a7ec",
+        "sha256_in_prefix": "ff8728ff29f680ce6e18fefb163795a9f6bbc3a566ac40c64822cf497611a7ec",
+        "size_in_bytes": 2370
+      },
+      {
+        "_path": "site-packages/celery/bin/celery.py",
+        "path_type": "hardlink",
+        "sha256": "516e4a98a0e986bb7b4a9c862e7658d7a7dcebf5c8e8175255daf16ff56f8b75",
+        "sha256_in_prefix": "516e4a98a0e986bb7b4a9c862e7658d7a7dcebf5c8e8175255daf16ff56f8b75",
+        "size_in_bytes": 7440
+      },
+      {
+        "_path": "site-packages/celery/bin/control.py",
+        "path_type": "hardlink",
+        "sha256": "9ebfe41716a546f2aa0b6a6026641536647192d9ea7d2b65a51339d48f695d2e",
+        "sha256_in_prefix": "9ebfe41716a546f2aa0b6a6026641536647192d9ea7d2b65a51339d48f695d2e",
+        "size_in_bytes": 7058
+      },
+      {
+        "_path": "site-packages/celery/bin/events.py",
+        "path_type": "hardlink",
+        "sha256": "7c37a6bd42cd561806ed68860be9d19d7df20f2e1e5d36aaf217bb4f8983e899",
+        "sha256_in_prefix": "7c37a6bd42cd561806ed68860be9d19d7df20f2e1e5d36aaf217bb4f8983e899",
+        "size_in_bytes": 2794
+      },
+      {
+        "_path": "site-packages/celery/bin/graph.py",
+        "path_type": "hardlink",
+        "sha256": "2ddd9d292c487561f1157ae3b135c05018fa8dbd360151b24cf5c351903f82fa",
+        "sha256_in_prefix": "2ddd9d292c487561f1157ae3b135c05018fa8dbd360151b24cf5c351903f82fa",
+        "size_in_bytes": 5796
+      },
+      {
+        "_path": "site-packages/celery/bin/list.py",
+        "path_type": "hardlink",
+        "sha256": "d8e28f8979fab20ba6ff4d911f577f4c1a1772935c36ca284fdf07b7da56b9a6",
+        "sha256_in_prefix": "d8e28f8979fab20ba6ff4d911f577f4c1a1772935c36ca284fdf07b7da56b9a6",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "site-packages/celery/bin/logtool.py",
+        "path_type": "hardlink",
+        "sha256": "b2a2b82dfb80b47b950fb393b0a6ca7ef0763a47ce0fe2b7eda73d8bf17c348b",
+        "sha256_in_prefix": "b2a2b82dfb80b47b950fb393b0a6ca7ef0763a47ce0fe2b7eda73d8bf17c348b",
+        "size_in_bytes": 4267
+      },
+      {
+        "_path": "site-packages/celery/bin/migrate.py",
+        "path_type": "hardlink",
+        "sha256": "b3e9422e4d9b151d8614307cfa1a9af2f52187fa492dd6e66ff6449e32c117b6",
+        "sha256_in_prefix": "b3e9422e4d9b151d8614307cfa1a9af2f52187fa492dd6e66ff6449e32c117b6",
+        "size_in_bytes": 2108
+      },
+      {
+        "_path": "site-packages/celery/bin/multi.py",
+        "path_type": "hardlink",
+        "sha256": "16884cf7d9ff8b609addc3a1f56f0a868de4e3c325d7c51ba4e5693c4acdc439",
+        "sha256_in_prefix": "16884cf7d9ff8b609addc3a1f56f0a868de4e3c325d7c51ba4e5693c4acdc439",
+        "size_in_bytes": 15374
+      },
+      {
+        "_path": "site-packages/celery/bin/purge.py",
+        "path_type": "hardlink",
+        "sha256": "2bd0d29683d1d30d99ebc88cc92e3c99adbf7759b9bfc55dc0abfa990648ff9f",
+        "sha256_in_prefix": "2bd0d29683d1d30d99ebc88cc92e3c99adbf7759b9bfc55dc0abfa990648ff9f",
+        "size_in_bytes": 2608
+      },
+      {
+        "_path": "site-packages/celery/bin/result.py",
+        "path_type": "hardlink",
+        "sha256": "f1464744151ac49adef2ede8c76333c46ff4f07f6c5c69ebcb16c55a7a013d9b",
+        "sha256_in_prefix": "f1464744151ac49adef2ede8c76333c46ff4f07f6c5c69ebcb16c55a7a013d9b",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "site-packages/celery/bin/shell.py",
+        "path_type": "hardlink",
+        "sha256": "0f83a2c3d944c85fb11c9ddf279fd77248002c3aec0d3625b32713d69e35e7a1",
+        "sha256_in_prefix": "0f83a2c3d944c85fb11c9ddf279fd77248002c3aec0d3625b32713d69e35e7a1",
+        "size_in_bytes": 4839
+      },
+      {
+        "_path": "site-packages/celery/bin/upgrade.py",
+        "path_type": "hardlink",
+        "sha256": "101cd29bc85bd27e835cccc6e6c5b9bc2e23e961d86dfacdd85c7cdecdf48b53",
+        "sha256_in_prefix": "101cd29bc85bd27e835cccc6e6c5b9bc2e23e961d86dfacdd85c7cdecdf48b53",
+        "size_in_bytes": 3064
+      },
+      {
+        "_path": "site-packages/celery/bin/worker.py",
+        "path_type": "hardlink",
+        "sha256": "71d601aced8fdc7a0dcee3f05c8247e0600cbb52a52d3118178d04915bb4bdea",
+        "sha256_in_prefix": "71d601aced8fdc7a0dcee3f05c8247e0600cbb52a52d3118178d04915bb4bdea",
+        "size_in_bytes": 12886
+      },
+      {
+        "_path": "site-packages/celery/bootsteps.py",
+        "path_type": "hardlink",
+        "sha256": "e3d6cc4fa081d0b3ce2bafa2f1d2e9ec7a64a3f59a2c9f725a5096177022d972",
+        "sha256_in_prefix": "e3d6cc4fa081d0b3ce2bafa2f1d2e9ec7a64a3f59a2c9f725a5096177022d972",
+        "size_in_bytes": 12277
+      },
+      {
+        "_path": "site-packages/celery/canvas.py",
+        "path_type": "hardlink",
+        "sha256": "3b74b7a74a7c2bc9b891ccb8ee1e27fa133dd987bd920f3bd1a4043f32587d74",
+        "sha256_in_prefix": "3b74b7a74a7c2bc9b891ccb8ee1e27fa133dd987bd920f3bd1a4043f32587d74",
+        "size_in_bytes": 95808
+      },
+      {
+        "_path": "site-packages/celery/concurrency/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0a2bc82338cb5871097fd11dd101524c23b135a5a9ba71434f30b68f3c37c84d",
+        "sha256_in_prefix": "0a2bc82338cb5871097fd11dd101524c23b135a5a9ba71434f30b68f3c37c84d",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "site-packages/celery/concurrency/asynpool.py",
+        "path_type": "hardlink",
+        "sha256": "de196fa99f7db475f3a99660970a0100e1cd6c767ccd505677db2859842bae8f",
+        "sha256_in_prefix": "de196fa99f7db475f3a99660970a0100e1cd6c767ccd505677db2859842bae8f",
+        "size_in_bytes": 51471
+      },
+      {
+        "_path": "site-packages/celery/concurrency/base.py",
+        "path_type": "hardlink",
+        "sha256": "6ad38b0bdd0563bc21a3ffd3a2765ba5dd9ac1b3a29e48164b1de6d79320d562",
+        "sha256_in_prefix": "6ad38b0bdd0563bc21a3ffd3a2765ba5dd9ac1b3a29e48164b1de6d79320d562",
+        "size_in_bytes": 4706
+      },
+      {
+        "_path": "site-packages/celery/concurrency/eventlet.py",
+        "path_type": "hardlink",
+        "sha256": "8b85e7dcaaa0d1cc5b332c3bfda0935428bb10e03968b12245d91bd71313a6f3",
+        "sha256_in_prefix": "8b85e7dcaaa0d1cc5b332c3bfda0935428bb10e03968b12245d91bd71313a6f3",
+        "size_in_bytes": 5126
+      },
+      {
+        "_path": "site-packages/celery/concurrency/gevent.py",
+        "path_type": "hardlink",
+        "sha256": "a04c49a8e2c0592955d899733670cbdb618f97012983b1313c905930d3f8082f",
+        "sha256_in_prefix": "a04c49a8e2c0592955d899733670cbdb618f97012983b1313c905930d3f8082f",
+        "size_in_bytes": 3387
+      },
+      {
+        "_path": "site-packages/celery/concurrency/prefork.py",
+        "path_type": "hardlink",
+        "sha256": "bdd9df7a252d9f16b665c3d2041fa923a330a9bda39bc765f9f1ff5c73c4a3a3",
+        "sha256_in_prefix": "bdd9df7a252d9f16b665c3d2041fa923a330a9bda39bc765f9f1ff5c73c4a3a3",
+        "size_in_bytes": 5850
+      },
+      {
+        "_path": "site-packages/celery/concurrency/solo.py",
+        "path_type": "hardlink",
+        "sha256": "1fd65a57e4710b7d0cd585028d0bcb9db0d00932da7f01b20b88389f0ab3dee3",
+        "sha256_in_prefix": "1fd65a57e4710b7d0cd585028d0bcb9db0d00932da7f01b20b88389f0ab3dee3",
+        "size_in_bytes": 754
+      },
+      {
+        "_path": "site-packages/celery/concurrency/thread.py",
+        "path_type": "hardlink",
+        "sha256": "acca6bb9e9fef9e3ec74fa2acfd983c2cc2ee466376af8e2fde1beec0018e772",
+        "sha256_in_prefix": "acca6bb9e9fef9e3ec74fa2acfd983c2cc2ee466376af8e2fde1beec0018e772",
+        "size_in_bytes": 1807
+      },
+      {
+        "_path": "site-packages/celery/contrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/celery/contrib/abortable.py",
+        "path_type": "hardlink",
+        "sha256": "7dfaf8ee8bc6a0850eda030c4ab27058f3fa312ca4dff4b55ee4b4d8ac5132ee",
+        "sha256_in_prefix": "7dfaf8ee8bc6a0850eda030c4ab27058f3fa312ca4dff4b55ee4b4d8ac5132ee",
+        "size_in_bytes": 5003
+      },
+      {
+        "_path": "site-packages/celery/contrib/migrate.py",
+        "path_type": "hardlink",
+        "sha256": "12fbcd5a1af2915de54e46473a08687f07a667efec8b1286f7b5d4c906d2f437",
+        "sha256_in_prefix": "12fbcd5a1af2915de54e46473a08687f07a667efec8b1286f7b5d4c906d2f437",
+        "size_in_bytes": 14361
+      },
+      {
+        "_path": "site-packages/celery/contrib/pytest.py",
+        "path_type": "hardlink",
+        "sha256": "ced6ea219d0cb9644b4c0f914fa93904a56fbae936f873e8143f7eab7b87a3eb",
+        "sha256_in_prefix": "ced6ea219d0cb9644b4c0f914fa93904a56fbae936f873e8143f7eab7b87a3eb",
+        "size_in_bytes": 6754
+      },
+      {
+        "_path": "site-packages/celery/contrib/rdb.py",
+        "path_type": "hardlink",
+        "sha256": "04aa2b69f7b72a43a3fadb7e6c42f7f51ef8bb69e3bfeffbad11df45a8ebdd2b",
+        "sha256_in_prefix": "04aa2b69f7b72a43a3fadb7e6c42f7f51ef8bb69e3bfeffbad11df45a8ebdd2b",
+        "size_in_bytes": 5005
+      },
+      {
+        "_path": "site-packages/celery/contrib/sphinx.py",
+        "path_type": "hardlink",
+        "sha256": "164c3576a02a519d5468c6bb3ee1dcb7f09c8352b413f39d2eaeddb8db5091cf",
+        "sha256_in_prefix": "164c3576a02a519d5468c6bb3ee1dcb7f09c8352b413f39d2eaeddb8db5091cf",
+        "size_in_bytes": 3391
+      },
+      {
+        "_path": "site-packages/celery/contrib/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/celery/contrib/testing/app.py",
+        "path_type": "hardlink",
+        "sha256": "96f5be618d87d7c07ad260394907ad3b70b34c8ee329046c6571ad851dbb8711",
+        "sha256_in_prefix": "96f5be618d87d7c07ad260394907ad3b70b34c8ee329046c6571ad851dbb8711",
+        "size_in_bytes": 3112
+      },
+      {
+        "_path": "site-packages/celery/contrib/testing/manager.py",
+        "path_type": "hardlink",
+        "sha256": "5a7bd62dd54941f49aa79ad548a3bc355da00735ac7339a2e45af71e9fbce7ee",
+        "sha256_in_prefix": "5a7bd62dd54941f49aa79ad548a3bc355da00735ac7339a2e45af71e9fbce7ee",
+        "size_in_bytes": 8605
+      },
+      {
+        "_path": "site-packages/celery/contrib/testing/mocks.py",
+        "path_type": "hardlink",
+        "sha256": "99c59db31a53bda5a41be4011a71132dc75ebe5f9bcdaab7792392b06a36cbac",
+        "sha256_in_prefix": "99c59db31a53bda5a41be4011a71132dc75ebe5f9bcdaab7792392b06a36cbac",
+        "size_in_bytes": 4182
+      },
+      {
+        "_path": "site-packages/celery/contrib/testing/tasks.py",
+        "path_type": "hardlink",
+        "sha256": "a4933769a6f0eee75ca69cf840d794835fba9e59db925ad3fa13f925798bfa03",
+        "sha256_in_prefix": "a4933769a6f0eee75ca69cf840d794835fba9e59db925ad3fa13f925798bfa03",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "site-packages/celery/contrib/testing/worker.py",
+        "path_type": "hardlink",
+        "sha256": "7317331b811f3015115f8ce3706144d42f5a9b0722f65696e5bedbf85050981f",
+        "sha256_in_prefix": "7317331b811f3015115f8ce3706144d42f5a9b0722f65696e5bedbf85050981f",
+        "size_in_bytes": 7064
+      },
+      {
+        "_path": "site-packages/celery/events/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f5dd9cbe20b0e7322c67702f409931efb1cf4e5c665486a1451ed06b9e274275",
+        "sha256_in_prefix": "f5dd9cbe20b0e7322c67702f409931efb1cf4e5c665486a1451ed06b9e274275",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "site-packages/celery/events/cursesmon.py",
+        "path_type": "hardlink",
+        "sha256": "19f410489c1a30ab596b03ecbef43aa86bfb7fad7784c84026ca436b5873f4e3",
+        "sha256_in_prefix": "19f410489c1a30ab596b03ecbef43aa86bfb7fad7784c84026ca436b5873f4e3",
+        "size_in_bytes": 17961
+      },
+      {
+        "_path": "site-packages/celery/events/dispatcher.py",
+        "path_type": "hardlink",
+        "sha256": "edbdfedddffaba4bd135a8f27e21cc5f562fa16348cda07acd2dfecc4510846e",
+        "sha256_in_prefix": "edbdfedddffaba4bd135a8f27e21cc5f562fa16348cda07acd2dfecc4510846e",
+        "size_in_bytes": 8987
+      },
+      {
+        "_path": "site-packages/celery/events/dumper.py",
+        "path_type": "hardlink",
+        "sha256": "ef339598055f1b61d75bbf45bafa68ff40b6723ced4f38085e76a251ce0d2fc7",
+        "sha256_in_prefix": "ef339598055f1b61d75bbf45bafa68ff40b6723ced4f38085e76a251ce0d2fc7",
+        "size_in_bytes": 3116
+      },
+      {
+        "_path": "site-packages/celery/events/event.py",
+        "path_type": "hardlink",
+        "sha256": "9edd72454cc3ad8a7d60b6ec2090f77a8fc0a0c853e6c42d6405febc492ae10f",
+        "sha256_in_prefix": "9edd72454cc3ad8a7d60b6ec2090f77a8fc0a0c853e6c42d6405febc492ae10f",
+        "size_in_bytes": 1736
+      },
+      {
+        "_path": "site-packages/celery/events/receiver.py",
+        "path_type": "hardlink",
+        "sha256": "edd56f7b36240503adc88fab1fbefee500c9ced3cb07ddf7545ecd8267b34ae5",
+        "sha256_in_prefix": "edd56f7b36240503adc88fab1fbefee500c9ced3cb07ddf7545ecd8267b34ae5",
+        "size_in_bytes": 4998
+      },
+      {
+        "_path": "site-packages/celery/events/snapshot.py",
+        "path_type": "hardlink",
+        "sha256": "38b42ec71d5a7f6f4b2a760a0e84deb273df2bfe5d171df3099ec949d83db7b0",
+        "sha256_in_prefix": "38b42ec71d5a7f6f4b2a760a0e84deb273df2bfe5d171df3099ec949d83db7b0",
+        "size_in_bytes": 3294
+      },
+      {
+        "_path": "site-packages/celery/events/state.py",
+        "path_type": "hardlink",
+        "sha256": "0dd61e030ee118615331ce0744c6f43248b396426bc9acac577b7c9576f1843e",
+        "sha256_in_prefix": "0dd61e030ee118615331ce0744c6f43248b396426bc9acac577b7c9576f1843e",
+        "size_in_bytes": 25648
+      },
+      {
+        "_path": "site-packages/celery/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "16b971422a1d46dc7446b25f810a3964c61327c05286b264b5e487dbd4c250a3",
+        "sha256_in_prefix": "16b971422a1d46dc7446b25f810a3964c61327c05286b264b5e487dbd4c250a3",
+        "size_in_bytes": 9086
+      },
+      {
+        "_path": "site-packages/celery/fixups/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "edcb4d68a1e239ad9f55e3dc74a3d4f49fbf6d0d24d631476a86650875d8d2f5",
+        "sha256_in_prefix": "edcb4d68a1e239ad9f55e3dc74a3d4f49fbf6d0d24d631476a86650875d8d2f5",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/celery/fixups/django.py",
+        "path_type": "hardlink",
+        "sha256": "3f1fe80b4c1379d9c378f395f81f59a2430925b600b0a860b34cd21f9b4a4570",
+        "sha256_in_prefix": "3f1fe80b4c1379d9c378f395f81f59a2430925b600b0a860b34cd21f9b4a4570",
+        "size_in_bytes": 7161
+      },
+      {
+        "_path": "site-packages/celery/loaders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2e74535a4f29cf6afb0548f655426206cb4f8d207008fd205034646dc8465b6e",
+        "sha256_in_prefix": "2e74535a4f29cf6afb0548f655426206cb4f8d207008fd205034646dc8465b6e",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "site-packages/celery/loaders/app.py",
+        "path_type": "hardlink",
+        "sha256": "c6a4694432641a64d6db537fef3c7917835af860936cdb3a43ab467c89e76675",
+        "sha256_in_prefix": "c6a4694432641a64d6db537fef3c7917835af860936cdb3a43ab467c89e76675",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "site-packages/celery/loaders/base.py",
+        "path_type": "hardlink",
+        "sha256": "97657ef4e6da63e4d01d29a6a2e2e2cce7aaad31ad4aaed6bf39740ab3e0559b",
+        "sha256_in_prefix": "97657ef4e6da63e4d01d29a6a2e2e2cce7aaad31ad4aaed6bf39740ab3e0559b",
+        "size_in_bytes": 8825
+      },
+      {
+        "_path": "site-packages/celery/loaders/default.py",
+        "path_type": "hardlink",
+        "sha256": "4d9abacd1e2d83fdb4b15240b92c1204b5511d1c9f7af1e41e1518acd4589135",
+        "sha256_in_prefix": "4d9abacd1e2d83fdb4b15240b92c1204b5511d1c9f7af1e41e1518acd4589135",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "site-packages/celery/local.py",
+        "path_type": "hardlink",
+        "sha256": "f22cbb088bd0459330e3de7c2744a3307715c16ec021b91a229073b5d4b9c224",
+        "sha256_in_prefix": "f22cbb088bd0459330e3de7c2744a3307715c16ec021b91a229073b5d4b9c224",
+        "size_in_bytes": 16087
+      },
+      {
+        "_path": "site-packages/celery/platforms.py",
+        "path_type": "hardlink",
+        "sha256": "4de7eda31dad8bba47e9482955bd5cd85d0948739c9bb5ffb07a9ffae790271e",
+        "sha256_in_prefix": "4de7eda31dad8bba47e9482955bd5cd85d0948739c9bb5ffb07a9ffae790271e",
+        "size_in_bytes": 25289
+      },
+      {
+        "_path": "site-packages/celery/result.py",
+        "path_type": "hardlink",
+        "sha256": "7c1b67c67b54f10cec77c9e4dce0c8132477bed5c35cefd214263c5629ae20c2",
+        "sha256_in_prefix": "7c1b67c67b54f10cec77c9e4dce0c8132477bed5c35cefd214263c5629ae20c2",
+        "size_in_bytes": 35612
+      },
+      {
+        "_path": "site-packages/celery/schedules.py",
+        "path_type": "hardlink",
+        "sha256": "838d21d26e7fd097cce91734087ed38f22b5302dc27fa336ac34661a44bc871b",
+        "sha256_in_prefix": "838d21d26e7fd097cce91734087ed38f22b5302dc27fa336ac34661a44bc871b",
+        "size_in_bytes": 32003
+      },
+      {
+        "_path": "site-packages/celery/security/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "235a71fb1e7ed7d3be15c0909b50071df541e8fa7e6dabb06d9f82d5fc462727",
+        "sha256_in_prefix": "235a71fb1e7ed7d3be15c0909b50071df541e8fa7e6dabb06d9f82d5fc462727",
+        "size_in_bytes": 2363
+      },
+      {
+        "_path": "site-packages/celery/security/certificate.py",
+        "path_type": "hardlink",
+        "sha256": "266f97595429cc9c41e769f857ecc728edd8b0dae59321695e2621cc1dd026c9",
+        "sha256_in_prefix": "266f97595429cc9c41e769f857ecc728edd8b0dae59321695e2621cc1dd026c9",
+        "size_in_bytes": 4008
+      },
+      {
+        "_path": "site-packages/celery/security/key.py",
+        "path_type": "hardlink",
+        "sha256": "35ba1c755fda26340c66cf43259ad2b694e7905670fcaf1220210cc1a96c3ea2",
+        "sha256_in_prefix": "35ba1c755fda26340c66cf43259ad2b694e7905670fcaf1220210cc1a96c3ea2",
+        "size_in_bytes": 1189
+      },
+      {
+        "_path": "site-packages/celery/security/serialization.py",
+        "path_type": "hardlink",
+        "sha256": "cb209057c6331f05ebd07b75289f7e9de51201925fdadbb32a4a6774aa6f5eab",
+        "sha256_in_prefix": "cb209057c6331f05ebd07b75289f7e9de51201925fdadbb32a4a6774aa6f5eab",
+        "size_in_bytes": 4248
+      },
+      {
+        "_path": "site-packages/celery/security/utils.py",
+        "path_type": "hardlink",
+        "sha256": "549b96c4b645297417ce505cceec68f78c1759250b9d7c1b3bfe6e97f870b1ed",
+        "sha256_in_prefix": "549b96c4b645297417ce505cceec68f78c1759250b9d7c1b3bfe6e97f870b1ed",
+        "size_in_bytes": 845
+      },
+      {
+        "_path": "site-packages/celery/signals.py",
+        "path_type": "hardlink",
+        "sha256": "cf64f852aace0dccdb691140ca83733b4b61e25b7f8cc5b39719eb061fcc5022",
+        "sha256_in_prefix": "cf64f852aace0dccdb691140ca83733b4b61e25b7f8cc5b39719eb061fcc5022",
+        "size_in_bytes": 4384
+      },
+      {
+        "_path": "site-packages/celery/states.py",
+        "path_type": "hardlink",
+        "sha256": "0981246e60c998c1dfd91cd316d69f3dcbbc1011b9c00633f26b7835db9873b5",
+        "sha256_in_prefix": "0981246e60c998c1dfd91cd316d69f3dcbbc1011b9c00633f26b7835db9873b5",
+        "size_in_bytes": 3324
+      },
+      {
+        "_path": "site-packages/celery/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "948263071bd70aca42fa26fe5dab1d10f941d31010735e8fd1e38f6f4816b0bd",
+        "sha256_in_prefix": "948263071bd70aca42fa26fe5dab1d10f941d31010735e8fd1e38f6f4816b0bd",
+        "size_in_bytes": 935
+      },
+      {
+        "_path": "site-packages/celery/utils/abstract.py",
+        "path_type": "hardlink",
+        "sha256": "c4dd90afe4c4a75d8ff0060ee968a0c45af9a7c9093d451bd1fe545f716d1e32",
+        "sha256_in_prefix": "c4dd90afe4c4a75d8ff0060ee968a0c45af9a7c9093d451bd1fe545f716d1e32",
+        "size_in_bytes": 2874
+      },
+      {
+        "_path": "site-packages/celery/utils/collections.py",
+        "path_type": "hardlink",
+        "sha256": "2ac45658678f6507a50941cc12f03fa557b187a1e9668d58d497c21beaccd5ff",
+        "sha256_in_prefix": "2ac45658678f6507a50941cc12f03fa557b187a1e9668d58d497c21beaccd5ff",
+        "size_in_bytes": 25432
+      },
+      {
+        "_path": "site-packages/celery/utils/debug.py",
+        "path_type": "hardlink",
+        "sha256": "f60e54d0d953be53fd385c23c5fc9782285fcc3f8a93f7dccbb4038e192a6a9c",
+        "sha256_in_prefix": "f60e54d0d953be53fd385c23c5fc9782285fcc3f8a93f7dccbb4038e192a6a9c",
+        "size_in_bytes": 4709
+      },
+      {
+        "_path": "site-packages/celery/utils/deprecated.py",
+        "path_type": "hardlink",
+        "sha256": "e1ab0f7b6db64d6261f2670be7739be98ed744e3e0aafdb79c247e1141c9a01a",
+        "sha256_in_prefix": "e1ab0f7b6db64d6261f2670be7739be98ed744e3e0aafdb79c247e1141c9a01a",
+        "size_in_bytes": 3620
+      },
+      {
+        "_path": "site-packages/celery/utils/dispatch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b34fd9a6f1565f0d5c79c12e7b5be3f8ca4e3d050f138d60e6cf98b239d7ea6a",
+        "sha256_in_prefix": "b34fd9a6f1565f0d5c79c12e7b5be3f8ca4e3d050f138d60e6cf98b239d7ea6a",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "site-packages/celery/utils/dispatch/signal.py",
+        "path_type": "hardlink",
+        "sha256": "2dc99f05a6e7440391fb08800d641f053fa03772f38b6f49a40702bcc2cd357e",
+        "sha256_in_prefix": "2dc99f05a6e7440391fb08800d641f053fa03772f38b6f49a40702bcc2cd357e",
+        "size_in_bytes": 13603
+      },
+      {
+        "_path": "site-packages/celery/utils/functional.py",
+        "path_type": "hardlink",
+        "sha256": "4e2989101ca3abc36da1c7d2c1f1141e889ce86e640988a6dc297f57ce0d9f29",
+        "sha256_in_prefix": "4e2989101ca3abc36da1c7d2c1f1141e889ce86e640988a6dc297f57ce0d9f29",
+        "size_in_bytes": 12017
+      },
+      {
+        "_path": "site-packages/celery/utils/graph.py",
+        "path_type": "hardlink",
+        "sha256": "a0fdb9617b107cd0fe57017e306a253865f419b45e23355cf5225f20fd6b5087",
+        "sha256_in_prefix": "a0fdb9617b107cd0fe57017e306a253865f419b45e23355cf5225f20fd6b5087",
+        "size_in_bytes": 9041
+      },
+      {
+        "_path": "site-packages/celery/utils/imports.py",
+        "path_type": "hardlink",
+        "sha256": "2b4d998aa2d9c065426043278dd222964baaee7e049eacc502b37acaa1016c2d",
+        "sha256_in_prefix": "2b4d998aa2d9c065426043278dd222964baaee7e049eacc502b37acaa1016c2d",
+        "size_in_bytes": 5126
+      },
+      {
+        "_path": "site-packages/celery/utils/iso8601.py",
+        "path_type": "hardlink",
+        "sha256": "e89262db5827144f45f20614316cb08e93b29106e48801499e95b7486f81a515",
+        "sha256_in_prefix": "e89262db5827144f45f20614316cb08e93b29106e48801499e95b7486f81a515",
+        "size_in_bytes": 2899
+      },
+      {
+        "_path": "site-packages/celery/utils/log.py",
+        "path_type": "hardlink",
+        "sha256": "bc26cef09934a0f7625c24874cce29949f37c5d7c5d6a26083e254caa6d45d71",
+        "sha256_in_prefix": "bc26cef09934a0f7625c24874cce29949f37c5d7c5d6a26083e254caa6d45d71",
+        "size_in_bytes": 8757
+      },
+      {
+        "_path": "site-packages/celery/utils/nodenames.py",
+        "path_type": "hardlink",
+        "sha256": "51107076d591fc217c2dd7fab63c44e32eeb9742b11450f7e878e365caf04396",
+        "sha256_in_prefix": "51107076d591fc217c2dd7fab63c44e32eeb9742b11450f7e878e365caf04396",
+        "size_in_bytes": 2858
+      },
+      {
+        "_path": "site-packages/celery/utils/objects.py",
+        "path_type": "hardlink",
+        "sha256": "359fcdc747a1ac9badf75b2bb802369151b28e1683411fe7b53985f4e9bf488f",
+        "sha256_in_prefix": "359fcdc747a1ac9badf75b2bb802369151b28e1683411fe7b53985f4e9bf488f",
+        "size_in_bytes": 4215
+      },
+      {
+        "_path": "site-packages/celery/utils/saferepr.py",
+        "path_type": "hardlink",
+        "sha256": "b83c0333699ca87f928d9352159b47381c2534710c3958f0d5ce3b6b2bee886a",
+        "sha256_in_prefix": "b83c0333699ca87f928d9352159b47381c2534710c3958f0d5ce3b6b2bee886a",
+        "size_in_bytes": 9020
+      },
+      {
+        "_path": "site-packages/celery/utils/serialization.py",
+        "path_type": "hardlink",
+        "sha256": "e5ed4196f9bc1ad90d9f72e80ce6d137d4c72514555609a9e0e16dd1e8750093",
+        "sha256_in_prefix": "e5ed4196f9bc1ad90d9f72e80ce6d137d4c72514555609a9e0e16dd1e8750093",
+        "size_in_bytes": 8209
+      },
+      {
+        "_path": "site-packages/celery/utils/static/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2b00eaf2103e5ddef6d4795dc09277e04c70ac81329e0128488cde027a9ce420",
+        "sha256_in_prefix": "2b00eaf2103e5ddef6d4795dc09277e04c70ac81329e0128488cde027a9ce420",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "site-packages/celery/utils/static/celery_128.png",
+        "path_type": "hardlink",
+        "sha256": "f0d999c4200b40fa772953ac38f7c955a34bbf0c0b62a892e5588e73ac744865",
+        "sha256_in_prefix": "f0d999c4200b40fa772953ac38f7c955a34bbf0c0b62a892e5588e73ac744865",
+        "size_in_bytes": 2556
+      },
+      {
+        "_path": "site-packages/celery/utils/sysinfo.py",
+        "path_type": "hardlink",
+        "sha256": "2d8746cf16c5df9ecfad8370df5ffd7fc084beb95db5bd1501620572506d0a70",
+        "sha256_in_prefix": "2d8746cf16c5df9ecfad8370df5ffd7fc084beb95db5bd1501620572506d0a70",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "site-packages/celery/utils/term.py",
+        "path_type": "hardlink",
+        "sha256": "c54411eef5ebfdfd7e5fe4c6e68e1e0273c69ab87944ce9f7d7b1d28468ca3a6",
+        "sha256_in_prefix": "c54411eef5ebfdfd7e5fe4c6e68e1e0273c69ab87944ce9f7d7b1d28468ca3a6",
+        "size_in_bytes": 4534
+      },
+      {
+        "_path": "site-packages/celery/utils/text.py",
+        "path_type": "hardlink",
+        "sha256": "7bd7799838069b21bac5cecf29f9855671a81a3f43028709d77b93499e17caac",
+        "sha256_in_prefix": "7bd7799838069b21bac5cecf29f9855671a81a3f43028709d77b93499e17caac",
+        "size_in_bytes": 5844
+      },
+      {
+        "_path": "site-packages/celery/utils/threads.py",
+        "path_type": "hardlink",
+        "sha256": "fd254ba574a241035dd8835268c342dab1856478cd0ecfa557e3679562cbcf59",
+        "sha256_in_prefix": "fd254ba574a241035dd8835268c342dab1856478cd0ecfa557e3679562cbcf59",
+        "size_in_bytes": 9552
+      },
+      {
+        "_path": "site-packages/celery/utils/time.py",
+        "path_type": "hardlink",
+        "sha256": "de0b9f67b9c5c0c28cccd45be5549b19fc397ff13ab75859952dab7645020463",
+        "sha256_in_prefix": "de0b9f67b9c5c0c28cccd45be5549b19fc397ff13ab75859952dab7645020463",
+        "size_in_bytes": 15010
+      },
+      {
+        "_path": "site-packages/celery/utils/timer2.py",
+        "path_type": "hardlink",
+        "sha256": "c6fffbc7f6c3b482f1e2b7a0a849b5a6940d7a7a334b03978bedb5a90e04246e",
+        "sha256_in_prefix": "c6fffbc7f6c3b482f1e2b7a0a849b5a6940d7a7a334b03978bedb5a90e04246e",
+        "size_in_bytes": 4813
+      },
+      {
+        "_path": "site-packages/celery/worker/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "10a52058e32aff50df59bf8e6805afe2b34b77b822f756a275e7cc8c7328c732",
+        "sha256_in_prefix": "10a52058e32aff50df59bf8e6805afe2b34b77b822f756a275e7cc8c7328c732",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "site-packages/celery/worker/autoscale.py",
+        "path_type": "hardlink",
+        "sha256": "9336f5193c11cb0f436458f022f1eb70b749c6e20623c1da1ddb6fb6bdf58bd0",
+        "sha256_in_prefix": "9336f5193c11cb0f436458f022f1eb70b749c6e20623c1da1ddb6fb6bdf58bd0",
+        "size_in_bytes": 4593
+      },
+      {
+        "_path": "site-packages/celery/worker/components.py",
+        "path_type": "hardlink",
+        "sha256": "2793babd34fcd9d0d4bbed801d5f517c8bb8642111a15b89601057108eff2b7b",
+        "sha256_in_prefix": "2793babd34fcd9d0d4bbed801d5f517c8bb8642111a15b89601057108eff2b7b",
+        "size_in_bytes": 7497
+      },
+      {
+        "_path": "site-packages/celery/worker/consumer/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c8a68666d07360a00364ccdb4aad78fc0518a53e10018f6745109fef70c386a7",
+        "sha256_in_prefix": "c8a68666d07360a00364ccdb4aad78fc0518a53e10018f6745109fef70c386a7",
+        "size_in_bytes": 391
+      },
+      {
+        "_path": "site-packages/celery/worker/consumer/agent.py",
+        "path_type": "hardlink",
+        "sha256": "6d3852f1955ebb26c0caa35ef2399d37a460689843ab49657b0a2c1ab3bce7e7",
+        "sha256_in_prefix": "6d3852f1955ebb26c0caa35ef2399d37a460689843ab49657b0a2c1ab3bce7e7",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "site-packages/celery/worker/consumer/connection.py",
+        "path_type": "hardlink",
+        "sha256": "6bb836df09b37af90488c8e38c3f0ab78b1c8a17ff36092947881cba4b32b3d3",
+        "sha256_in_prefix": "6bb836df09b37af90488c8e38c3f0ab78b1c8a17ff36092947881cba4b32b3d3",
+        "size_in_bytes": 1026
+      },
+      {
+        "_path": "site-packages/celery/worker/consumer/consumer.py",
+        "path_type": "hardlink",
+        "sha256": "8fcf22cbee9b4f969936fd8d6438d4a077a03c73f770a4f81d764bc48f361f87",
+        "sha256_in_prefix": "8fcf22cbee9b4f969936fd8d6438d4a077a03c73f770a4f81d764bc48f361f87",
+        "size_in_bytes": 28866
+      },
+      {
+        "_path": "site-packages/celery/worker/consumer/control.py",
+        "path_type": "hardlink",
+        "sha256": "d0d889f4ff801ddbf5df899792046053d85f85d27f3fb1ca6fbcfd0385ea6b64",
+        "sha256_in_prefix": "d0d889f4ff801ddbf5df899792046053d85f85d27f3fb1ca6fbcfd0385ea6b64",
+        "size_in_bytes": 946
+      },
+      {
+        "_path": "site-packages/celery/worker/consumer/events.py",
+        "path_type": "hardlink",
+        "sha256": "1600f06d5d096e3f5a58f6d5dca014b6c5d9ab826f6447eb59f9eb620be4320a",
+        "sha256_in_prefix": "1600f06d5d096e3f5a58f6d5dca014b6c5d9ab826f6447eb59f9eb620be4320a",
+        "size_in_bytes": 2054
+      },
+      {
+        "_path": "site-packages/celery/worker/consumer/gossip.py",
+        "path_type": "hardlink",
+        "sha256": "2c8f05b1415b35a510ca7eb4d021dc92c35b4bf8c55b3161814e1f604b7b1e12",
+        "sha256_in_prefix": "2c8f05b1415b35a510ca7eb4d021dc92c35b4bf8c55b3161814e1f604b7b1e12",
+        "size_in_bytes": 6863
+      },
+      {
+        "_path": "site-packages/celery/worker/consumer/heart.py",
+        "path_type": "hardlink",
+        "sha256": "21e9e492588a93ab009366b535f63287e76834396615619189a25de5ef002e92",
+        "sha256_in_prefix": "21e9e492588a93ab009366b535f63287e76834396615619189a25de5ef002e92",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "site-packages/celery/worker/consumer/mingle.py",
+        "path_type": "hardlink",
+        "sha256": "506f0aeac5c5d4a5095cd889e1e30750c220e3fecad6d0d6a9844d7ddf4dcfd9",
+        "sha256_in_prefix": "506f0aeac5c5d4a5095cd889e1e30750c220e3fecad6d0d6a9844d7ddf4dcfd9",
+        "size_in_bytes": 2519
+      },
+      {
+        "_path": "site-packages/celery/worker/consumer/tasks.py",
+        "path_type": "hardlink",
+        "sha256": "3f036a0191c91906a48b29856b8abac1ba660c2a7752d48dffb7dde638004d19",
+        "sha256_in_prefix": "3f036a0191c91906a48b29856b8abac1ba660c2a7752d48dffb7dde638004d19",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "site-packages/celery/worker/control.py",
+        "path_type": "hardlink",
+        "sha256": "df46b3a714a150736e29ebc4b091b8ef3435d6576b11a6aae726ad52f413db75",
+        "sha256_in_prefix": "df46b3a714a150736e29ebc4b091b8ef3435d6576b11a6aae726ad52f413db75",
+        "size_in_bytes": 19884
+      },
+      {
+        "_path": "site-packages/celery/worker/heartbeat.py",
+        "path_type": "hardlink",
+        "sha256": "b1357f774441f4ceb3b1722f2d9ed553ab5e51f5f720ad484f29c3a71312dbdf",
+        "sha256_in_prefix": "b1357f774441f4ceb3b1722f2d9ed553ab5e51f5f720ad484f29c3a71312dbdf",
+        "size_in_bytes": 2107
+      },
+      {
+        "_path": "site-packages/celery/worker/loops.py",
+        "path_type": "hardlink",
+        "sha256": "5bd6b20b0617380d1a0b13cfa2d5dce3db80fe7ec29ccb0344f25550d6fc6d93",
+        "sha256_in_prefix": "5bd6b20b0617380d1a0b13cfa2d5dce3db80fe7ec29ccb0344f25550d6fc6d93",
+        "size_in_bytes": 4433
+      },
+      {
+        "_path": "site-packages/celery/worker/pidbox.py",
+        "path_type": "hardlink",
+        "sha256": "2dc42c28391df19f779d0c64d1238bba507c18b11f2233e437e274a4693b75f3",
+        "sha256_in_prefix": "2dc42c28391df19f779d0c64d1238bba507c18b11f2233e437e274a4693b75f3",
+        "size_in_bytes": 3630
+      },
+      {
+        "_path": "site-packages/celery/worker/request.py",
+        "path_type": "hardlink",
+        "sha256": "305ed1b159a6e09af26ce86741982ec43708a44b9e7dd3933310030e826f83bd",
+        "sha256_in_prefix": "305ed1b159a6e09af26ce86741982ec43708a44b9e7dd3933310030e826f83bd",
+        "size_in_bytes": 27229
+      },
+      {
+        "_path": "site-packages/celery/worker/state.py",
+        "path_type": "hardlink",
+        "sha256": "fe7420bc67a86a12b3fd3242c7b4ebdb490aacdb4381a040efc780d7b840fbcb",
+        "sha256_in_prefix": "fe7420bc67a86a12b3fd3242c7b4ebdb490aacdb4381a040efc780d7b840fbcb",
+        "size_in_bytes": 8583
+      },
+      {
+        "_path": "site-packages/celery/worker/strategy.py",
+        "path_type": "hardlink",
+        "sha256": "312ce77d95e4a83e9665149a6a721166f83e7f8d434807365a04d55089638747",
+        "sha256_in_prefix": "312ce77d95e4a83e9665149a6a721166f83e7f8d434807365a04d55089638747",
+        "size_in_bytes": 7324
+      },
+      {
+        "_path": "site-packages/celery/worker/worker.py",
+        "path_type": "hardlink",
+        "sha256": "acda298d6740cdbf4ab2cce3c3d5a8cef080e679034276e9d27d7531e2c08ad7",
+        "sha256_in_prefix": "acda298d6740cdbf4ab2cce3c3d5a8cef080e679034276e9d27d7531e2c08ad7",
+        "size_in_bytes": 14460
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/_state.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/amqp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/annotations.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/autoretry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/backends.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/builtins.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/control.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/defaults.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/events.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/log.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/registry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/routes.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/task.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/trace.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/app/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/apps/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/apps/__pycache__/beat.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/apps/__pycache__/multi.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/apps/__pycache__/worker.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/arangodb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/asynchronous.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/azureblockblob.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/cache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/cassandra.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/consul.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/cosmosdbsql.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/couchbase.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/couchdb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/database/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/database/__pycache__/models.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/database/__pycache__/session.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/dynamodb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/elasticsearch.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/filesystem.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/mongodb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/redis.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/rpc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/backends/__pycache__/s3.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/beat.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/amqp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/beat.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/call.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/celery.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/control.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/events.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/graph.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/list.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/logtool.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/migrate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/multi.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/purge.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/result.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/shell.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/upgrade.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/bin/__pycache__/worker.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/bootsteps.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/canvas.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/concurrency/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/concurrency/__pycache__/asynpool.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/concurrency/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/concurrency/__pycache__/eventlet.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/concurrency/__pycache__/gevent.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/concurrency/__pycache__/prefork.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/concurrency/__pycache__/solo.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/concurrency/__pycache__/thread.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/__pycache__/abortable.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/__pycache__/migrate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/__pycache__/pytest.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/__pycache__/rdb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/__pycache__/sphinx.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/app.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/manager.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/mocks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/tasks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/contrib/testing/__pycache__/worker.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/events/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/events/__pycache__/cursesmon.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/events/__pycache__/dispatcher.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/events/__pycache__/dumper.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/events/__pycache__/event.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/events/__pycache__/receiver.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/events/__pycache__/snapshot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/events/__pycache__/state.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/fixups/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/fixups/__pycache__/django.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/loaders/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/loaders/__pycache__/app.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/loaders/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/loaders/__pycache__/default.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/local.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/platforms.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/result.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/schedules.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/security/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/security/__pycache__/certificate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/security/__pycache__/key.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/security/__pycache__/serialization.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/security/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/signals.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/__pycache__/states.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/abstract.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/collections.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/debug.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/deprecated.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/dispatch/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/dispatch/__pycache__/signal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/functional.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/graph.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/imports.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/iso8601.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/log.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/nodenames.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/objects.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/saferepr.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/serialization.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/static/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/sysinfo.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/term.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/text.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/threads.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/time.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/utils/__pycache__/timer2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/__pycache__/autoscale.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/__pycache__/components.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/agent.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/connection.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/consumer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/control.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/events.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/gossip.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/heart.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/mingle.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/consumer/__pycache__/tasks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/__pycache__/control.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/__pycache__/heartbeat.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/__pycache__/loops.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/__pycache__/pidbox.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/__pycache__/request.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/__pycache__/state.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/__pycache__/strategy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/celery/worker/__pycache__/worker.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/celery",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b4b2d9e018a95585827878b64f0ba00d4e980fd5f9f0017652ed4d9aee696f31",
+  "size": 509299,
+  "subdir": "noarch",
+  "timestamp": 1703899453000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/celery-5.3.5-pyhd8ed1ab_0.conda",
+  "version": "5.3.5"
+}

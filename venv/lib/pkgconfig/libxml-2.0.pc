@@ -1,0 +1,13 @@
+prefix=/home/geser/data-version-control/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.12.5
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/home/geser/data-version-control/venv/lib -lz -L/home/geser/data-version-control/venv/lib -llzma  -L/home/geser/data-version-control/venv/lib  -lm  
+Cflags: -I${includedir}/libxml2 -I/home/geser/data-version-control/venv/include 

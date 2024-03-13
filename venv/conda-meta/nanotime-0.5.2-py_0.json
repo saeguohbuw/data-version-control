@@ -1,0 +1,88 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/nanotime-0.5.2-py_0",
+  "files": [
+    "lib/python3.9/site-packages/nanotime-0.5.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/nanotime-0.5.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/nanotime-0.5.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/nanotime-0.5.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/nanotime-0.5.2.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/nanotime/__init__.py",
+    "lib/python3.9/site-packages/nanotime/__pycache__/__init__.cpython-39.pyc"
+  ],
+  "fn": "nanotime-0.5.2-py_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/nanotime-0.5.2-py_0",
+    "type": 1
+  },
+  "md5": "01a44d917e6ddbe9b8873b2f81d45971",
+  "name": "nanotime",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/nanotime-0.5.2-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/nanotime-0.5.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/nanotime-0.5.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3b4dd50d1f596d4c6757b84a58e577bfa48ae0e1d8adb41b33d14a9255324592",
+        "sha256_in_prefix": "3b4dd50d1f596d4c6757b84a58e577bfa48ae0e1d8adb41b33d14a9255324592",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "site-packages/nanotime-0.5.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "525e563c43f19afe1a6a4b96370b69ddd0666b87232aa145422d7450b17d9c39",
+        "sha256_in_prefix": "525e563c43f19afe1a6a4b96370b69ddd0666b87232aa145422d7450b17d9c39",
+        "size_in_bytes": 496
+      },
+      {
+        "_path": "site-packages/nanotime-0.5.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "sha256_in_prefix": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/nanotime-0.5.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ce0f536878c19aeac997c91b0715281192b77637d6c53a851c9f4165609e1159",
+        "sha256_in_prefix": "ce0f536878c19aeac997c91b0715281192b77637d6c53a851c9f4165609e1159",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/nanotime/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6297757f9acc64cef328b5e22acd9f257ebb132a92cadada315c944786ecb271",
+        "sha256_in_prefix": "6297757f9acc64cef328b5e22acd9f257ebb132a92cadada315c944786ecb271",
+        "size_in_bytes": 4493
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nanotime/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7ff5a933230709a381cfad1752601030f64825b2d67de28d3ab4a1d506deae92",
+  "size": 6185,
+  "subdir": "noarch",
+  "timestamp": 1564406169000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nanotime-0.5.2-py_0.tar.bz2",
+  "version": "0.5.2"
+}

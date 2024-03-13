@@ -1,0 +1,177 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/vine-5.1.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/vine-5.1.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/vine-5.1.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/vine-5.1.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/vine-5.1.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/vine-5.1.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/vine-5.1.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/vine-5.1.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/vine-5.1.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/vine/__init__.py",
+    "lib/python3.9/site-packages/vine/abstract.py",
+    "lib/python3.9/site-packages/vine/funtools.py",
+    "lib/python3.9/site-packages/vine/promises.py",
+    "lib/python3.9/site-packages/vine/synchronization.py",
+    "lib/python3.9/site-packages/vine/utils.py",
+    "lib/python3.9/site-packages/vine/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/vine/__pycache__/abstract.cpython-39.pyc",
+    "lib/python3.9/site-packages/vine/__pycache__/funtools.cpython-39.pyc",
+    "lib/python3.9/site-packages/vine/__pycache__/promises.cpython-39.pyc",
+    "lib/python3.9/site-packages/vine/__pycache__/synchronization.cpython-39.pyc",
+    "lib/python3.9/site-packages/vine/__pycache__/utils.cpython-39.pyc"
+  ],
+  "fn": "vine-5.1.0-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/vine-5.1.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "af71debe5f1819b065c0ba2b062ae81c",
+  "name": "vine",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/vine-5.1.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/vine-5.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/vine-5.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "177f62f5352b9321f802cead0c2247663d37895304f9c434698446be90c5aaf8",
+        "sha256_in_prefix": "177f62f5352b9321f802cead0c2247663d37895304f9c434698446be90c5aaf8",
+        "size_in_bytes": 2461
+      },
+      {
+        "_path": "site-packages/vine-5.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e488c1cadaad5b4d956140f9dacea058c17e05934c1bf2bfa2338e7e3723735d",
+        "sha256_in_prefix": "e488c1cadaad5b4d956140f9dacea058c17e05934c1bf2bfa2338e7e3723735d",
+        "size_in_bytes": 2655
+      },
+      {
+        "_path": "site-packages/vine-5.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b78d525c5b60c90f7e128bdb7e9396338bfdd65cb256a8a2174431cdd6e3250e",
+        "sha256_in_prefix": "b78d525c5b60c90f7e128bdb7e9396338bfdd65cb256a8a2174431cdd6e3250e",
+        "size_in_bytes": 1359
+      },
+      {
+        "_path": "site-packages/vine-5.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/vine-5.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5e8f7ed4fbe4ba29abc9dba360902317ba4292b8ae5c1a543c48e66b59d9c89d",
+        "sha256_in_prefix": "5e8f7ed4fbe4ba29abc9dba360902317ba4292b8ae5c1a543c48e66b59d9c89d",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/vine-5.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5419edea22c602bbcbbb6542378d502428dc06b8c35821319ebf6087a82b3a83",
+        "sha256_in_prefix": "5419edea22c602bbcbbb6542378d502428dc06b8c35821319ebf6087a82b3a83",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/vine-5.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "bf561d4cf87f0f02a7778425286e9d2c9d68885387a113d86e6fc9a1b1508708",
+        "sha256_in_prefix": "bf561d4cf87f0f02a7778425286e9d2c9d68885387a113d86e6fc9a1b1508708",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/vine/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3abfc6cbf817eef195180a73ea271361954eac6c522d7194c65c422ef20be6ce",
+        "sha256_in_prefix": "3abfc6cbf817eef195180a73ea271361954eac6c522d7194c65c422ef20be6ce",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "site-packages/vine/abstract.py",
+        "path_type": "hardlink",
+        "sha256": "67ffd7fc0c6e0d96fe17bc3a9dd35b9b1a89a23e6e5c5e5009697131d38cd351",
+        "sha256_in_prefix": "67ffd7fc0c6e0d96fe17bc3a9dd35b9b1a89a23e6e5c5e5009697131d38cd351",
+        "size_in_bytes": 1620
+      },
+      {
+        "_path": "site-packages/vine/funtools.py",
+        "path_type": "hardlink",
+        "sha256": "379c6a02b3fcf5e5435cd704632612041f2b8473fd9971923329f415cc2ba842",
+        "sha256_in_prefix": "379c6a02b3fcf5e5435cd704632612041f2b8473fd9971923329f415cc2ba842",
+        "size_in_bytes": 2862
+      },
+      {
+        "_path": "site-packages/vine/promises.py",
+        "path_type": "hardlink",
+        "sha256": "dd4925fca090e97baf3d27fafa2196dfabe8079a21ba48934c671dee416d5e3f",
+        "sha256_in_prefix": "dd4925fca090e97baf3d27fafa2196dfabe8079a21ba48934c671dee416d5e3f",
+        "size_in_bytes": 7681
+      },
+      {
+        "_path": "site-packages/vine/synchronization.py",
+        "path_type": "hardlink",
+        "sha256": "e84ad171effca33966072e5c00a07dd7731fab498c883dd86afb3f9ea0fcc958",
+        "sha256_in_prefix": "e84ad171effca33966072e5c00a07dd7731fab498c883dd86afb3f9ea0fcc958",
+        "size_in_bytes": 2960
+      },
+      {
+        "_path": "site-packages/vine/utils.py",
+        "path_type": "hardlink",
+        "sha256": "6d82ebc0e4e34010b4c8c1bfd82795dde0413155855f9a0aba1c3755fd43f940",
+        "sha256_in_prefix": "6d82ebc0e4e34010b4c8c1bfd82795dde0413155855f9a0aba1c3755fd43f940",
+        "size_in_bytes": 853
+      },
+      {
+        "_path": "lib/python3.9/site-packages/vine/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/vine/__pycache__/abstract.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/vine/__pycache__/funtools.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/vine/__pycache__/promises.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/vine/__pycache__/synchronization.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/vine/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "95a819731659de391ee084d68a1bdee56a5a16d0db95783c6cf115638d372215",
+  "size": 14694,
+  "subdir": "noarch",
+  "timestamp": 1699264930000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/vine-5.1.0-pyhd8ed1ab_0.conda",
+  "version": "5.1.0"
+}

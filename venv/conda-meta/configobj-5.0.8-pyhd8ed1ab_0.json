@@ -1,0 +1,152 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "six"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/configobj-5.0.8-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/configobj-5.0.8.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/configobj-5.0.8.dist-info/LICENSE",
+    "lib/python3.9/site-packages/configobj-5.0.8.dist-info/METADATA",
+    "lib/python3.9/site-packages/configobj-5.0.8.dist-info/RECORD",
+    "lib/python3.9/site-packages/configobj-5.0.8.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/configobj-5.0.8.dist-info/WHEEL",
+    "lib/python3.9/site-packages/configobj-5.0.8.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/configobj-5.0.8.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/configobj/__init__.py",
+    "lib/python3.9/site-packages/configobj/_version.py",
+    "lib/python3.9/site-packages/configobj/validate.py",
+    "lib/python3.9/site-packages/validate/__init__.py",
+    "lib/python3.9/site-packages/configobj/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/configobj/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/configobj/__pycache__/validate.cpython-39.pyc",
+    "lib/python3.9/site-packages/validate/__pycache__/__init__.cpython-39.pyc"
+  ],
+  "fn": "configobj-5.0.8-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/configobj-5.0.8-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "04c71f400324538d4396407ea2ffb34f",
+  "name": "configobj",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/configobj-5.0.8-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/configobj-5.0.8.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/configobj-5.0.8.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0d95e648469a711f5ec1e59e6d4492150ec65d968c1ea6c6d96154a92879997a",
+        "sha256_in_prefix": "0d95e648469a711f5ec1e59e6d4492150ec65d968c1ea6c6d96154a92879997a",
+        "size_in_bytes": 1736
+      },
+      {
+        "_path": "site-packages/configobj-5.0.8.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "836cf6663350a19bfffb9e3e7c0e2a1dbafce4da088ced8ff25bed6059dec226",
+        "sha256_in_prefix": "836cf6663350a19bfffb9e3e7c0e2a1dbafce4da088ced8ff25bed6059dec226",
+        "size_in_bytes": 2140
+      },
+      {
+        "_path": "site-packages/configobj-5.0.8.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8cce0c1d820ad14a62d3f0221706c0b4b7c402fc323b2858f86e2fdaf413c9e9",
+        "sha256_in_prefix": "8cce0c1d820ad14a62d3f0221706c0b4b7c402fc323b2858f86e2fdaf413c9e9",
+        "size_in_bytes": 1193
+      },
+      {
+        "_path": "site-packages/configobj-5.0.8.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/configobj-5.0.8.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6dbd8eb7db1c7251ca30e2c310763a076b227163a0ba08c529a26c4fbbf0310a",
+        "sha256_in_prefix": "6dbd8eb7db1c7251ca30e2c310763a076b227163a0ba08c529a26c4fbbf0310a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/configobj-5.0.8.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b86b6297535bcb578ebd4787930b73892c8b0712d400b9216fd9da555892ff72",
+        "sha256_in_prefix": "b86b6297535bcb578ebd4787930b73892c8b0712d400b9216fd9da555892ff72",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/configobj-5.0.8.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "26268ec9c48fd0159b16530a4943652ae24a62874b27f582ae868cd607188c9b",
+        "sha256_in_prefix": "26268ec9c48fd0159b16530a4943652ae24a62874b27f582ae868cd607188c9b",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "site-packages/configobj/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a924cf3f212ec799ea0ade8d0e0b3ed7f9898677f02981470624e0773469c975",
+        "sha256_in_prefix": "a924cf3f212ec799ea0ade8d0e0b3ed7f9898677f02981470624e0773469c975",
+        "size_in_bytes": 89638
+      },
+      {
+        "_path": "site-packages/configobj/_version.py",
+        "path_type": "hardlink",
+        "sha256": "d3d1bd5456b3d5c94093d5b80b00fb8da5c1bac4108307ee1e4667e62f0271bc",
+        "sha256_in_prefix": "d3d1bd5456b3d5c94093d5b80b00fb8da5c1bac4108307ee1e4667e62f0271bc",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/configobj/validate.py",
+        "path_type": "hardlink",
+        "sha256": "f2d1f935df4c2c7f367e635e5c1cb0d568af34d17243896f5904671395bfcf17",
+        "sha256_in_prefix": "f2d1f935df4c2c7f367e635e5c1cb0d568af34d17243896f5904671395bfcf17",
+        "size_in_bytes": 47216
+      },
+      {
+        "_path": "site-packages/validate/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7bfad42ab79c6255ba409e00ff566322a13a2ea0cd9887f051df0e062b539ab0",
+        "sha256_in_prefix": "7bfad42ab79c6255ba409e00ff566322a13a2ea0cd9887f051df0e062b539ab0",
+        "size_in_bytes": 286
+      },
+      {
+        "_path": "lib/python3.9/site-packages/configobj/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/configobj/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/configobj/__pycache__/validate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/validate/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ee523a09a70c4ef71418b12ea3086169b69969dbfa382791dbde5e1a00e41728",
+  "size": 37331,
+  "subdir": "noarch",
+  "timestamp": 1674245033000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/configobj-5.0.8-pyhd8ed1ab_0.conda",
+  "version": "5.0.8"
+}

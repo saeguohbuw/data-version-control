@@ -1,0 +1,151 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/atpublic-3.0.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/atpublic-3.0.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/atpublic-3.0.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/atpublic-3.0.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/atpublic-3.0.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/atpublic-3.0.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/atpublic-3.0.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/atpublic-3.0.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/public/__init__.py",
+    "lib/python3.9/site-packages/public/private.py",
+    "lib/python3.9/site-packages/public/public.py",
+    "lib/python3.9/site-packages/public/py.typed",
+    "lib/python3.9/site-packages/public/types.py",
+    "lib/python3.9/site-packages/public/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/public/__pycache__/private.cpython-39.pyc",
+    "lib/python3.9/site-packages/public/__pycache__/public.cpython-39.pyc",
+    "lib/python3.9/site-packages/public/__pycache__/types.cpython-39.pyc"
+  ],
+  "fn": "atpublic-3.0.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/atpublic-3.0.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "39904aaf8de88f03fe9c27286dc35681",
+  "name": "atpublic",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/atpublic-3.0.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/atpublic-3.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/atpublic-3.0.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5142d3f39fd3b3b78d7b0d3be0ad1b5f26d9779b6e16890b20d2aa471ab490bc",
+        "sha256_in_prefix": "5142d3f39fd3b3b78d7b0d3be0ad1b5f26d9779b6e16890b20d2aa471ab490bc",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "site-packages/atpublic-3.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "21f332a1f320671fba51d2e56b0e88df6d2988ab582655c6ba3bce7103e82348",
+        "sha256_in_prefix": "21f332a1f320671fba51d2e56b0e88df6d2988ab582655c6ba3bce7103e82348",
+        "size_in_bytes": 1808
+      },
+      {
+        "_path": "site-packages/atpublic-3.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "515450b97ffe5c971ce1e5f6f21b6cf278ed3d84047772534f3366480430e5d4",
+        "sha256_in_prefix": "515450b97ffe5c971ce1e5f6f21b6cf278ed3d84047772534f3366480430e5d4",
+        "size_in_bytes": 1119
+      },
+      {
+        "_path": "site-packages/atpublic-3.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/atpublic-3.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1ce21421d9eec11a9c0deff6b4093139ec047ac0507415d7eb8fd0331084bdcf",
+        "sha256_in_prefix": "1ce21421d9eec11a9c0deff6b4093139ec047ac0507415d7eb8fd0331084bdcf",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/atpublic-3.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ceb50f0a526673cfbc07ac89eb5c97e6e7ad4942bff465e414a541994980d249",
+        "sha256_in_prefix": "ceb50f0a526673cfbc07ac89eb5c97e6e7ad4942bff465e414a541994980d249",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/public/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4c9a63b7d8f03de52fc430b8919678041014abc605d281bc68ada5eeb1ea3029",
+        "sha256_in_prefix": "4c9a63b7d8f03de52fc430b8919678041014abc605d281bc68ada5eeb1ea3029",
+        "size_in_bytes": 509
+      },
+      {
+        "_path": "site-packages/public/private.py",
+        "path_type": "hardlink",
+        "sha256": "c6c076946443974a8e8eed781ee926e696e2338e660c4826c943450270ec0e20",
+        "sha256_in_prefix": "c6c076946443974a8e8eed781ee926e696e2338e660c4826c943450270ec0e20",
+        "size_in_bytes": 759
+      },
+      {
+        "_path": "site-packages/public/public.py",
+        "path_type": "hardlink",
+        "sha256": "4b61e78f6548e009598688e20d306125335118defbc89bc5c5159abc9e564a84",
+        "sha256_in_prefix": "4b61e78f6548e009598688e20d306125335118defbc89bc5c5159abc9e564a84",
+        "size_in_bytes": 3057
+      },
+      {
+        "_path": "site-packages/public/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/public/types.py",
+        "path_type": "hardlink",
+        "sha256": "2a5ecb62b204c2fb3659b55ce871096d1a8b643cd66da7e34dbda3dedbfc3691",
+        "sha256_in_prefix": "2a5ecb62b204c2fb3659b55ce871096d1a8b643cd66da7e34dbda3dedbfc3691",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "lib/python3.9/site-packages/public/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/public/__pycache__/private.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/public/__pycache__/public.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/public/__pycache__/types.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6720f02d2e2293864f5f6cc8faf8f8a308706caefd7e6324d144ea492450d16b",
+  "size": 8296,
+  "subdir": "noarch",
+  "timestamp": 1641909440000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/atpublic-3.0.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "3.0.1"
+}

@@ -1,0 +1,1153 @@
+{
+  "build": "he3f83f7_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "cairo >=1.18.0,<2.0a0",
+    "gdk-pixbuf >=2.42.10,<3.0a0",
+    "gettext >=0.21.1,<1.0a0",
+    "libgcc-ng >=12",
+    "libglib >=2.78.1,<3.0a0",
+    "libxml2 >=2.12.1,<3.0.0a0",
+    "pango >=1.50.14,<2.0a0"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/librsvg-2.56.3-he3f83f7_1",
+  "files": [
+    "bin/.librsvg-post-link.sh",
+    "bin/.librsvg-pre-unlink.sh",
+    "bin/rsvg-convert",
+    "include/librsvg-2.0/librsvg/rsvg-cairo.h",
+    "include/librsvg-2.0/librsvg/rsvg-features.h",
+    "include/librsvg-2.0/librsvg/rsvg-version.h",
+    "include/librsvg-2.0/librsvg/rsvg.h",
+    "lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so",
+    "lib/girepository-1.0/Rsvg-2.0.typelib",
+    "lib/librsvg-2.so",
+    "lib/librsvg-2.so.2",
+    "lib/librsvg-2.so.2.48.0",
+    "lib/pkgconfig/librsvg-2.0.pc",
+    "share/doc/Rsvg-2.0/RedHatDisplay-Black.woff",
+    "share/doc/Rsvg-2.0/RedHatDisplay-Black.woff2",
+    "share/doc/Rsvg-2.0/RedHatDisplay-BlackItalic.woff",
+    "share/doc/Rsvg-2.0/RedHatDisplay-BlackItalic.woff2",
+    "share/doc/Rsvg-2.0/RedHatDisplay-Bold.woff",
+    "share/doc/Rsvg-2.0/RedHatDisplay-Bold.woff2",
+    "share/doc/Rsvg-2.0/RedHatDisplay-BoldItalic.woff",
+    "share/doc/Rsvg-2.0/RedHatDisplay-BoldItalic.woff2",
+    "share/doc/Rsvg-2.0/RedHatDisplay-Italic.woff",
+    "share/doc/Rsvg-2.0/RedHatDisplay-Italic.woff2",
+    "share/doc/Rsvg-2.0/RedHatDisplay-Medium.woff",
+    "share/doc/Rsvg-2.0/RedHatDisplay-Medium.woff2",
+    "share/doc/Rsvg-2.0/RedHatDisplay-MediumItalic.woff",
+    "share/doc/Rsvg-2.0/RedHatDisplay-MediumItalic.woff2",
+    "share/doc/Rsvg-2.0/RedHatDisplay-Regular.woff",
+    "share/doc/Rsvg-2.0/RedHatDisplay-Regular.woff2",
+    "share/doc/Rsvg-2.0/RedHatText-Bold.woff",
+    "share/doc/Rsvg-2.0/RedHatText-Bold.woff2",
+    "share/doc/Rsvg-2.0/RedHatText-BoldItalic.woff",
+    "share/doc/Rsvg-2.0/RedHatText-BoldItalic.woff2",
+    "share/doc/Rsvg-2.0/RedHatText-Italic.woff",
+    "share/doc/Rsvg-2.0/RedHatText-Italic.woff2",
+    "share/doc/Rsvg-2.0/RedHatText-Medium.woff",
+    "share/doc/Rsvg-2.0/RedHatText-Medium.woff2",
+    "share/doc/Rsvg-2.0/RedHatText-MediumItalic.woff",
+    "share/doc/Rsvg-2.0/RedHatText-MediumItalic.woff2",
+    "share/doc/Rsvg-2.0/RedHatText-Regular.woff",
+    "share/doc/Rsvg-2.0/RedHatText-Regular.woff2",
+    "share/doc/Rsvg-2.0/Rsvg-2.0.devhelp2",
+    "share/doc/Rsvg-2.0/SourceCodePro-It.ttf.woff",
+    "share/doc/Rsvg-2.0/SourceCodePro-Regular.ttf.woff",
+    "share/doc/Rsvg-2.0/SourceCodePro-Semibold.ttf.woff",
+    "share/doc/Rsvg-2.0/callback.SizeFunc.html",
+    "share/doc/Rsvg-2.0/class.Handle.html",
+    "share/doc/Rsvg-2.0/classes_hierarchy.html",
+    "share/doc/Rsvg-2.0/const.MAJOR_VERSION.html",
+    "share/doc/Rsvg-2.0/const.MICRO_VERSION.html",
+    "share/doc/Rsvg-2.0/const.MINOR_VERSION.html",
+    "share/doc/Rsvg-2.0/const.VERSION.html",
+    "share/doc/Rsvg-2.0/ctor.Handle.new.html",
+    "share/doc/Rsvg-2.0/ctor.Handle.new_from_data.html",
+    "share/doc/Rsvg-2.0/ctor.Handle.new_from_file.html",
+    "share/doc/Rsvg-2.0/ctor.Handle.new_from_gfile_sync.html",
+    "share/doc/Rsvg-2.0/ctor.Handle.new_from_stream_sync.html",
+    "share/doc/Rsvg-2.0/ctor.Handle.new_with_flags.html",
+    "share/doc/Rsvg-2.0/enum.Unit.html",
+    "share/doc/Rsvg-2.0/error.Error.html",
+    "share/doc/Rsvg-2.0/flags.HandleFlags.html",
+    "share/doc/Rsvg-2.0/fonts.css",
+    "share/doc/Rsvg-2.0/func.CHECK_VERSION.html",
+    "share/doc/Rsvg-2.0/func.DEPRECATED_FOR.html",
+    "share/doc/Rsvg-2.0/func.cleanup.html",
+    "share/doc/Rsvg-2.0/func.init.html",
+    "share/doc/Rsvg-2.0/func.pixbuf_from_file.html",
+    "share/doc/Rsvg-2.0/func.pixbuf_from_file_at_max_size.html",
+    "share/doc/Rsvg-2.0/func.pixbuf_from_file_at_size.html",
+    "share/doc/Rsvg-2.0/func.pixbuf_from_file_at_zoom.html",
+    "share/doc/Rsvg-2.0/func.pixbuf_from_file_at_zoom_with_max.html",
+    "share/doc/Rsvg-2.0/func.set_default_dpi.html",
+    "share/doc/Rsvg-2.0/func.set_default_dpi_x_y.html",
+    "share/doc/Rsvg-2.0/func.term.html",
+    "share/doc/Rsvg-2.0/fzy.js",
+    "share/doc/Rsvg-2.0/go-up-symbolic.png",
+    "share/doc/Rsvg-2.0/index.html",
+    "share/doc/Rsvg-2.0/index.json",
+    "share/doc/Rsvg-2.0/librsvg-r.svg",
+    "share/doc/Rsvg-2.0/main.js",
+    "share/doc/Rsvg-2.0/method.Handle.close.html",
+    "share/doc/Rsvg-2.0/method.Handle.free.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_base_uri.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_desc.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_dimensions.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_dimensions_sub.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_geometry_for_element.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_geometry_for_layer.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_intrinsic_dimensions.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_intrinsic_size_in_pixels.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_metadata.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_pixbuf.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_pixbuf_sub.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_position_sub.html",
+    "share/doc/Rsvg-2.0/method.Handle.get_title.html",
+    "share/doc/Rsvg-2.0/method.Handle.has_sub.html",
+    "share/doc/Rsvg-2.0/method.Handle.internal_set_testing.html",
+    "share/doc/Rsvg-2.0/method.Handle.read_stream_sync.html",
+    "share/doc/Rsvg-2.0/method.Handle.render_cairo.html",
+    "share/doc/Rsvg-2.0/method.Handle.render_cairo_sub.html",
+    "share/doc/Rsvg-2.0/method.Handle.render_document.html",
+    "share/doc/Rsvg-2.0/method.Handle.render_element.html",
+    "share/doc/Rsvg-2.0/method.Handle.render_layer.html",
+    "share/doc/Rsvg-2.0/method.Handle.set_base_gfile.html",
+    "share/doc/Rsvg-2.0/method.Handle.set_base_uri.html",
+    "share/doc/Rsvg-2.0/method.Handle.set_dpi.html",
+    "share/doc/Rsvg-2.0/method.Handle.set_dpi_x_y.html",
+    "share/doc/Rsvg-2.0/method.Handle.set_size_callback.html",
+    "share/doc/Rsvg-2.0/method.Handle.set_stylesheet.html",
+    "share/doc/Rsvg-2.0/method.Handle.write.html",
+    "share/doc/Rsvg-2.0/migrating.html",
+    "share/doc/Rsvg-2.0/overview.html",
+    "share/doc/Rsvg-2.0/property.Handle.base-uri.html",
+    "share/doc/Rsvg-2.0/property.Handle.desc.html",
+    "share/doc/Rsvg-2.0/property.Handle.dpi-x.html",
+    "share/doc/Rsvg-2.0/property.Handle.dpi-y.html",
+    "share/doc/Rsvg-2.0/property.Handle.em.html",
+    "share/doc/Rsvg-2.0/property.Handle.ex.html",
+    "share/doc/Rsvg-2.0/property.Handle.flags.html",
+    "share/doc/Rsvg-2.0/property.Handle.height.html",
+    "share/doc/Rsvg-2.0/property.Handle.metadata.html",
+    "share/doc/Rsvg-2.0/property.Handle.title.html",
+    "share/doc/Rsvg-2.0/property.Handle.width.html",
+    "share/doc/Rsvg-2.0/recommendations.html",
+    "share/doc/Rsvg-2.0/search.js",
+    "share/doc/Rsvg-2.0/solarized-dark.css",
+    "share/doc/Rsvg-2.0/solarized-light.css",
+    "share/doc/Rsvg-2.0/struct.DimensionData.html",
+    "share/doc/Rsvg-2.0/struct.Length.html",
+    "share/doc/Rsvg-2.0/struct.PositionData.html",
+    "share/doc/Rsvg-2.0/struct.Rectangle.html",
+    "share/doc/Rsvg-2.0/style.css",
+    "share/doc/Rsvg-2.0/type_func.Error.quark.html",
+    "share/doc/Rsvg-2.0/urlmap.js",
+    "share/doc/librsvg/README.md",
+    "share/doc/librsvg/code-of-conduct.md",
+    "share/gir-1.0/Rsvg-2.0.gir",
+    "share/man/man1/rsvg-convert.1",
+    "share/thumbnailers/librsvg.thumbnailer"
+  ],
+  "fn": "librsvg-2.56.3-he3f83f7_1.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/librsvg-2.56.3-he3f83f7_1",
+    "type": 1
+  },
+  "md5": "03bd1ddcc942867a19528877143b9852",
+  "name": "librsvg",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/librsvg-2.56.3-he3f83f7_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.librsvg-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "e4e48f02f17e46b3dfbe4a89ed10c78b6357aaa1da6748f142272a8259ca947b",
+        "sha256_in_prefix": "e4e48f02f17e46b3dfbe4a89ed10c78b6357aaa1da6748f142272a8259ca947b",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "bin/.librsvg-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "e01b76f626ed318212a3221dd32f56250003128d194d3dc0aba9e9e19e9364e1",
+        "sha256_in_prefix": "e01b76f626ed318212a3221dd32f56250003128d194d3dc0aba9e9e19e9364e1",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "bin/rsvg-convert",
+        "path_type": "hardlink",
+        "sha256": "ae2ea074bc88e651486e6c318939052b4c3b8b840328ab3684dedb76a7d632a9",
+        "sha256_in_prefix": "ae2ea074bc88e651486e6c318939052b4c3b8b840328ab3684dedb76a7d632a9",
+        "size_in_bytes": 8189280
+      },
+      {
+        "_path": "include/librsvg-2.0/librsvg/rsvg-cairo.h",
+        "path_type": "hardlink",
+        "sha256": "d45788103239943192a15dc944fdc9f485d179738e7de08ddc0013970cfcb011",
+        "sha256_in_prefix": "d45788103239943192a15dc944fdc9f485d179738e7de08ddc0013970cfcb011",
+        "size_in_bytes": 17703
+      },
+      {
+        "_path": "include/librsvg-2.0/librsvg/rsvg-features.h",
+        "path_type": "hardlink",
+        "sha256": "f7aaed5f37ba82b67124e2fbf73ba77cc1ed01b09a8bc8d1d9694fc60de3366f",
+        "sha256_in_prefix": "f7aaed5f37ba82b67124e2fbf73ba77cc1ed01b09a8bc8d1d9694fc60de3366f",
+        "size_in_bytes": 6058
+      },
+      {
+        "_path": "include/librsvg-2.0/librsvg/rsvg-version.h",
+        "path_type": "hardlink",
+        "sha256": "afa5e211715e654ec939193b3d398ed6f622b00e90ff358cd05ba121df7dea23",
+        "sha256_in_prefix": "afa5e211715e654ec939193b3d398ed6f622b00e90ff358cd05ba121df7dea23",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "include/librsvg-2.0/librsvg/rsvg.h",
+        "path_type": "hardlink",
+        "sha256": "f1042407b70e214395d4286de7eb04a65f61dbda486c3b37c7566c90927dc162",
+        "sha256_in_prefix": "f1042407b70e214395d4286de7eb04a65f61dbda486c3b37c7566c90927dc162",
+        "size_in_bytes": 55715
+      },
+      {
+        "_path": "lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so",
+        "path_type": "hardlink",
+        "sha256": "59c2a95eedae566bc33cbf4045f19ed08e82b2e257bc64e6f16e25cd00822039",
+        "sha256_in_prefix": "59c2a95eedae566bc33cbf4045f19ed08e82b2e257bc64e6f16e25cd00822039",
+        "size_in_bytes": 16216
+      },
+      {
+        "_path": "lib/girepository-1.0/Rsvg-2.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "fd482ceb66b7c321bf31d2c1aac52e5f34638b90646ff3c8a9c3262aa3bd470f",
+        "sha256_in_prefix": "fd482ceb66b7c321bf31d2c1aac52e5f34638b90646ff3c8a9c3262aa3bd470f",
+        "size_in_bytes": 8300
+      },
+      {
+        "_path": "lib/librsvg-2.so",
+        "path_type": "softlink",
+        "sha256": "00cbc99cb624957326a040fb907789c5c0386cc078eb6798ad86e7d1703a9a7e",
+        "size_in_bytes": 10805056
+      },
+      {
+        "_path": "lib/librsvg-2.so.2",
+        "path_type": "softlink",
+        "sha256": "00cbc99cb624957326a040fb907789c5c0386cc078eb6798ad86e7d1703a9a7e",
+        "size_in_bytes": 10805056
+      },
+      {
+        "_path": "lib/librsvg-2.so.2.48.0",
+        "path_type": "hardlink",
+        "sha256": "00cbc99cb624957326a040fb907789c5c0386cc078eb6798ad86e7d1703a9a7e",
+        "sha256_in_prefix": "00cbc99cb624957326a040fb907789c5c0386cc078eb6798ad86e7d1703a9a7e",
+        "size_in_bytes": 10805056
+      },
+      {
+        "_path": "lib/pkgconfig/librsvg-2.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/librsvg_1701546342622/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "13ac45ad326fd88a732f192300a241112c61437cc667ea0726529627d8af0727",
+        "sha256_in_prefix": "9418308abb17d1a32f41053e8be0a638c97f9e1ed6314faebf5a41e47e8b5aa0",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-Black.woff",
+        "path_type": "hardlink",
+        "sha256": "7b6e15782bc2d9d3eaad2e65fc7f3f11f3a5f35d71c1ddc5638a8559ccaa8993",
+        "sha256_in_prefix": "7b6e15782bc2d9d3eaad2e65fc7f3f11f3a5f35d71c1ddc5638a8559ccaa8993",
+        "size_in_bytes": 36396
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-Black.woff2",
+        "path_type": "hardlink",
+        "sha256": "9d4cdf29505b800aebcbaddbd1e20291a578b453a145088939ced77cf3469079",
+        "sha256_in_prefix": "9d4cdf29505b800aebcbaddbd1e20291a578b453a145088939ced77cf3469079",
+        "size_in_bytes": 28457
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-BlackItalic.woff",
+        "path_type": "hardlink",
+        "sha256": "075c00685a051b600f4b1af8545c3b7ade61ca39f8ed079682dbdbaa8b775705",
+        "sha256_in_prefix": "075c00685a051b600f4b1af8545c3b7ade61ca39f8ed079682dbdbaa8b775705",
+        "size_in_bytes": 37464
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-BlackItalic.woff2",
+        "path_type": "hardlink",
+        "sha256": "9a504ff42d94ab33c861dbf5a5e17501e77662d4c125cdc92cbb8aecb27c8d1b",
+        "sha256_in_prefix": "9a504ff42d94ab33c861dbf5a5e17501e77662d4c125cdc92cbb8aecb27c8d1b",
+        "size_in_bytes": 29245
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-Bold.woff",
+        "path_type": "hardlink",
+        "sha256": "44214a551857e20ca2873c118283c54c627696c4bc04b345f1dc789938666670",
+        "sha256_in_prefix": "44214a551857e20ca2873c118283c54c627696c4bc04b345f1dc789938666670",
+        "size_in_bytes": 36920
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-Bold.woff2",
+        "path_type": "hardlink",
+        "sha256": "ca18645c5c904eaf7f5870535740fa9da442094ca11ae8389993ca294928b7c8",
+        "sha256_in_prefix": "ca18645c5c904eaf7f5870535740fa9da442094ca11ae8389993ca294928b7c8",
+        "size_in_bytes": 29045
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-BoldItalic.woff",
+        "path_type": "hardlink",
+        "sha256": "3c4ecb6192a81d83e008c291d7984008a101f96dfc5d772f188546280545ccf3",
+        "sha256_in_prefix": "3c4ecb6192a81d83e008c291d7984008a101f96dfc5d772f188546280545ccf3",
+        "size_in_bytes": 37944
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-BoldItalic.woff2",
+        "path_type": "hardlink",
+        "sha256": "532af7ce79713e532f44b8111514938e19c3e5c2c819c9008f606b8e710f9df4",
+        "sha256_in_prefix": "532af7ce79713e532f44b8111514938e19c3e5c2c819c9008f606b8e710f9df4",
+        "size_in_bytes": 29761
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-Italic.woff",
+        "path_type": "hardlink",
+        "sha256": "be9cde8e99386eef60d3dca10116fc4acc5b3022e9cccc6812cf576d69e55bec",
+        "sha256_in_prefix": "be9cde8e99386eef60d3dca10116fc4acc5b3022e9cccc6812cf576d69e55bec",
+        "size_in_bytes": 37172
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-Italic.woff2",
+        "path_type": "hardlink",
+        "sha256": "dadb25ff3e81ff6e027daabb8df17587ff040f74532d31a953f7ad164473b461",
+        "sha256_in_prefix": "dadb25ff3e81ff6e027daabb8df17587ff040f74532d31a953f7ad164473b461",
+        "size_in_bytes": 29201
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-Medium.woff",
+        "path_type": "hardlink",
+        "sha256": "6ccf21587b875a84a2567146f41f12d46f803950edb507ac81b83b19e44c9f7c",
+        "sha256_in_prefix": "6ccf21587b875a84a2567146f41f12d46f803950edb507ac81b83b19e44c9f7c",
+        "size_in_bytes": 36532
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-Medium.woff2",
+        "path_type": "hardlink",
+        "sha256": "6d3ccc0f1407d9ff46ec4f88534a49f866b738fe8c944e704cc1eb42facd9932",
+        "sha256_in_prefix": "6d3ccc0f1407d9ff46ec4f88534a49f866b738fe8c944e704cc1eb42facd9932",
+        "size_in_bytes": 28661
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-MediumItalic.woff",
+        "path_type": "hardlink",
+        "sha256": "fb0677212a385249165bb4ab5e1943c963a778d25fb2d0ef53c391ca216b9370",
+        "sha256_in_prefix": "fb0677212a385249165bb4ab5e1943c963a778d25fb2d0ef53c391ca216b9370",
+        "size_in_bytes": 37568
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-MediumItalic.woff2",
+        "path_type": "hardlink",
+        "sha256": "3d177f5e1e892759bd366cddf4ed9a9d927cbd8f04d490d375f7f262b89e7227",
+        "sha256_in_prefix": "3d177f5e1e892759bd366cddf4ed9a9d927cbd8f04d490d375f7f262b89e7227",
+        "size_in_bytes": 29497
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-Regular.woff",
+        "path_type": "hardlink",
+        "sha256": "1b99a560426daefadd2f11f36c6c7d6b80e8e326f9634820e7fedeb72d18ec7a",
+        "sha256_in_prefix": "1b99a560426daefadd2f11f36c6c7d6b80e8e326f9634820e7fedeb72d18ec7a",
+        "size_in_bytes": 36432
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatDisplay-Regular.woff2",
+        "path_type": "hardlink",
+        "sha256": "e6fb83d978a35a0b5412444bafafe9307e211dca7c43d82a6dfd5eb1e675799b",
+        "sha256_in_prefix": "e6fb83d978a35a0b5412444bafafe9307e211dca7c43d82a6dfd5eb1e675799b",
+        "size_in_bytes": 28745
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-Bold.woff",
+        "path_type": "hardlink",
+        "sha256": "3064de68322d0032107c77bf19def1379e1b3fe2447321e6297a5616f1dbc361",
+        "sha256_in_prefix": "3064de68322d0032107c77bf19def1379e1b3fe2447321e6297a5616f1dbc361",
+        "size_in_bytes": 36396
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-Bold.woff2",
+        "path_type": "hardlink",
+        "sha256": "c6ff17e9e37c0a21c0da7a230a44239e5dc7091e9ee6594df90c80017a341951",
+        "sha256_in_prefix": "c6ff17e9e37c0a21c0da7a230a44239e5dc7091e9ee6594df90c80017a341951",
+        "size_in_bytes": 28541
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-BoldItalic.woff",
+        "path_type": "hardlink",
+        "sha256": "988864fb81d423fb0b94f0534616968097d8a974e43460deb19413098debaeb5",
+        "sha256_in_prefix": "988864fb81d423fb0b94f0534616968097d8a974e43460deb19413098debaeb5",
+        "size_in_bytes": 37384
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-BoldItalic.woff2",
+        "path_type": "hardlink",
+        "sha256": "9dfd94e91e8eb6ddd8d8d3688fafeaad1573770099fbd4b0bae816b27a4cc7c7",
+        "sha256_in_prefix": "9dfd94e91e8eb6ddd8d8d3688fafeaad1573770099fbd4b0bae816b27a4cc7c7",
+        "size_in_bytes": 29217
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-Italic.woff",
+        "path_type": "hardlink",
+        "sha256": "e3dc82991454d793c19763f186759b3419c75d946872d50d6012581a41936b0e",
+        "sha256_in_prefix": "e3dc82991454d793c19763f186759b3419c75d946872d50d6012581a41936b0e",
+        "size_in_bytes": 37348
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-Italic.woff2",
+        "path_type": "hardlink",
+        "sha256": "1dc72b8a524c4811e7f2704c80fd85322bd333a29d6db0ba301848e40960d6ec",
+        "sha256_in_prefix": "1dc72b8a524c4811e7f2704c80fd85322bd333a29d6db0ba301848e40960d6ec",
+        "size_in_bytes": 29381
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-Medium.woff",
+        "path_type": "hardlink",
+        "sha256": "702e86ff5716146680c57542863ecd7f3c896306199c2b1d3d6ae00ac62ac96d",
+        "sha256_in_prefix": "702e86ff5716146680c57542863ecd7f3c896306199c2b1d3d6ae00ac62ac96d",
+        "size_in_bytes": 37096
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-Medium.woff2",
+        "path_type": "hardlink",
+        "sha256": "eb14b0467b18c0fd07810db7ab630a8eeb382353cdde440c7fc4bed3f901ceb0",
+        "sha256_in_prefix": "eb14b0467b18c0fd07810db7ab630a8eeb382353cdde440c7fc4bed3f901ceb0",
+        "size_in_bytes": 29049
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-MediumItalic.woff",
+        "path_type": "hardlink",
+        "sha256": "23f3edf5e57199ef7e5cd226d0b42e6017c6a16d1e76b573c1a80467adf2a0d2",
+        "sha256_in_prefix": "23f3edf5e57199ef7e5cd226d0b42e6017c6a16d1e76b573c1a80467adf2a0d2",
+        "size_in_bytes": 37888
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-MediumItalic.woff2",
+        "path_type": "hardlink",
+        "sha256": "cab808dba56a6f7153326af523dfd4457738a487266429ba35e5d09b7b68a32b",
+        "sha256_in_prefix": "cab808dba56a6f7153326af523dfd4457738a487266429ba35e5d09b7b68a32b",
+        "size_in_bytes": 29621
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-Regular.woff",
+        "path_type": "hardlink",
+        "sha256": "df36d7d048d973a8990a2218f3c425ffbb077c8676fd8260178a3769fb34e76e",
+        "sha256_in_prefix": "df36d7d048d973a8990a2218f3c425ffbb077c8676fd8260178a3769fb34e76e",
+        "size_in_bytes": 35980
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/RedHatText-Regular.woff2",
+        "path_type": "hardlink",
+        "sha256": "542423d086114efc78287af567bfc3124c2d87022cbbc16fde1241e01f97757f",
+        "sha256_in_prefix": "542423d086114efc78287af567bfc3124c2d87022cbbc16fde1241e01f97757f",
+        "size_in_bytes": 28169
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/Rsvg-2.0.devhelp2",
+        "path_type": "hardlink",
+        "sha256": "66b42cad9e19df174814bf5f08c7b701d00cf1b0bd8fe54bb7a8e9b9c925868b",
+        "sha256_in_prefix": "66b42cad9e19df174814bf5f08c7b701d00cf1b0bd8fe54bb7a8e9b9c925868b",
+        "size_in_bytes": 12870
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/SourceCodePro-It.ttf.woff",
+        "path_type": "hardlink",
+        "sha256": "7f9d7db7a9a6b74b6d5eb5df2299abfb17c3dbae8276a4fe1328bbbf11a79f12",
+        "sha256_in_prefix": "7f9d7db7a9a6b74b6d5eb5df2299abfb17c3dbae8276a4fe1328bbbf11a79f12",
+        "size_in_bytes": 58444
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/SourceCodePro-Regular.ttf.woff",
+        "path_type": "hardlink",
+        "sha256": "82462603fa5bdb2e51d8a9872bfd3b3b9edcd116c68c9c4e75baeeab3f57e4ef",
+        "sha256_in_prefix": "82462603fa5bdb2e51d8a9872bfd3b3b9edcd116c68c9c4e75baeeab3f57e4ef",
+        "size_in_bytes": 68152
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/SourceCodePro-Semibold.ttf.woff",
+        "path_type": "hardlink",
+        "sha256": "342911ba872dda8d0363aa962f11e1cafcacdb40e83a08c87dbec36eba57764e",
+        "sha256_in_prefix": "342911ba872dda8d0363aa962f11e1cafcacdb40e83a08c87dbec36eba57764e",
+        "size_in_bytes": 68080
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/callback.SizeFunc.html",
+        "path_type": "hardlink",
+        "sha256": "da9e81576c890c91c1daf3604434ab9f710e08a044a59b76095f96d005244ce6",
+        "sha256_in_prefix": "da9e81576c890c91c1daf3604434ab9f710e08a044a59b76095f96d005244ce6",
+        "size_in_bytes": 6462
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/class.Handle.html",
+        "path_type": "hardlink",
+        "sha256": "d42acbf20864a6967a0ea43caf95ea4244b862c4f13ab5610d9315248083d4cc",
+        "sha256_in_prefix": "d42acbf20864a6967a0ea43caf95ea4244b862c4f13ab5610d9315248083d4cc",
+        "size_in_bytes": 47895
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/classes_hierarchy.html",
+        "path_type": "hardlink",
+        "sha256": "09f0fd6b8be34a0e0073a4deb0499647f0ad6a57f23e585f05b2e3f811e57eba",
+        "sha256_in_prefix": "09f0fd6b8be34a0e0073a4deb0499647f0ad6a57f23e585f05b2e3f811e57eba",
+        "size_in_bytes": 2961
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/const.MAJOR_VERSION.html",
+        "path_type": "hardlink",
+        "sha256": "64629893e2ce1a3f435368b31f8d80454ed613985754024b1a2ee87c8d56982c",
+        "sha256_in_prefix": "64629893e2ce1a3f435368b31f8d80454ed613985754024b1a2ee87c8d56982c",
+        "size_in_bytes": 4042
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/const.MICRO_VERSION.html",
+        "path_type": "hardlink",
+        "sha256": "62e0e49800f6ab09ceb700f82092321c4bec973936f15901fe76fb9b9363e70a",
+        "sha256_in_prefix": "62e0e49800f6ab09ceb700f82092321c4bec973936f15901fe76fb9b9363e70a",
+        "size_in_bytes": 4042
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/const.MINOR_VERSION.html",
+        "path_type": "hardlink",
+        "sha256": "7f380a41d405221be6e4fd31db40dda92624ab5ac0d4979dd9c275e9f6519491",
+        "sha256_in_prefix": "7f380a41d405221be6e4fd31db40dda92624ab5ac0d4979dd9c275e9f6519491",
+        "size_in_bytes": 4043
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/const.VERSION.html",
+        "path_type": "hardlink",
+        "sha256": "0d1f0f66594cc63d25c321e19b3f8bed44c7c5dc9b04a06ddd458a3dc1f48301",
+        "sha256_in_prefix": "0d1f0f66594cc63d25c321e19b3f8bed44c7c5dc9b04a06ddd458a3dc1f48301",
+        "size_in_bytes": 4008
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/ctor.Handle.new.html",
+        "path_type": "hardlink",
+        "sha256": "b7df48d7f0ceecd29732ec0cea9ae3dd341a26ea5f8151cca9aa3441e4267ca3",
+        "sha256_in_prefix": "b7df48d7f0ceecd29732ec0cea9ae3dd341a26ea5f8151cca9aa3441e4267ca3",
+        "size_in_bytes": 7211
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/ctor.Handle.new_from_data.html",
+        "path_type": "hardlink",
+        "sha256": "fad54e585fe0d7604157c50c6ed8095d92e39c062b45a0db2850be8ec9efb3c5",
+        "sha256_in_prefix": "fad54e585fe0d7604157c50c6ed8095d92e39c062b45a0db2850be8ec9efb3c5",
+        "size_in_bytes": 8744
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/ctor.Handle.new_from_file.html",
+        "path_type": "hardlink",
+        "sha256": "5d18163d87c03bba89c8ade343c1ea37e91748d4db250d63937e3cde07b8fc96",
+        "sha256_in_prefix": "5d18163d87c03bba89c8ade343c1ea37e91748d4db250d63937e3cde07b8fc96",
+        "size_in_bytes": 8004
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/ctor.Handle.new_from_gfile_sync.html",
+        "path_type": "hardlink",
+        "sha256": "32865b91ce87f2f5f5416f3aba6208a704a35efac4f91ece2e4a42b69f5599b1",
+        "sha256_in_prefix": "32865b91ce87f2f5f5416f3aba6208a704a35efac4f91ece2e4a42b69f5599b1",
+        "size_in_bytes": 9685
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/ctor.Handle.new_from_stream_sync.html",
+        "path_type": "hardlink",
+        "sha256": "829ab06ed737e0bec23966658fa4cb69cc08e81291ea625cc336803f568dd054",
+        "sha256_in_prefix": "829ab06ed737e0bec23966658fa4cb69cc08e81291ea625cc336803f568dd054",
+        "size_in_bytes": 10563
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/ctor.Handle.new_with_flags.html",
+        "path_type": "hardlink",
+        "sha256": "45b3d6639bc255d36c8c67c0b78d3fed016be0830c294ff92ed41a4ffe15fc81",
+        "sha256_in_prefix": "45b3d6639bc255d36c8c67c0b78d3fed016be0830c294ff92ed41a4ffe15fc81",
+        "size_in_bytes": 6435
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/enum.Unit.html",
+        "path_type": "hardlink",
+        "sha256": "ee50245ca39454e2c57236889be903d016f319d29b931f9dfe176451ed8b1488",
+        "sha256_in_prefix": "ee50245ca39454e2c57236889be903d016f319d29b931f9dfe176451ed8b1488",
+        "size_in_bytes": 7275
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/error.Error.html",
+        "path_type": "hardlink",
+        "sha256": "8affb0f7759c6dbce60031ae1706d69102d737a4ce3397c0390c66d8681031df",
+        "sha256_in_prefix": "8affb0f7759c6dbce60031ae1706d69102d737a4ce3397c0390c66d8681031df",
+        "size_in_bytes": 5248
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/flags.HandleFlags.html",
+        "path_type": "hardlink",
+        "sha256": "6b0c841a14300e996302414e7f606dda81317f4cb72bef8c57d227ed550fd01f",
+        "sha256_in_prefix": "6b0c841a14300e996302414e7f606dda81317f4cb72bef8c57d227ed550fd01f",
+        "size_in_bytes": 6616
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/fonts.css",
+        "path_type": "hardlink",
+        "sha256": "7c15fb0da289d4b70ed977a1a065235ba0ba2b4e51343bfb7674da4490bc99cb",
+        "sha256_in_prefix": "7c15fb0da289d4b70ed977a1a065235ba0ba2b4e51343bfb7674da4490bc99cb",
+        "size_in_bytes": 4711
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.CHECK_VERSION.html",
+        "path_type": "hardlink",
+        "sha256": "066ff277dce36276202dba45d1a9023f955c620a02c466629272856f0e8fb822",
+        "sha256_in_prefix": "066ff277dce36276202dba45d1a9023f955c620a02c466629272856f0e8fb822",
+        "size_in_bytes": 5896
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.DEPRECATED_FOR.html",
+        "path_type": "hardlink",
+        "sha256": "7189e559df8333bd127e9573a88bddf95319062c7cb6755a231bbd3c93226ff6",
+        "sha256_in_prefix": "7189e559df8333bd127e9573a88bddf95319062c7cb6755a231bbd3c93226ff6",
+        "size_in_bytes": 4301
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.cleanup.html",
+        "path_type": "hardlink",
+        "sha256": "416ebc8e1b9331715ac3ee3fef6d44a7898f02e59631c4a022958437098101d0",
+        "sha256_in_prefix": "416ebc8e1b9331715ac3ee3fef6d44a7898f02e59631c4a022958437098101d0",
+        "size_in_bytes": 3940
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.init.html",
+        "path_type": "hardlink",
+        "sha256": "4f1a4bc77d25d6b5d00fe091f98bc7cb6a91b4634fc2428ed280650c86a369bf",
+        "sha256_in_prefix": "4f1a4bc77d25d6b5d00fe091f98bc7cb6a91b4634fc2428ed280650c86a369bf",
+        "size_in_bytes": 3895
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.pixbuf_from_file.html",
+        "path_type": "hardlink",
+        "sha256": "007e77d759b0ec6b719205f1679a77993ff0aac801743072c8240cfb3d3ee55f",
+        "sha256_in_prefix": "007e77d759b0ec6b719205f1679a77993ff0aac801743072c8240cfb3d3ee55f",
+        "size_in_bytes": 7402
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.pixbuf_from_file_at_max_size.html",
+        "path_type": "hardlink",
+        "sha256": "e4a2dc1ea8dc3f956cbe06301ed9e3a8bc351ee1e5b14ebb05b28c480c4fe3c1",
+        "sha256_in_prefix": "e4a2dc1ea8dc3f956cbe06301ed9e3a8bc351ee1e5b14ebb05b28c480c4fe3c1",
+        "size_in_bytes": 8662
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.pixbuf_from_file_at_size.html",
+        "path_type": "hardlink",
+        "sha256": "daba90a5ee112cc3f8c11160692684fad06030e91850fbe68ba93cf154bc3ef9",
+        "sha256_in_prefix": "daba90a5ee112cc3f8c11160692684fad06030e91850fbe68ba93cf154bc3ef9",
+        "size_in_bytes": 8699
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.pixbuf_from_file_at_zoom.html",
+        "path_type": "hardlink",
+        "sha256": "15e57c85eeca6b9a979229fe2c7a1ccd60f3ff6bd39caa0e96d345871f0abeb5",
+        "sha256_in_prefix": "15e57c85eeca6b9a979229fe2c7a1ccd60f3ff6bd39caa0e96d345871f0abeb5",
+        "size_in_bytes": 8638
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.pixbuf_from_file_at_zoom_with_max.html",
+        "path_type": "hardlink",
+        "sha256": "00eac8dcd01a598a6ab9edb6e023303c7a27a8983edb044e709971a06defe832",
+        "sha256_in_prefix": "00eac8dcd01a598a6ab9edb6e023303c7a27a8983edb044e709971a06defe832",
+        "size_in_bytes": 9881
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.set_default_dpi.html",
+        "path_type": "hardlink",
+        "sha256": "4f2e5f71c8a483b6ea2befa95d30b799087753a76d5443ee24a80af81c3abe9f",
+        "sha256_in_prefix": "4f2e5f71c8a483b6ea2befa95d30b799087753a76d5443ee24a80af81c3abe9f",
+        "size_in_bytes": 5200
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.set_default_dpi_x_y.html",
+        "path_type": "hardlink",
+        "sha256": "4c8611342fceec305c17ffb4c5b7020c2d2353d2f3081d0a30da251a9dc0a650",
+        "sha256_in_prefix": "4c8611342fceec305c17ffb4c5b7020c2d2353d2f3081d0a30da251a9dc0a650",
+        "size_in_bytes": 5777
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/func.term.html",
+        "path_type": "hardlink",
+        "sha256": "c50b27b8b1ad12fccac829cb112293606657bc382fad08f04027ed55f6b6ee68",
+        "sha256_in_prefix": "c50b27b8b1ad12fccac829cb112293606657bc382fad08f04027ed55f6b6ee68",
+        "size_in_bytes": 3898
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/fzy.js",
+        "path_type": "hardlink",
+        "sha256": "70daa46180dc66fb03ce25e7a3d7b113e0dad18cdeb474ebee5114008cf08ea0",
+        "sha256_in_prefix": "70daa46180dc66fb03ce25e7a3d7b113e0dad18cdeb474ebee5114008cf08ea0",
+        "size_in_bytes": 6597
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/go-up-symbolic.png",
+        "path_type": "hardlink",
+        "sha256": "6e38e56b8e44ebe44b58b7dccbc9a74cbccf8323ea92f563df248eccc1ffd654",
+        "sha256_in_prefix": "6e38e56b8e44ebe44b58b7dccbc9a74cbccf8323ea92f563df248eccc1ffd654",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/index.html",
+        "path_type": "hardlink",
+        "sha256": "bf555c67349d13a88cb383672ac6b67a416576afa3e3df630d699f05e51f9579",
+        "sha256_in_prefix": "bf555c67349d13a88cb383672ac6b67a416576afa3e3df630d699f05e51f9579",
+        "size_in_bytes": 22052
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/index.json",
+        "path_type": "hardlink",
+        "sha256": "b8209b07da45e6173821dffd87a21bf349085b24f904b66abab06a9b26e64105",
+        "sha256_in_prefix": "b8209b07da45e6173821dffd87a21bf349085b24f904b66abab06a9b26e64105",
+        "size_in_bytes": 16064
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/librsvg-r.svg",
+        "path_type": "hardlink",
+        "sha256": "e0ee05de517ef9cbbe3af454693a3632cba63aaefd3210756fe33fbed07455e5",
+        "sha256_in_prefix": "e0ee05de517ef9cbbe3af454693a3632cba63aaefd3210756fe33fbed07455e5",
+        "size_in_bytes": 2592
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/main.js",
+        "path_type": "hardlink",
+        "sha256": "81d730267356cd8e4fb5871cacd887083a46061d9f45eb5a79990148981d2705",
+        "sha256_in_prefix": "81d730267356cd8e4fb5871cacd887083a46061d9f45eb5a79990148981d2705",
+        "size_in_bytes": 5569
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.close.html",
+        "path_type": "hardlink",
+        "sha256": "53d78ccdaa7cb32f192210d6b2eaa753202a3f359cc2e4c0e8cd6df5c2212d62",
+        "sha256_in_prefix": "53d78ccdaa7cb32f192210d6b2eaa753202a3f359cc2e4c0e8cd6df5c2212d62",
+        "size_in_bytes": 8842
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.free.html",
+        "path_type": "hardlink",
+        "sha256": "7c72b04a12d03ee36449e0d6551b16fd07e832badf5d36f7999b3021c895db42",
+        "sha256_in_prefix": "7c72b04a12d03ee36449e0d6551b16fd07e832badf5d36f7999b3021c895db42",
+        "size_in_bytes": 6785
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_base_uri.html",
+        "path_type": "hardlink",
+        "sha256": "420a0c8d4b354896a0b3abfd49c93d18637b02fec45c50adb5f9c4f8a7be7460",
+        "sha256_in_prefix": "420a0c8d4b354896a0b3abfd49c93d18637b02fec45c50adb5f9c4f8a7be7460",
+        "size_in_bytes": 7724
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_desc.html",
+        "path_type": "hardlink",
+        "sha256": "4598e75ffbc7bc0fdf1f0409cf5ee289b05d15c9f4fd6741fbf24e3256ec0afb",
+        "sha256_in_prefix": "4598e75ffbc7bc0fdf1f0409cf5ee289b05d15c9f4fd6741fbf24e3256ec0afb",
+        "size_in_bytes": 7776
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_dimensions.html",
+        "path_type": "hardlink",
+        "sha256": "1f4473e1a222d45a9bbb075d70032d9fadd168ce8e80586ca0a7a2cbaa34eb9f",
+        "sha256_in_prefix": "1f4473e1a222d45a9bbb075d70032d9fadd168ce8e80586ca0a7a2cbaa34eb9f",
+        "size_in_bytes": 8509
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_dimensions_sub.html",
+        "path_type": "hardlink",
+        "sha256": "22765077e615136391ca1d0efa6e20e43535f59c8b62442fe245557c46492277",
+        "sha256_in_prefix": "22765077e615136391ca1d0efa6e20e43535f59c8b62442fe245557c46492277",
+        "size_in_bytes": 10453
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_geometry_for_element.html",
+        "path_type": "hardlink",
+        "sha256": "b01de0c266fae66101def5095c59450d0821e9f8861b966521ea469ceb1bfacd",
+        "sha256_in_prefix": "b01de0c266fae66101def5095c59450d0821e9f8861b966521ea469ceb1bfacd",
+        "size_in_bytes": 13553
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_geometry_for_layer.html",
+        "path_type": "hardlink",
+        "sha256": "5bb684cde505318ce38bda1f08bab1bb7179264ba77fdf5eee9f07ff30df31eb",
+        "sha256_in_prefix": "5bb684cde505318ce38bda1f08bab1bb7179264ba77fdf5eee9f07ff30df31eb",
+        "size_in_bytes": 13955
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_intrinsic_dimensions.html",
+        "path_type": "hardlink",
+        "sha256": "0ab7004352ddceae7c9118d4cc1623c5442756d69dad287a957abb138e629989",
+        "sha256_in_prefix": "0ab7004352ddceae7c9118d4cc1623c5442756d69dad287a957abb138e629989",
+        "size_in_bytes": 15364
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_intrinsic_size_in_pixels.html",
+        "path_type": "hardlink",
+        "sha256": "9d9930b9c0282d5a40511aea84ec33718b43e6ee69a1966686577919fbd4bfa8",
+        "sha256_in_prefix": "9d9930b9c0282d5a40511aea84ec33718b43e6ee69a1966686577919fbd4bfa8",
+        "size_in_bytes": 12551
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_metadata.html",
+        "path_type": "hardlink",
+        "sha256": "ae587d6b0489e16c69fed93e45ba2946e5e528415a96edc7dc26911f63feb5fe",
+        "sha256_in_prefix": "ae587d6b0489e16c69fed93e45ba2946e5e528415a96edc7dc26911f63feb5fe",
+        "size_in_bytes": 7812
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_pixbuf.html",
+        "path_type": "hardlink",
+        "sha256": "98598a0561db8062317ac7e23c3919d175ca4a4555a3557f963c9b367d20f7ac",
+        "sha256_in_prefix": "98598a0561db8062317ac7e23c3919d175ca4a4555a3557f963c9b367d20f7ac",
+        "size_in_bytes": 8189
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_pixbuf_sub.html",
+        "path_type": "hardlink",
+        "sha256": "b0d4cd9cace7d861ebccbff6bb35edd3eaf0872f79d0ec57ce5fb652962423fe",
+        "sha256_in_prefix": "b0d4cd9cace7d861ebccbff6bb35edd3eaf0872f79d0ec57ce5fb652962423fe",
+        "size_in_bytes": 10376
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_position_sub.html",
+        "path_type": "hardlink",
+        "sha256": "390b7ebef5732decc389fc28bca1e702e1f8eeeca977f18777598f3de5cc051c",
+        "sha256_in_prefix": "390b7ebef5732decc389fc28bca1e702e1f8eeeca977f18777598f3de5cc051c",
+        "size_in_bytes": 10562
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.get_title.html",
+        "path_type": "hardlink",
+        "sha256": "82c985402f03625f85003df7d0b7ccab718ad78c2ee40e5086e8af8a7c00227b",
+        "sha256_in_prefix": "82c985402f03625f85003df7d0b7ccab718ad78c2ee40e5086e8af8a7c00227b",
+        "size_in_bytes": 7785
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.has_sub.html",
+        "path_type": "hardlink",
+        "sha256": "ee95542478b9a74f74b9aa60bdadc967c794f1787f404aee73b921bc19367f3c",
+        "sha256_in_prefix": "ee95542478b9a74f74b9aa60bdadc967c794f1787f404aee73b921bc19367f3c",
+        "size_in_bytes": 8847
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.internal_set_testing.html",
+        "path_type": "hardlink",
+        "sha256": "81bb17c1448d2aaa162d5f79f74f2b370b332f07b137f6ca1313216cda6f178f",
+        "sha256_in_prefix": "81bb17c1448d2aaa162d5f79f74f2b370b332f07b137f6ca1313216cda6f178f",
+        "size_in_bytes": 7501
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.read_stream_sync.html",
+        "path_type": "hardlink",
+        "sha256": "d7ddc0db050ddb2905d6a9f6f08766e215a2455e05ee71a0db5036d9173ec5a1",
+        "sha256_in_prefix": "d7ddc0db050ddb2905d6a9f6f08766e215a2455e05ee71a0db5036d9173ec5a1",
+        "size_in_bytes": 11228
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.render_cairo.html",
+        "path_type": "hardlink",
+        "sha256": "b77c1cc21c37634b92f8fcd0e88f9259aea74e675da28b1d9c727b973c9728c1",
+        "sha256_in_prefix": "b77c1cc21c37634b92f8fcd0e88f9259aea74e675da28b1d9c727b973c9728c1",
+        "size_in_bytes": 11553
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.render_cairo_sub.html",
+        "path_type": "hardlink",
+        "sha256": "49a62cdb5e2032a290c3d3db84afaece9726e576e54bd9ee1ce01b99aa22050e",
+        "sha256_in_prefix": "49a62cdb5e2032a290c3d3db84afaece9726e576e54bd9ee1ce01b99aa22050e",
+        "size_in_bytes": 13306
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.render_document.html",
+        "path_type": "hardlink",
+        "sha256": "f39dc0c1b22eb9c94f554f48c630ccad8983b2b7928997f8704eeedf963ad37d",
+        "sha256_in_prefix": "f39dc0c1b22eb9c94f554f48c630ccad8983b2b7928997f8704eeedf963ad37d",
+        "size_in_bytes": 11101
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.render_element.html",
+        "path_type": "hardlink",
+        "sha256": "fad688176e1c9210d86415065e4d0da0b36caa433b1f1954b1603b7b2c4cb46f",
+        "sha256_in_prefix": "fad688176e1c9210d86415065e4d0da0b36caa433b1f1954b1603b7b2c4cb46f",
+        "size_in_bytes": 12852
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.render_layer.html",
+        "path_type": "hardlink",
+        "sha256": "d4da5fdbc83183dffc22537f8e52584ad8bbe81c3743fd56fc82125def96f25a",
+        "sha256_in_prefix": "d4da5fdbc83183dffc22537f8e52584ad8bbe81c3743fd56fc82125def96f25a",
+        "size_in_bytes": 13105
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.set_base_gfile.html",
+        "path_type": "hardlink",
+        "sha256": "bfe4194d017f458d5f5de6deae06660871a7c92cdaa620e4e48ed945d5bb0baa",
+        "sha256_in_prefix": "bfe4194d017f458d5f5de6deae06660871a7c92cdaa620e4e48ed945d5bb0baa",
+        "size_in_bytes": 7968
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.set_base_uri.html",
+        "path_type": "hardlink",
+        "sha256": "a4930a3ef32cb33f05b4de3a4ac481d484a1314341edd86c1f268e3ec4f5278b",
+        "sha256_in_prefix": "a4930a3ef32cb33f05b4de3a4ac481d484a1314341edd86c1f268e3ec4f5278b",
+        "size_in_bytes": 8186
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.set_dpi.html",
+        "path_type": "hardlink",
+        "sha256": "e0b06319c0f99c958cde9028f89b59306243643e0172bd615e9bedf937feb3e9",
+        "sha256_in_prefix": "e0b06319c0f99c958cde9028f89b59306243643e0172bd615e9bedf937feb3e9",
+        "size_in_bytes": 7839
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.set_dpi_x_y.html",
+        "path_type": "hardlink",
+        "sha256": "cb4c165bd6de15ce3cd6b627e79290b0995c0748abecec834224bc593f03016c",
+        "sha256_in_prefix": "cb4c165bd6de15ce3cd6b627e79290b0995c0748abecec834224bc593f03016c",
+        "size_in_bytes": 8414
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.set_size_callback.html",
+        "path_type": "hardlink",
+        "sha256": "501dc8ccdd7f6a7022245b83150bee715deda128fd447377e97607aaa3afa716",
+        "sha256_in_prefix": "501dc8ccdd7f6a7022245b83150bee715deda128fd447377e97607aaa3afa716",
+        "size_in_bytes": 10554
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.set_stylesheet.html",
+        "path_type": "hardlink",
+        "sha256": "30ee31b041be7540092d27288061a0fa4c41314b77091e561af657a72749990e",
+        "sha256_in_prefix": "30ee31b041be7540092d27288061a0fa4c41314b77091e561af657a72749990e",
+        "size_in_bytes": 10830
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/method.Handle.write.html",
+        "path_type": "hardlink",
+        "sha256": "4396d68e0f06a19895aaf716774a79197a058a554827b14fc07738cb217a4233",
+        "sha256_in_prefix": "4396d68e0f06a19895aaf716774a79197a058a554827b14fc07738cb217a4233",
+        "size_in_bytes": 11499
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/migrating.html",
+        "path_type": "hardlink",
+        "sha256": "1828898ace3922e2502a1810ec2ab85b544167b0daec2a951349e47f316d50ba",
+        "sha256_in_prefix": "1828898ace3922e2502a1810ec2ab85b544167b0daec2a951349e47f316d50ba",
+        "size_in_bytes": 34182
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/overview.html",
+        "path_type": "hardlink",
+        "sha256": "b6fb56fde6d608b5443c595584434045a2849bf8ef5de2127f0140f08a92bac5",
+        "sha256_in_prefix": "b6fb56fde6d608b5443c595584434045a2849bf8ef5de2127f0140f08a92bac5",
+        "size_in_bytes": 16383
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/property.Handle.base-uri.html",
+        "path_type": "hardlink",
+        "sha256": "aa5bbf92e24962e34eac24bae8b79abc3e200a1feb5b693a2738789bec926a5c",
+        "sha256_in_prefix": "aa5bbf92e24962e34eac24bae8b79abc3e200a1feb5b693a2738789bec926a5c",
+        "size_in_bytes": 5512
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/property.Handle.desc.html",
+        "path_type": "hardlink",
+        "sha256": "120ffca619bfa993b91381b7f2165f40ee5ff4a55959fc7fb1c3c808d5583a7e",
+        "sha256_in_prefix": "120ffca619bfa993b91381b7f2165f40ee5ff4a55959fc7fb1c3c808d5583a7e",
+        "size_in_bytes": 5418
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/property.Handle.dpi-x.html",
+        "path_type": "hardlink",
+        "sha256": "969368a98e45314160bd3ec1f96c74f991242deb9fae5c10aca278c3510d53fa",
+        "sha256_in_prefix": "969368a98e45314160bd3ec1f96c74f991242deb9fae5c10aca278c3510d53fa",
+        "size_in_bytes": 5068
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/property.Handle.dpi-y.html",
+        "path_type": "hardlink",
+        "sha256": "52462e3202b54524f84f72392a4d3b56e97bae9a59e1d15442efc8e9f4b75b7a",
+        "sha256_in_prefix": "52462e3202b54524f84f72392a4d3b56e97bae9a59e1d15442efc8e9f4b75b7a",
+        "size_in_bytes": 5068
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/property.Handle.em.html",
+        "path_type": "hardlink",
+        "sha256": "d56b4eb99034f5b96fa671490b5e0978a9fca8690e9feeed86b764ad4e85787a",
+        "sha256_in_prefix": "d56b4eb99034f5b96fa671490b5e0978a9fca8690e9feeed86b764ad4e85787a",
+        "size_in_bytes": 5722
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/property.Handle.ex.html",
+        "path_type": "hardlink",
+        "sha256": "6676ffa67bf9a325a5b7c5413984aacad0ed8361cb40ce58b48f7b94f7dbd880",
+        "sha256_in_prefix": "6676ffa67bf9a325a5b7c5413984aacad0ed8361cb40ce58b48f7b94f7dbd880",
+        "size_in_bytes": 5723
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/property.Handle.flags.html",
+        "path_type": "hardlink",
+        "sha256": "8e564344372f8e2ba4f2ea200fbe35b8409a5178375a240c06c74faa8101da69",
+        "sha256_in_prefix": "8e564344372f8e2ba4f2ea200fbe35b8409a5178375a240c06c74faa8101da69",
+        "size_in_bytes": 5177
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/property.Handle.height.html",
+        "path_type": "hardlink",
+        "sha256": "04acfcd74b6569fe3725bdc21c777418e5420886ec6a79c8e10174307f467ea3",
+        "sha256_in_prefix": "04acfcd74b6569fe3725bdc21c777418e5420886ec6a79c8e10174307f467ea3",
+        "size_in_bytes": 5906
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/property.Handle.metadata.html",
+        "path_type": "hardlink",
+        "sha256": "99b0b93a7e08be0deaaa93d53aa558ffa4594ec1fa0f10f4ae55724885cc3678",
+        "sha256_in_prefix": "99b0b93a7e08be0deaaa93d53aa558ffa4594ec1fa0f10f4ae55724885cc3678",
+        "size_in_bytes": 5451
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/property.Handle.title.html",
+        "path_type": "hardlink",
+        "sha256": "bfd93a7543adea6a79473047a70a7b5bb392375de7b049b55fc844c08f3b10dd",
+        "sha256_in_prefix": "bfd93a7543adea6a79473047a70a7b5bb392375de7b049b55fc844c08f3b10dd",
+        "size_in_bytes": 5421
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/property.Handle.width.html",
+        "path_type": "hardlink",
+        "sha256": "d5276f8d343f162adbb24a1ece738df78a96652b63576219dcc13813f108d98e",
+        "sha256_in_prefix": "d5276f8d343f162adbb24a1ece738df78a96652b63576219dcc13813f108d98e",
+        "size_in_bytes": 5898
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/recommendations.html",
+        "path_type": "hardlink",
+        "sha256": "3a09a0ecddee06746529b7f4d4c12ea31aeae8ec18d0e2b1ee1bd94f14fd034d",
+        "sha256_in_prefix": "3a09a0ecddee06746529b7f4d4c12ea31aeae8ec18d0e2b1ee1bd94f14fd034d",
+        "size_in_bytes": 24213
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/search.js",
+        "path_type": "hardlink",
+        "sha256": "5d82cc90715dbe1ac28e2370bbff74b21615047c0651d54972d323177daf3eb8",
+        "sha256_in_prefix": "5d82cc90715dbe1ac28e2370bbff74b21615047c0651d54972d323177daf3eb8",
+        "size_in_bytes": 11417
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/solarized-dark.css",
+        "path_type": "hardlink",
+        "sha256": "afd14475597ee3ac01869d8c5ed56b334447c937675ecde5caaa2239ceefc1cc",
+        "sha256_in_prefix": "afd14475597ee3ac01869d8c5ed56b334447c937675ecde5caaa2239ceefc1cc",
+        "size_in_bytes": 5230
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/solarized-light.css",
+        "path_type": "hardlink",
+        "sha256": "4f66e424fa6c6d5be4e5edbf7af7bff3b2ae9814c0379169feb11fc61af478d1",
+        "sha256_in_prefix": "4f66e424fa6c6d5be4e5edbf7af7bff3b2ae9814c0379169feb11fc61af478d1",
+        "size_in_bytes": 5230
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/struct.DimensionData.html",
+        "path_type": "hardlink",
+        "sha256": "960b8a27a2c8625cf74531674e181f3d638e48d000e4a41059938108e207bc05",
+        "sha256_in_prefix": "960b8a27a2c8625cf74531674e181f3d638e48d000e4a41059938108e207bc05",
+        "size_in_bytes": 5949
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/struct.Length.html",
+        "path_type": "hardlink",
+        "sha256": "7cc8741f64f39da82ec451ea3e77fe3475843b2ec6b9b21943e2e5dba1588e3b",
+        "sha256_in_prefix": "7cc8741f64f39da82ec451ea3e77fe3475843b2ec6b9b21943e2e5dba1588e3b",
+        "size_in_bytes": 5360
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/struct.PositionData.html",
+        "path_type": "hardlink",
+        "sha256": "c541563fbdb1c97289a5e42b737c1126095ee84e0c5a5d0744449aa61257c661",
+        "sha256_in_prefix": "c541563fbdb1c97289a5e42b737c1126095ee84e0c5a5d0744449aa61257c661",
+        "size_in_bytes": 4995
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/struct.Rectangle.html",
+        "path_type": "hardlink",
+        "sha256": "e1bea5b06a709e4889030a2cf3469e4ce65e23996242ca3c0ac672e219ad5136",
+        "sha256_in_prefix": "e1bea5b06a709e4889030a2cf3469e4ce65e23996242ca3c0ac672e219ad5136",
+        "size_in_bytes": 5083
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/style.css",
+        "path_type": "hardlink",
+        "sha256": "9a9075b6303addf75f1fdce14c764ad6579cc603e81d7fb0a7d042cd2b6563ab",
+        "sha256_in_prefix": "9a9075b6303addf75f1fdce14c764ad6579cc603e81d7fb0a7d042cd2b6563ab",
+        "size_in_bytes": 23524
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/type_func.Error.quark.html",
+        "path_type": "hardlink",
+        "sha256": "d931c05fd49431666c969f3ec02e1cb082400c55028d3d239adca266fdea52c7",
+        "sha256_in_prefix": "d931c05fd49431666c969f3ec02e1cb082400c55028d3d239adca266fdea52c7",
+        "size_in_bytes": 4506
+      },
+      {
+        "_path": "share/doc/Rsvg-2.0/urlmap.js",
+        "path_type": "hardlink",
+        "sha256": "688d23c91931c72c0c85a3d28163394e5357d27e40bda5983d16fe8422c9e344",
+        "sha256_in_prefix": "688d23c91931c72c0c85a3d28163394e5357d27e40bda5983d16fe8422c9e344",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "share/doc/librsvg/README.md",
+        "path_type": "hardlink",
+        "sha256": "6c02593d5ca857ea8da20b8658d9ce9aa9ee96665034e432ba8eae3c35825d51",
+        "sha256_in_prefix": "6c02593d5ca857ea8da20b8658d9ce9aa9ee96665034e432ba8eae3c35825d51",
+        "size_in_bytes": 8335
+      },
+      {
+        "_path": "share/doc/librsvg/code-of-conduct.md",
+        "path_type": "hardlink",
+        "sha256": "0b1a9a2d304047be5c53d6c189e27df00bb96741e2f159909d35c25b98c09965",
+        "sha256_in_prefix": "0b1a9a2d304047be5c53d6c189e27df00bb96741e2f159909d35c25b98c09965",
+        "size_in_bytes": 12239
+      },
+      {
+        "_path": "share/gir-1.0/Rsvg-2.0.gir",
+        "path_type": "hardlink",
+        "sha256": "f0a46da6726e867542bb0df9e5d66a59dc18a1d2b21cdec73ef2e24cb9da45e6",
+        "sha256_in_prefix": "f0a46da6726e867542bb0df9e5d66a59dc18a1d2b21cdec73ef2e24cb9da45e6",
+        "size_in_bytes": 130295
+      },
+      {
+        "_path": "share/man/man1/rsvg-convert.1",
+        "path_type": "hardlink",
+        "sha256": "623c85b926fef1fdaaad3cefdb6840d96feea72540604ff6b2f7a02741f100b6",
+        "sha256_in_prefix": "623c85b926fef1fdaaad3cefdb6840d96feea72540604ff6b2f7a02741f100b6",
+        "size_in_bytes": 21624
+      },
+      {
+        "_path": "share/thumbnailers/librsvg.thumbnailer",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/librsvg_1701546342622/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "6367ee512a77b9410926fee62685319df3ff50cae422158a99ae94e4c8d2ff4d",
+        "sha256_in_prefix": "e925dcba07234bdadfef13121580e7babc78bd436a708f1270cb5890590494ea",
+        "size_in_bytes": 660
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b82d0c60376da88a2bf15d35d17c176aa923917ad7de4bc62ddef6d02f3518fb",
+  "size": 5897732,
+  "subdir": "linux-64",
+  "timestamp": 1701546864000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/librsvg-2.56.3-he3f83f7_1.conda",
+  "version": "2.56.3"
+}

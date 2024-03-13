@@ -1,0 +1,150 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=2",
+    "setuptools"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/zc.lockfile-3.0.post1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/zc.lockfile-3.0.post1-py3.11-nspkg.pth",
+    "lib/python3.9/site-packages/zc.lockfile-3.0.post1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/zc.lockfile-3.0.post1.dist-info/LICENSE.txt",
+    "lib/python3.9/site-packages/zc.lockfile-3.0.post1.dist-info/METADATA",
+    "lib/python3.9/site-packages/zc.lockfile-3.0.post1.dist-info/RECORD",
+    "lib/python3.9/site-packages/zc.lockfile-3.0.post1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/zc.lockfile-3.0.post1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/zc.lockfile-3.0.post1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/zc.lockfile-3.0.post1.dist-info/namespace_packages.txt",
+    "lib/python3.9/site-packages/zc.lockfile-3.0.post1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/zc/lockfile/README.txt",
+    "lib/python3.9/site-packages/zc/lockfile/__init__.py",
+    "lib/python3.9/site-packages/zc/lockfile/tests.py",
+    "lib/python3.9/site-packages/zc/lockfile/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/zc/lockfile/__pycache__/tests.cpython-39.pyc"
+  ],
+  "fn": "zc.lockfile-3.0.post1-pyhd8ed1ab_0.conda",
+  "license": "ZPL-2.1",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/zc.lockfile-3.0.post1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "c5de65315ad9643b7fb67e985fbb54a9",
+  "name": "zc.lockfile",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/zc.lockfile-3.0.post1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/zc.lockfile-3.0.post1-py3.11-nspkg.pth",
+        "path_type": "hardlink",
+        "sha256": "8bb837dd1750cc9df72d96077d0fd899084b39c85c5869c19e26f6cf14090a26",
+        "sha256_in_prefix": "8bb837dd1750cc9df72d96077d0fd899084b39c85c5869c19e26f6cf14090a26",
+        "size_in_bytes": 519
+      },
+      {
+        "_path": "site-packages/zc.lockfile-3.0.post1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/zc.lockfile-3.0.post1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "3e671db11df687516cc1db5b3d65e4aa383eaca3c20cea3faf53a0f7335d0a3c",
+        "sha256_in_prefix": "3e671db11df687516cc1db5b3d65e4aa383eaca3c20cea3faf53a0f7335d0a3c",
+        "size_in_bytes": 2070
+      },
+      {
+        "_path": "site-packages/zc.lockfile-3.0.post1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "794c2d0bab1a85ee95e87065d3419f6a8bd4bfbd0e2fd5493bffcadb9e022aaf",
+        "sha256_in_prefix": "794c2d0bab1a85ee95e87065d3419f6a8bd4bfbd0e2fd5493bffcadb9e022aaf",
+        "size_in_bytes": 6195
+      },
+      {
+        "_path": "site-packages/zc.lockfile-3.0.post1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "45ccfbe85f536564b4ad828065d0c1ec3b30c0d00486cab1dd97b782035c1416",
+        "sha256_in_prefix": "45ccfbe85f536564b4ad828065d0c1ec3b30c0d00486cab1dd97b782035c1416",
+        "size_in_bytes": 1274
+      },
+      {
+        "_path": "site-packages/zc.lockfile-3.0.post1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/zc.lockfile-3.0.post1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/zc.lockfile-3.0.post1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "cfd60f70830a0a50c41a232cb65327ad22bd075300c0fb04a832f90b81a52d89",
+        "sha256_in_prefix": "cfd60f70830a0a50c41a232cb65327ad22bd075300c0fb04a832f90b81a52d89",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/zc.lockfile-3.0.post1.dist-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "9e9b701d7e62bd4041678f5abfcb6b8dc9238ef8ffece67f7f46d22e796ecf59",
+        "sha256_in_prefix": "9e9b701d7e62bd4041678f5abfcb6b8dc9238ef8ffece67f7f46d22e796ecf59",
+        "size_in_bytes": 3
+      },
+      {
+        "_path": "site-packages/zc.lockfile-3.0.post1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9e9b701d7e62bd4041678f5abfcb6b8dc9238ef8ffece67f7f46d22e796ecf59",
+        "sha256_in_prefix": "9e9b701d7e62bd4041678f5abfcb6b8dc9238ef8ffece67f7f46d22e796ecf59",
+        "size_in_bytes": 3
+      },
+      {
+        "_path": "site-packages/zc/lockfile/README.txt",
+        "path_type": "hardlink",
+        "sha256": "66431642faa2e7289a254ecc1c8513d53211633eb70dfbfba2c4f695654a699c",
+        "sha256_in_prefix": "66431642faa2e7289a254ecc1c8513d53211633eb70dfbfba2c4f695654a699c",
+        "size_in_bytes": 2048
+      },
+      {
+        "_path": "site-packages/zc/lockfile/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "21a62230f94a0efb199b79e1fc1e6edb9116dd7b64675f4f0e07e0466c945243",
+        "sha256_in_prefix": "21a62230f94a0efb199b79e1fc1e6edb9116dd7b64675f4f0e07e0466c945243",
+        "size_in_bytes": 3492
+      },
+      {
+        "_path": "site-packages/zc/lockfile/tests.py",
+        "path_type": "hardlink",
+        "sha256": "666258d366811d6e69f4d366aceccb97cfbfaca653068be8cc91536c5593d49e",
+        "sha256_in_prefix": "666258d366811d6e69f4d366aceccb97cfbfaca653068be8cc91536c5593d49e",
+        "size_in_bytes": 5587
+      },
+      {
+        "_path": "lib/python3.9/site-packages/zc/lockfile/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/zc/lockfile/__pycache__/tests.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0f6bedc9bd46f31ca888fd63149b3bc19e9616c8d808a72e8648dd6658e87500",
+  "size": 13471,
+  "subdir": "noarch",
+  "timestamp": 1678092456000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/zc.lockfile-3.0.post1-pyhd8ed1ab_0.conda",
+  "version": "3.0.post1"
+}

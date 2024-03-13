@@ -1,0 +1,11 @@
+prefix="/home/geser/data-version-control/venv"
+libdir="/home/geser/data-version-control/venv/lib"
+includedir="/home/geser/data-version-control/venv/include"
+
+Name: libgit2
+Description: The git library, take 2
+Version: 1.7.2
+Libs: -L${libdir} -lgit2
+Libs.private: -lrt -lpthread
+Requires.internal: openssl libpcre2-8 zlib
+Cflags: -I${includedir} 

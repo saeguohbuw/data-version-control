@@ -1,0 +1,104 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/pygtrie-2.5.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/pygtrie-2.5.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/pygtrie-2.5.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/pygtrie-2.5.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/pygtrie-2.5.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/pygtrie-2.5.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/pygtrie-2.5.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/pygtrie-2.5.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/pygtrie.py",
+    "lib/python3.9/site-packages/__pycache__/pygtrie.cpython-39.pyc"
+  ],
+  "fn": "pygtrie-2.5.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache 2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/pygtrie-2.5.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a041d1adf502fc6b3c6a0b0955e29fff",
+  "name": "pygtrie",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/pygtrie-2.5.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pygtrie-2.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pygtrie-2.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f5de2731a737af57fc4dca574d816868ae37829a804659c2f9ca71dee281d6d7",
+        "sha256_in_prefix": "f5de2731a737af57fc4dca574d816868ae37829a804659c2f9ca71dee281d6d7",
+        "size_in_bytes": 7481
+      },
+      {
+        "_path": "site-packages/pygtrie-2.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c5d6769212b82b55a4e0f65e41a2503b656836dd97a2555c6a1cb57b62dcc11d",
+        "sha256_in_prefix": "c5d6769212b82b55a4e0f65e41a2503b656836dd97a2555c6a1cb57b62dcc11d",
+        "size_in_bytes": 681
+      },
+      {
+        "_path": "site-packages/pygtrie-2.5.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pygtrie-2.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pygtrie-2.5.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "97ecb8a9930482100aa6c8445fab53252cb2ee4af591d466163bea68a9e19283",
+        "sha256_in_prefix": "97ecb8a9930482100aa6c8445fab53252cb2ee4af591d466163bea68a9e19283",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/pygtrie-2.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f418cafb857cdd7693eb2e14177660adf2ce4a8e719db610f647bb70e83a9a63",
+        "sha256_in_prefix": "f418cafb857cdd7693eb2e14177660adf2ce4a8e719db610f647bb70e83a9a63",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/pygtrie.py",
+        "path_type": "hardlink",
+        "sha256": "71b85ec73c89c566d9f4227f80968372bb7a632a30c8489c5e5be94012e5ce2a",
+        "sha256_in_prefix": "71b85ec73c89c566d9f4227f80968372bb7a632a30c8489c5e5be94012e5ce2a",
+        "size_in_bytes": 70664
+      },
+      {
+        "_path": "lib/python3.9/site-packages/__pycache__/pygtrie.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c77c8bc76e98ce95e28962c93613472a23cc30d14f523ce5eea625f91cef1e1a",
+  "size": 27140,
+  "subdir": "noarch",
+  "timestamp": 1658067584000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pygtrie-2.5.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.5.0"
+}

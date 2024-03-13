@@ -1,0 +1,211 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/dictdiffer-0.9.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/dictdiffer-0.9.0.dist-info/AUTHORS",
+    "lib/python3.9/site-packages/dictdiffer-0.9.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/dictdiffer-0.9.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/dictdiffer-0.9.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/dictdiffer-0.9.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/dictdiffer-0.9.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/dictdiffer-0.9.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/dictdiffer-0.9.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/dictdiffer-0.9.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/dictdiffer/__init__.py",
+    "lib/python3.9/site-packages/dictdiffer/conflict.py",
+    "lib/python3.9/site-packages/dictdiffer/merge.py",
+    "lib/python3.9/site-packages/dictdiffer/resolve.py",
+    "lib/python3.9/site-packages/dictdiffer/testing.py",
+    "lib/python3.9/site-packages/dictdiffer/unify.py",
+    "lib/python3.9/site-packages/dictdiffer/utils.py",
+    "lib/python3.9/site-packages/dictdiffer/version.py",
+    "lib/python3.9/site-packages/dictdiffer/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/dictdiffer/__pycache__/conflict.cpython-39.pyc",
+    "lib/python3.9/site-packages/dictdiffer/__pycache__/merge.cpython-39.pyc",
+    "lib/python3.9/site-packages/dictdiffer/__pycache__/resolve.cpython-39.pyc",
+    "lib/python3.9/site-packages/dictdiffer/__pycache__/testing.cpython-39.pyc",
+    "lib/python3.9/site-packages/dictdiffer/__pycache__/unify.cpython-39.pyc",
+    "lib/python3.9/site-packages/dictdiffer/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/dictdiffer/__pycache__/version.cpython-39.pyc"
+  ],
+  "fn": "dictdiffer-0.9.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/dictdiffer-0.9.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3cb49199274e7f4d457d8fa2b84dea52",
+  "name": "dictdiffer",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/dictdiffer-0.9.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dictdiffer-0.9.0.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "934a17d0d15ab5dbd536afc93449bc635f9eb851d85c936e3b1afa431a15e937",
+        "sha256_in_prefix": "934a17d0d15ab5dbd536afc93449bc635f9eb851d85c936e3b1afa431a15e937",
+        "size_in_bytes": 601
+      },
+      {
+        "_path": "site-packages/dictdiffer-0.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dictdiffer-0.9.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1f9e05b3b9a6fad24cc67455578bcdfd3e89b09a25c45369a5254203bbe2bdd3",
+        "sha256_in_prefix": "1f9e05b3b9a6fad24cc67455578bcdfd3e89b09a25c45369a5254203bbe2bdd3",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "site-packages/dictdiffer-0.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f7684079caf86ecfd85bff87d8a72e05d0225fc8fabdce8e881792f790300f68",
+        "sha256_in_prefix": "f7684079caf86ecfd85bff87d8a72e05d0225fc8fabdce8e881792f790300f68",
+        "size_in_bytes": 4757
+      },
+      {
+        "_path": "site-packages/dictdiffer-0.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "60a59cd6f59c5f60cc38ca69c98d44cbc312756fb5479065cd9db80b733b228e",
+        "sha256_in_prefix": "60a59cd6f59c5f60cc38ca69c98d44cbc312756fb5479065cd9db80b733b228e",
+        "size_in_bytes": 1795
+      },
+      {
+        "_path": "site-packages/dictdiffer-0.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dictdiffer-0.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/dictdiffer-0.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "67401c778b97d56af0527acc65f98720fb38fd26149c4df0f3432b608c061705",
+        "sha256_in_prefix": "67401c778b97d56af0527acc65f98720fb38fd26149c4df0f3432b608c061705",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/dictdiffer-0.9.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "31c81bda28d4c58eb956816ec46f8b8429712586c6bec79282c7bea618bf2c30",
+        "sha256_in_prefix": "31c81bda28d4c58eb956816ec46f8b8429712586c6bec79282c7bea618bf2c30",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/dictdiffer/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "13e67c54914d3003d85fe20a67677fc96489487654bd247e76f48c7c9505e6d8",
+        "sha256_in_prefix": "13e67c54914d3003d85fe20a67677fc96489487654bd247e76f48c7c9505e6d8",
+        "size_in_bytes": 14388
+      },
+      {
+        "_path": "site-packages/dictdiffer/conflict.py",
+        "path_type": "hardlink",
+        "sha256": "04155120f769464b2d8b4820eaaeb3a73935aecd95b9aaeaed1b0c6e38a01075",
+        "sha256_in_prefix": "04155120f769464b2d8b4820eaaeb3a73935aecd95b9aaeaed1b0c6e38a01075",
+        "size_in_bytes": 2470
+      },
+      {
+        "_path": "site-packages/dictdiffer/merge.py",
+        "path_type": "hardlink",
+        "sha256": "128f9d1226bb4de587b5c923112cc3293e5230438ce34e763b24ac3e6fa65db8",
+        "sha256_in_prefix": "128f9d1226bb4de587b5c923112cc3293e5230438ce34e763b24ac3e6fa65db8",
+        "size_in_bytes": 5116
+      },
+      {
+        "_path": "site-packages/dictdiffer/resolve.py",
+        "path_type": "hardlink",
+        "sha256": "8d0fe28aee9c91249c9ea047d9972c8a79fc49a422d25741db679a9fa9030c5e",
+        "sha256_in_prefix": "8d0fe28aee9c91249c9ea047d9972c8a79fc49a422d25741db679a9fa9030c5e",
+        "size_in_bytes": 5485
+      },
+      {
+        "_path": "site-packages/dictdiffer/testing.py",
+        "path_type": "hardlink",
+        "sha256": "b4ec98fbcbaefac67e768fa60fcc3b3d9bfe92c39ba21a6712cac42eb1badfba",
+        "sha256_in_prefix": "b4ec98fbcbaefac67e768fa60fcc3b3d9bfe92c39ba21a6712cac42eb1badfba",
+        "size_in_bytes": 1122
+      },
+      {
+        "_path": "site-packages/dictdiffer/unify.py",
+        "path_type": "hardlink",
+        "sha256": "c044d4b1240d8ebe8f4590ed273dcf33d8d1c58eaa9e9635ab730b874571276c",
+        "sha256_in_prefix": "c044d4b1240d8ebe8f4590ed273dcf33d8d1c58eaa9e9635ab730b874571276c",
+        "size_in_bytes": 1785
+      },
+      {
+        "_path": "site-packages/dictdiffer/utils.py",
+        "path_type": "hardlink",
+        "sha256": "574414d30ec68229827652981699f6d5af73c852e9e7754c5bf04f86bd4f27d3",
+        "sha256_in_prefix": "574414d30ec68229827652981699f6d5af73c852e9e7754c5bf04f86bd4f27d3",
+        "size_in_bytes": 8763
+      },
+      {
+        "_path": "site-packages/dictdiffer/version.py",
+        "path_type": "hardlink",
+        "sha256": "2c2d5e54bdb75e05a87824affa2ffddfb95106f3dabae5eac56ed61dbfb01a55",
+        "sha256_in_prefix": "2c2d5e54bdb75e05a87824affa2ffddfb95106f3dabae5eac56ed61dbfb01a55",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dictdiffer/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dictdiffer/__pycache__/conflict.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dictdiffer/__pycache__/merge.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dictdiffer/__pycache__/resolve.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dictdiffer/__pycache__/testing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dictdiffer/__pycache__/unify.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dictdiffer/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dictdiffer/__pycache__/version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e60061903052844b7a7d9151bcf8d577275a2cdb0c924f589195d98c36ef0164",
+  "size": 17074,
+  "subdir": "noarch",
+  "timestamp": 1627027763000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dictdiffer-0.9.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.9.0"
+}

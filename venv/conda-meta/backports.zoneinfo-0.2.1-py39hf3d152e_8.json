@@ -1,0 +1,32 @@
+{
+  "build": "py39hf3d152e_8",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/backports.zoneinfo-0.2.1-py39hf3d152e_8",
+  "files": [],
+  "fn": "backports.zoneinfo-0.2.1-py39hf3d152e_8.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/backports.zoneinfo-0.2.1-py39hf3d152e_8",
+    "type": 1
+  },
+  "md5": "b5f34df4e607a92088d2d29adf387ea7",
+  "name": "backports.zoneinfo",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/backports.zoneinfo-0.2.1-py39hf3d152e_8.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "49745f166cfa04e9a78be4bf9f258ad0f8cd280e1523e772838c6997fff1c904",
+  "size": 6744,
+  "subdir": "linux-64",
+  "timestamp": 1695531443000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/backports.zoneinfo-0.2.1-py39hf3d152e_8.conda",
+  "version": "0.2.1"
+}

@@ -1,0 +1,270 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "pywin32 >=225"
+  ],
+  "depends": [
+    "celery >=5.3.0,<6",
+    "funcy >=1.17",
+    "kombu",
+    "python >=3.7",
+    "pywin32-on-windows",
+    "shortuuid >=1.0.8"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/dvc-task-0.3.0-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.9/site-packages/dvc_task-0.3.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/dvc_task-0.3.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/dvc_task-0.3.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/dvc_task-0.3.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/dvc_task-0.3.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/dvc_task-0.3.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/dvc_task-0.3.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/dvc_task-0.3.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/dvc_task/__init__.py",
+    "lib/python3.9/site-packages/dvc_task/app/__init__.py",
+    "lib/python3.9/site-packages/dvc_task/app/filesystem.py",
+    "lib/python3.9/site-packages/dvc_task/exceptions.py",
+    "lib/python3.9/site-packages/dvc_task/proc/__init__.py",
+    "lib/python3.9/site-packages/dvc_task/proc/exceptions.py",
+    "lib/python3.9/site-packages/dvc_task/proc/manager.py",
+    "lib/python3.9/site-packages/dvc_task/proc/process.py",
+    "lib/python3.9/site-packages/dvc_task/proc/tasks.py",
+    "lib/python3.9/site-packages/dvc_task/py.typed",
+    "lib/python3.9/site-packages/dvc_task/utils.py",
+    "lib/python3.9/site-packages/dvc_task/worker/__init__.py",
+    "lib/python3.9/site-packages/dvc_task/worker/temporary.py",
+    "lib/python3.9/site-packages/dvc_task/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_task/app/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_task/app/__pycache__/filesystem.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_task/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_task/proc/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_task/proc/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_task/proc/__pycache__/manager.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_task/proc/__pycache__/process.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_task/proc/__pycache__/tasks.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_task/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_task/worker/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/dvc_task/worker/__pycache__/temporary.cpython-39.pyc"
+  ],
+  "fn": "dvc-task-0.3.0-pyhd8ed1ab_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/dvc-task-0.3.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "eea6585e68091edd0865eea060b40a73",
+  "name": "dvc-task",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/dvc-task-0.3.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dvc_task-0.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dvc_task-0.3.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "sha256_in_prefix": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "size_in_bytes": 11340
+      },
+      {
+        "_path": "site-packages/dvc_task-0.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5140813e4630cd43887d5e59f2280bec4f4821bda0fb9225ef2fdb321d713adc",
+        "sha256_in_prefix": "5140813e4630cd43887d5e59f2280bec4f4821bda0fb9225ef2fdb321d713adc",
+        "size_in_bytes": 10451
+      },
+      {
+        "_path": "site-packages/dvc_task-0.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "663226b3d77903cfcd47352c83e57c9d5499b4b839678aae1c205e4447d6ee1c",
+        "sha256_in_prefix": "663226b3d77903cfcd47352c83e57c9d5499b4b839678aae1c205e4447d6ee1c",
+        "size_in_bytes": 2351
+      },
+      {
+        "_path": "site-packages/dvc_task-0.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_task-0.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dvc_task-0.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c11a1747387d0e2b115047e2a9e2af2eae5ff33326ac4a5345446a3c15151fad",
+        "sha256_in_prefix": "c11a1747387d0e2b115047e2a9e2af2eae5ff33326ac4a5345446a3c15151fad",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/dvc_task-0.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4609fa3f26e752271e19447c5326f974945edb46cd43e8afd456ec78cd5288b5",
+        "sha256_in_prefix": "4609fa3f26e752271e19447c5326f974945edb46cd43e8afd456ec78cd5288b5",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/dvc_task/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d1d1cbec238f04c380c993379edf431b6027888bb64adb069d50fd8d7e6f513b",
+        "sha256_in_prefix": "d1d1cbec238f04c380c993379edf431b6027888bb64adb069d50fd8d7e6f513b",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/dvc_task/app/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "83d9d0887c732de78dfe456472ef6ca9e243c8ef75d312e5eddcd5832131794a",
+        "sha256_in_prefix": "83d9d0887c732de78dfe456472ef6ca9e243c8ef75d312e5eddcd5832131794a",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/dvc_task/app/filesystem.py",
+        "path_type": "hardlink",
+        "sha256": "88d2c532292989db533e0141c51d022cd0e3ab979c580ab34ff9083f1c33e725",
+        "sha256_in_prefix": "88d2c532292989db533e0141c51d022cd0e3ab979c580ab34ff9083f1c33e725",
+        "size_in_bytes": 10417
+      },
+      {
+        "_path": "site-packages/dvc_task/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "408dcca584679babd976517ab801831d2685bac0a17e0f7da6b8964a9d573d01",
+        "sha256_in_prefix": "408dcca584679babd976517ab801831d2685bac0a17e0f7da6b8964a9d573d01",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/dvc_task/proc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d6c76a00841de108d3487f0d7a04150b9f469d9d6e3e2773c7f46f6571c363e7",
+        "sha256_in_prefix": "d6c76a00841de108d3487f0d7a04150b9f469d9d6e3e2773c7f46f6571c363e7",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "site-packages/dvc_task/proc/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "35b3c3ca4a848586349ed9f7bdc9aadc8b2e609b00fe99b1a5ecd5abb20bf7bb",
+        "sha256_in_prefix": "35b3c3ca4a848586349ed9f7bdc9aadc8b2e609b00fe99b1a5ecd5abb20bf7bb",
+        "size_in_bytes": 854
+      },
+      {
+        "_path": "site-packages/dvc_task/proc/manager.py",
+        "path_type": "hardlink",
+        "sha256": "6c6ea68c401cc3f07ffe8d43d1bdec5bc2425e791849a621434bdb25ab7e2d20",
+        "sha256_in_prefix": "6c6ea68c401cc3f07ffe8d43d1bdec5bc2425e791849a621434bdb25ab7e2d20",
+        "size_in_bytes": 8140
+      },
+      {
+        "_path": "site-packages/dvc_task/proc/process.py",
+        "path_type": "hardlink",
+        "sha256": "a164a28d92e4a23560c6c042b023d09de3f981bedcc450acb72780e83828e7b6",
+        "sha256_in_prefix": "a164a28d92e4a23560c6c042b023d09de3f981bedcc450acb72780e83828e7b6",
+        "size_in_bytes": 6879
+      },
+      {
+        "_path": "site-packages/dvc_task/proc/tasks.py",
+        "path_type": "hardlink",
+        "sha256": "e94188c5bba61e2bf9d094981a7b5bcfc18bae36ac0ae34ca553210e80c6a15c",
+        "sha256_in_prefix": "e94188c5bba61e2bf9d094981a7b5bcfc18bae36ac0ae34ca553210e80c6a15c",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "site-packages/dvc_task/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_task/utils.py",
+        "path_type": "hardlink",
+        "sha256": "53a4ed0699b909096658fea7f758a713f2a6399be698334fb75b81a47232c192",
+        "sha256_in_prefix": "53a4ed0699b909096658fea7f758a713f2a6399be698334fb75b81a47232c192",
+        "size_in_bytes": 2619
+      },
+      {
+        "_path": "site-packages/dvc_task/worker/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6d3c5672592e6662bd409bda70af3b797ff3e3e0cb0732d5bf544610fd8bca0f",
+        "sha256_in_prefix": "6d3c5672592e6662bd409bda70af3b797ff3e3e0cb0732d5bf544610fd8bca0f",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/dvc_task/worker/temporary.py",
+        "path_type": "hardlink",
+        "sha256": "e2f44efc85b0a01b4f3a7d0f721fa0de7a289b31ec5adc1105fb9ec8cc0ac221",
+        "sha256_in_prefix": "e2f44efc85b0a01b4f3a7d0f721fa0de7a289b31ec5adc1105fb9ec8cc0ac221",
+        "size_in_bytes": 4425
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/app/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/app/__pycache__/filesystem.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/proc/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/proc/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/proc/__pycache__/manager.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/proc/__pycache__/process.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/proc/__pycache__/tasks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/worker/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/dvc_task/worker/__pycache__/temporary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e9349a8ebec0cfb94ad9fc3b5810ba29aa864efc77b09226f954ba67cc9990e1",
+  "size": 24284,
+  "subdir": "noarch",
+  "timestamp": 1707206696000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dvc-task-0.3.0-pyhd8ed1ab_1.conda",
+  "version": "0.3.0"
+}

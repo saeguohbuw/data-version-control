@@ -1,0 +1,17 @@
+prefix=/home/geser/data-version-control/venv
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+sysconfdir=/home/geser/data-version-control/venv/etc
+localstatedir=/home/geser/data-version-control/venv/var
+confdir=/home/geser/data-version-control/venv/etc/fonts
+cachedir=/home/geser/data-version-control/venv/var/cache/fontconfig
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.14.2
+Requires: freetype2 >=  21.0.15
+Requires.private: expat
+Libs: -L${libdir} -lfontconfig
+Libs.private: -pthread
+Cflags: -I${includedir}

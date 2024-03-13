@@ -1,0 +1,127 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "atpublic",
+    "psutil",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/flufl.lock-7.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/flufl.lock-7.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/flufl.lock-7.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/flufl.lock-7.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/flufl.lock-7.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/flufl.lock-7.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/flufl.lock-7.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/flufl.lock-7.1.dist-info/license_files/LICENSE",
+    "lib/python3.9/site-packages/flufl/lock/__init__.py",
+    "lib/python3.9/site-packages/flufl/lock/_lockfile.py",
+    "lib/python3.9/site-packages/flufl/lock/py.typed",
+    "lib/python3.9/site-packages/flufl/lock/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/flufl/lock/__pycache__/_lockfile.cpython-39.pyc"
+  ],
+  "fn": "flufl.lock-7.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/flufl.lock-7.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "9164819e1a375013c4fbcbaa9538f96c",
+  "name": "flufl.lock",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/flufl.lock-7.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/flufl.lock-7.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/flufl.lock-7.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ba98a68053be6f0af082db7a770e8f9dd5f59a24d1db107aa632c68685d327ca",
+        "sha256_in_prefix": "ba98a68053be6f0af082db7a770e8f9dd5f59a24d1db107aa632c68685d327ca",
+        "size_in_bytes": 3342
+      },
+      {
+        "_path": "site-packages/flufl.lock-7.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4ca4699dabae25e285ba6235020366d27854da056f79bd88ff216e00ca7a1363",
+        "sha256_in_prefix": "4ca4699dabae25e285ba6235020366d27854da056f79bd88ff216e00ca7a1363",
+        "size_in_bytes": 928
+      },
+      {
+        "_path": "site-packages/flufl.lock-7.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/flufl.lock-7.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "83f51d159aa6fa4e9bd16eb839c9dd074613fc3da61453c06018fbfbf62c48f0",
+        "sha256_in_prefix": "83f51d159aa6fa4e9bd16eb839c9dd074613fc3da61453c06018fbfbf62c48f0",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/flufl.lock-7.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "614c8211116725f1696d153ebb70a4944395ed8ffd6ea6f11e238f639c089958",
+        "sha256_in_prefix": "614c8211116725f1696d153ebb70a4944395ed8ffd6ea6f11e238f639c089958",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/flufl.lock-7.1.dist-info/license_files/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "696109dd3cc672bf40b1a5bf49cbe464e082eff304c8c087dea76075d8566bee",
+        "sha256_in_prefix": "696109dd3cc672bf40b1a5bf49cbe464e082eff304c8c087dea76075d8566bee",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "site-packages/flufl/lock/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6db0e5a31acd33f229b6f9ca0707595e178617a87654ef66ce7e2b344105e934",
+        "sha256_in_prefix": "6db0e5a31acd33f229b6f9ca0707595e178617a87654ef66ce7e2b344105e934",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "site-packages/flufl/lock/_lockfile.py",
+        "path_type": "hardlink",
+        "sha256": "d2cec990b9d2ad95c7aa32da6e275ec3b1a1d948b34d815bcf4a94cb5c56f953",
+        "sha256_in_prefix": "d2cec990b9d2ad95c7aa32da6e275ec3b1a1d948b34d815bcf4a94cb5c56f953",
+        "size_in_bytes": 25499
+      },
+      {
+        "_path": "site-packages/flufl/lock/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/flufl/lock/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/flufl/lock/__pycache__/_lockfile.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7fa791a18b77e134955a1ec0356b780d71abf47449c367a0fe408fe7e827b5a3",
+  "size": 14781,
+  "subdir": "noarch",
+  "timestamp": 1661682641000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/flufl.lock-7.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "7.1"
+}

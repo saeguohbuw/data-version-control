@@ -1,0 +1,14 @@
+prefix=/home/geser/data-version-control/venv
+exec_prefix=/home/geser/data-version-control/venv
+libdir=/home/geser/data-version-control/venv/lib
+includedir=/home/geser/data-version-control/venv/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: zlib, libpng
+Libs: -L/home/geser/data-version-control/venv/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

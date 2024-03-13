@@ -1,0 +1,418 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "entrypoints",
+    "funcy",
+    "pydantic >=1.9.0,<3,!=2.0.0",
+    "python >=3.8",
+    "rich",
+    "ruamel.yaml",
+    "scmrepo >=3,<4",
+    "semver >=3.0.0",
+    "tabulate >=0.8.10",
+    "typer >=0.4.1"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/gto-1.7.0-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.9/site-packages/gto-1.7.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/gto-1.7.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/gto-1.7.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/gto-1.7.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/gto-1.7.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/gto-1.7.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/gto-1.7.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/gto-1.7.0.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/gto-1.7.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/gto/__init__.py",
+    "lib/python3.9/site-packages/gto/_gto_version.py",
+    "lib/python3.9/site-packages/gto/_pydantic.py",
+    "lib/python3.9/site-packages/gto/_version.py",
+    "lib/python3.9/site-packages/gto/api.py",
+    "lib/python3.9/site-packages/gto/base.py",
+    "lib/python3.9/site-packages/gto/cli.py",
+    "lib/python3.9/site-packages/gto/commit_message_generator.py",
+    "lib/python3.9/site-packages/gto/config.py",
+    "lib/python3.9/site-packages/gto/constants.py",
+    "lib/python3.9/site-packages/gto/exceptions.py",
+    "lib/python3.9/site-packages/gto/ext.py",
+    "lib/python3.9/site-packages/gto/git_utils.py",
+    "lib/python3.9/site-packages/gto/index.py",
+    "lib/python3.9/site-packages/gto/log.py",
+    "lib/python3.9/site-packages/gto/py.typed",
+    "lib/python3.9/site-packages/gto/registry.py",
+    "lib/python3.9/site-packages/gto/tag.py",
+    "lib/python3.9/site-packages/gto/ui.py",
+    "lib/python3.9/site-packages/gto/utils.py",
+    "lib/python3.9/site-packages/gto/versions.py",
+    "lib/python3.9/site-packages/tests/resources/__init__.py",
+    "lib/python3.9/site-packages/tests/resources/sample_remote_repo_expected_history_churn.json",
+    "lib/python3.9/site-packages/tests/resources/sample_remote_repo_expected_registry.json",
+    "lib/python3.9/site-packages/gto/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/_gto_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/_pydantic.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/api.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/cli.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/commit_message_generator.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/config.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/constants.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/ext.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/git_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/index.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/log.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/registry.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/tag.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/ui.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gto/__pycache__/versions.cpython-39.pyc",
+    "lib/python3.9/site-packages/tests/resources/__pycache__/__init__.cpython-39.pyc",
+    "bin/gto"
+  ],
+  "fn": "gto-1.7.0-pyhd8ed1ab_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/gto-1.7.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "15f35486983d227a9c34e4f93270f3bb",
+  "name": "gto",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/gto-1.7.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/gto-1.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/gto-1.7.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3f5eea9ea65ec02ea18071bc5e4816ca3b3d0eab4bfd33f43fde850d699d726a",
+        "sha256_in_prefix": "3f5eea9ea65ec02ea18071bc5e4816ca3b3d0eab4bfd33f43fde850d699d726a",
+        "size_in_bytes": 11345
+      },
+      {
+        "_path": "site-packages/gto-1.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4f6a1a3b7f0097f4f070528148bb318a81d4a6062c7b7435a66f303d2897f156",
+        "sha256_in_prefix": "4f6a1a3b7f0097f4f070528148bb318a81d4a6062c7b7435a66f303d2897f156",
+        "size_in_bytes": 4204
+      },
+      {
+        "_path": "site-packages/gto-1.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9b78e727a0776ef1a65a3b9daf97f30c84428cc5757daba6c30ab672bfd85e9c",
+        "sha256_in_prefix": "9b78e727a0776ef1a65a3b9daf97f30c84428cc5757daba6c30ab672bfd85e9c",
+        "size_in_bytes": 3541
+      },
+      {
+        "_path": "site-packages/gto-1.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/gto-1.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/gto-1.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3c0ef102dddd4216251f10082e88502350334e65a841ecc68a9a34b66fab2956",
+        "sha256_in_prefix": "3c0ef102dddd4216251f10082e88502350334e65a841ecc68a9a34b66fab2956",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/gto-1.7.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "608e7ec80ac8113061e54b2b7dd821782a1f091e06543e1b81b416b1303c6d9e",
+        "sha256_in_prefix": "608e7ec80ac8113061e54b2b7dd821782a1f091e06543e1b81b416b1303c6d9e",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/gto-1.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "975f225d54dc02e9846617b8e48fe94e9938c1e8606a701f986acff0f90805ec",
+        "sha256_in_prefix": "975f225d54dc02e9846617b8e48fe94e9938c1e8606a701f986acff0f90805ec",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/gto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8a2c6b84031b20b3a5495f22e1a6dcc019925b2b13684759ae90cacc1ee0ffd2",
+        "sha256_in_prefix": "8a2c6b84031b20b3a5495f22e1a6dcc019925b2b13684759ae90cacc1ee0ffd2",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "site-packages/gto/_gto_version.py",
+        "path_type": "hardlink",
+        "sha256": "d9f12ac6e8e6ad5d9db111227b606639814bbbae85a30c87b594f60282ee2335",
+        "sha256_in_prefix": "d9f12ac6e8e6ad5d9db111227b606639814bbbae85a30c87b594f60282ee2335",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "site-packages/gto/_pydantic.py",
+        "path_type": "hardlink",
+        "sha256": "ebefcd9e35c92b5dde34a8cb370f7b762cbb2def318f07093afe211ad8d5dbd5",
+        "sha256_in_prefix": "ebefcd9e35c92b5dde34a8cb370f7b762cbb2def318f07093afe211ad8d5dbd5",
+        "size_in_bytes": 655
+      },
+      {
+        "_path": "site-packages/gto/_version.py",
+        "path_type": "hardlink",
+        "sha256": "3e98ae04673446984ab8b6968526817a13aa939205203703d218d9597f779320",
+        "sha256_in_prefix": "3e98ae04673446984ab8b6968526817a13aa939205203703d218d9597f779320",
+        "size_in_bytes": 404
+      },
+      {
+        "_path": "site-packages/gto/api.py",
+        "path_type": "hardlink",
+        "sha256": "abf5f56bff88e5ce9449273f71215588e0710a3213e16c68073f7ffe7d67808a",
+        "sha256_in_prefix": "abf5f56bff88e5ce9449273f71215588e0710a3213e16c68073f7ffe7d67808a",
+        "size_in_bytes": 15854
+      },
+      {
+        "_path": "site-packages/gto/base.py",
+        "path_type": "hardlink",
+        "sha256": "2f916ca4b93a8c5c19afc2b8be2f295415b997c781cf83b0f7947db11c6bf4f8",
+        "sha256_in_prefix": "2f916ca4b93a8c5c19afc2b8be2f295415b997c781cf83b0f7947db11c6bf4f8",
+        "size_in_bytes": 19822
+      },
+      {
+        "_path": "site-packages/gto/cli.py",
+        "path_type": "hardlink",
+        "sha256": "6f50628d94fe2539a99734968977aa6abac996ef01257f584ebdbff2618b6280",
+        "sha256_in_prefix": "6f50628d94fe2539a99734968977aa6abac996ef01257f584ebdbff2618b6280",
+        "size_in_bytes": 25392
+      },
+      {
+        "_path": "site-packages/gto/commit_message_generator.py",
+        "path_type": "hardlink",
+        "sha256": "8a6a87c51aa5d260bae744d1f7aa20dc566c7d41052776047103c0e353dd92fd",
+        "sha256_in_prefix": "8a6a87c51aa5d260bae744d1f7aa20dc566c7d41052776047103c0e353dd92fd",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "site-packages/gto/config.py",
+        "path_type": "hardlink",
+        "sha256": "c6a45574be2c9ff3d27a30131d816a915441630ff6ac40ae0e133e88ebdf87b5",
+        "sha256_in_prefix": "c6a45574be2c9ff3d27a30131d816a915441630ff6ac40ae0e133e88ebdf87b5",
+        "size_in_bytes": 4281
+      },
+      {
+        "_path": "site-packages/gto/constants.py",
+        "path_type": "hardlink",
+        "sha256": "bbb687ca5b959c2a0eebe4d34e89958c23e17c46bf0c3bfb73aad9704e4d35d0",
+        "sha256_in_prefix": "bbb687ca5b959c2a0eebe4d34e89958c23e17c46bf0c3bfb73aad9704e4d35d0",
+        "size_in_bytes": 3484
+      },
+      {
+        "_path": "site-packages/gto/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "fea343aaaaf01a3d260bb2ab54ce4d487f377d5311463626520b26aa8711a6ef",
+        "sha256_in_prefix": "fea343aaaaf01a3d260bb2ab54ce4d487f377d5311463626520b26aa8711a6ef",
+        "size_in_bytes": 5836
+      },
+      {
+        "_path": "site-packages/gto/ext.py",
+        "path_type": "hardlink",
+        "sha256": "5c88d945e0954ebb2c228f0490bc1370f73a2fc7818dc711b5fb8693a55b0f86",
+        "sha256_in_prefix": "5c88d945e0954ebb2c228f0490bc1370f73a2fc7818dc711b5fb8693a55b0f86",
+        "size_in_bytes": 2013
+      },
+      {
+        "_path": "site-packages/gto/git_utils.py",
+        "path_type": "hardlink",
+        "sha256": "72b69f452c6eec60f3c260adf620b1931857530521ba5080ea16fe8702d0096b",
+        "sha256_in_prefix": "72b69f452c6eec60f3c260adf620b1931857530521ba5080ea16fe8702d0096b",
+        "size_in_bytes": 5202
+      },
+      {
+        "_path": "site-packages/gto/index.py",
+        "path_type": "hardlink",
+        "sha256": "75aba3cdbd6b0bf6f14c836e8a26d8b513f7dc307c549ea8468c51fd57d84eb3",
+        "sha256_in_prefix": "75aba3cdbd6b0bf6f14c836e8a26d8b513f7dc307c549ea8468c51fd57d84eb3",
+        "size_in_bytes": 18775
+      },
+      {
+        "_path": "site-packages/gto/log.py",
+        "path_type": "hardlink",
+        "sha256": "833f45d41690ff4a8ba4cc11dc3d983319cfb1c6492365bf07b08c4a31ba05fd",
+        "sha256_in_prefix": "833f45d41690ff4a8ba4cc11dc3d983319cfb1c6492365bf07b08c4a31ba05fd",
+        "size_in_bytes": 763
+      },
+      {
+        "_path": "site-packages/gto/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/gto/registry.py",
+        "path_type": "hardlink",
+        "sha256": "a51819ceaf44fbc0410b4703f77f62141aafdd72e9e9bee324ade5c4da6bf69d",
+        "sha256_in_prefix": "a51819ceaf44fbc0410b4703f77f62141aafdd72e9e9bee324ade5c4da6bf69d",
+        "size_in_bytes": 20961
+      },
+      {
+        "_path": "site-packages/gto/tag.py",
+        "path_type": "hardlink",
+        "sha256": "70cc4adfb4b1b0a4f41de8fd17161677d080f4da2269e6611f0afc6ea903f508",
+        "sha256_in_prefix": "70cc4adfb4b1b0a4f41de8fd17161677d080f4da2269e6611f0afc6ea903f508",
+        "size_in_bytes": 11791
+      },
+      {
+        "_path": "site-packages/gto/ui.py",
+        "path_type": "hardlink",
+        "sha256": "b5209b4a48a04792392cadc276dbcba7079b03087f9846f18d4e2de9a6f955f7",
+        "sha256_in_prefix": "b5209b4a48a04792392cadc276dbcba7079b03087f9846f18d4e2de9a6f955f7",
+        "size_in_bytes": 1720
+      },
+      {
+        "_path": "site-packages/gto/utils.py",
+        "path_type": "hardlink",
+        "sha256": "44d18b25d258ebe8486c26d9381a8e9a6a25521deef9d82ea642dffb54fffa7c",
+        "sha256_in_prefix": "44d18b25d258ebe8486c26d9381a8e9a6a25521deef9d82ea642dffb54fffa7c",
+        "size_in_bytes": 2431
+      },
+      {
+        "_path": "site-packages/gto/versions.py",
+        "path_type": "hardlink",
+        "sha256": "5d0a7882925f9d423158d4ae10c8e0360ebff629733fd0da3ae477475adad009",
+        "sha256_in_prefix": "5d0a7882925f9d423158d4ae10c8e0360ebff629733fd0da3ae477475adad009",
+        "size_in_bytes": 3123
+      },
+      {
+        "_path": "site-packages/tests/resources/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aaa48f30b996230513c497914fc423d4b155e3e3692c03223328e5d6f2035f69",
+        "sha256_in_prefix": "aaa48f30b996230513c497914fc423d4b155e3e3692c03223328e5d6f2035f69",
+        "size_in_bytes": 759
+      },
+      {
+        "_path": "site-packages/tests/resources/sample_remote_repo_expected_history_churn.json",
+        "path_type": "hardlink",
+        "sha256": "e9655f707f48a2a72d4c849854f8b3b253c7cd23aab54af8b3ab988ebcbac479",
+        "sha256_in_prefix": "e9655f707f48a2a72d4c849854f8b3b253c7cd23aab54af8b3ab988ebcbac479",
+        "size_in_bytes": 1592
+      },
+      {
+        "_path": "site-packages/tests/resources/sample_remote_repo_expected_registry.json",
+        "path_type": "hardlink",
+        "sha256": "fe3795f9bf64d04155ad80f10d9455074da9cd3c3d1be82f79d36cfc5de4ecfd",
+        "sha256_in_prefix": "fe3795f9bf64d04155ad80f10d9455074da9cd3c3d1be82f79d36cfc5de4ecfd",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/_gto_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/_pydantic.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/api.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/cli.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/commit_message_generator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/constants.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/ext.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/git_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/index.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/log.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/registry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/tag.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/ui.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gto/__pycache__/versions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tests/resources/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/gto",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6d481a09f89f730ecc5e7d06afe1c73a974ff911ceda9d6d689080f69e139054",
+  "size": 43887,
+  "subdir": "noarch",
+  "timestamp": 1707206736000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/gto-1.7.0-pyhd8ed1ab_1.conda",
+  "version": "1.7.0"
+}

@@ -1,0 +1,523 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "aiohttp-retry >=2.5.0",
+    "asyncssh >=2.13.1,<3",
+    "dulwich >=0.21.6",
+    "dvc-http >=2.29.0",
+    "dvc-objects >=4,<5",
+    "fsspec >=2024.2.0",
+    "funcy >=1.14",
+    "gitpython >3",
+    "pathspec >=0.9.0",
+    "pygit2 >=1.14.0",
+    "pygtrie >=2.3.2",
+    "python >=3.8",
+    "shortuuid >=0.5.0",
+    "tqdm"
+  ],
+  "extracted_package_dir": "/home/geser/anaconda3/pkgs/scmrepo-3.2.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/scmrepo-3.2.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/scmrepo-3.2.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/scmrepo-3.2.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/scmrepo-3.2.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/scmrepo-3.2.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/scmrepo-3.2.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/scmrepo-3.2.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/scmrepo-3.2.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/scmrepo/__init__.py",
+    "lib/python3.9/site-packages/scmrepo/asyn.py",
+    "lib/python3.9/site-packages/scmrepo/base.py",
+    "lib/python3.9/site-packages/scmrepo/exceptions.py",
+    "lib/python3.9/site-packages/scmrepo/fs.py",
+    "lib/python3.9/site-packages/scmrepo/git/__init__.py",
+    "lib/python3.9/site-packages/scmrepo/git/backend/__init__.py",
+    "lib/python3.9/site-packages/scmrepo/git/backend/base.py",
+    "lib/python3.9/site-packages/scmrepo/git/backend/dulwich/__init__.py",
+    "lib/python3.9/site-packages/scmrepo/git/backend/dulwich/asyncssh_vendor.py",
+    "lib/python3.9/site-packages/scmrepo/git/backend/dulwich/client.py",
+    "lib/python3.9/site-packages/scmrepo/git/backend/gitpython.py",
+    "lib/python3.9/site-packages/scmrepo/git/backend/pygit2/__init__.py",
+    "lib/python3.9/site-packages/scmrepo/git/backend/pygit2/callbacks.py",
+    "lib/python3.9/site-packages/scmrepo/git/backend/pygit2/filter.py",
+    "lib/python3.9/site-packages/scmrepo/git/config.py",
+    "lib/python3.9/site-packages/scmrepo/git/credentials.py",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/__init__.py",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/client.py",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/exceptions.py",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/fetch.py",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/object.py",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/pointer.py",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/progress.py",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/smudge.py",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/storage.py",
+    "lib/python3.9/site-packages/scmrepo/git/objects.py",
+    "lib/python3.9/site-packages/scmrepo/git/stash.py",
+    "lib/python3.9/site-packages/scmrepo/noscm.py",
+    "lib/python3.9/site-packages/scmrepo/progress.py",
+    "lib/python3.9/site-packages/scmrepo/py.typed",
+    "lib/python3.9/site-packages/scmrepo/utils.py",
+    "lib/python3.9/site-packages/scmrepo/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/__pycache__/asyn.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/__pycache__/fs.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/backend/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/backend/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/backend/dulwich/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/backend/dulwich/__pycache__/asyncssh_vendor.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/backend/dulwich/__pycache__/client.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/backend/__pycache__/gitpython.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/backend/pygit2/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/backend/pygit2/__pycache__/callbacks.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/backend/pygit2/__pycache__/filter.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/__pycache__/config.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/__pycache__/credentials.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/client.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/fetch.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/object.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/pointer.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/progress.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/smudge.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/storage.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/__pycache__/objects.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/git/__pycache__/stash.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/__pycache__/noscm.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/__pycache__/progress.cpython-39.pyc",
+    "lib/python3.9/site-packages/scmrepo/__pycache__/utils.cpython-39.pyc"
+  ],
+  "fn": "scmrepo-3.2.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/geser/anaconda3/pkgs/scmrepo-3.2.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "ca994a7d411f98ab9c6b4a0c3a4a1295",
+  "name": "scmrepo",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/geser/anaconda3/pkgs/scmrepo-3.2.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/scmrepo-3.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/scmrepo-3.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "sha256_in_prefix": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "size_in_bytes": 11340
+      },
+      {
+        "_path": "site-packages/scmrepo-3.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fac2b8b719d6f0502a3937b0c3699babd1cc954a7fd5d2927693376ba8b78cf2",
+        "sha256_in_prefix": "fac2b8b719d6f0502a3937b0c3699babd1cc954a7fd5d2927693376ba8b78cf2",
+        "size_in_bytes": 4841
+      },
+      {
+        "_path": "site-packages/scmrepo-3.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "59cc31732861fe685dd387cd8442db4f8ffc808d064d0f6ef16ab5ddf8fba6fa",
+        "sha256_in_prefix": "59cc31732861fe685dd387cd8442db4f8ffc808d064d0f6ef16ab5ddf8fba6fa",
+        "size_in_bytes": 5036
+      },
+      {
+        "_path": "site-packages/scmrepo-3.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/scmrepo-3.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/scmrepo-3.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ded2302e02d80ee1aefdb2f99d2c69dff1d14e8ef72404a5db4cc3f9f36882f0",
+        "sha256_in_prefix": "ded2302e02d80ee1aefdb2f99d2c69dff1d14e8ef72404a5db4cc3f9f36882f0",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/scmrepo-3.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8ae9e3a1deb0dc6a20111b0061f2d1ba99c03579eacd7de36c87db788406e5c7",
+        "sha256_in_prefix": "8ae9e3a1deb0dc6a20111b0061f2d1ba99c03579eacd7de36c87db788406e5c7",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/scmrepo/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/scmrepo/asyn.py",
+        "path_type": "hardlink",
+        "sha256": "d65e0da5aea098879963ab7ff12d4b2b9089dea016fcd32028faec37ef1ff645",
+        "sha256_in_prefix": "d65e0da5aea098879963ab7ff12d4b2b9089dea016fcd32028faec37ef1ff645",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "site-packages/scmrepo/base.py",
+        "path_type": "hardlink",
+        "sha256": "523130ee24216110318f821af71e4d14c8c8fff00eeea97a204468168ee1b25a",
+        "sha256_in_prefix": "523130ee24216110318f821af71e4d14c8c8fff00eeea97a204468168ee1b25a",
+        "size_in_bytes": 3006
+      },
+      {
+        "_path": "site-packages/scmrepo/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "bd1f01b822a02a1f6532709e9b335818788972d8a83a6867fcabf99bc5ceebd6",
+        "sha256_in_prefix": "bd1f01b822a02a1f6532709e9b335818788972d8a83a6867fcabf99bc5ceebd6",
+        "size_in_bytes": 1053
+      },
+      {
+        "_path": "site-packages/scmrepo/fs.py",
+        "path_type": "hardlink",
+        "sha256": "d22cf2ab98a7e9bdb41f67928e9b9def2903cca137db7d2abdc33fde8928ee26",
+        "sha256_in_prefix": "d22cf2ab98a7e9bdb41f67928e9b9def2903cca137db7d2abdc33fde8928ee26",
+        "size_in_bytes": 7720
+      },
+      {
+        "_path": "site-packages/scmrepo/git/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dcd116f6b047da8869aca8d721fa1d0d79e967101b02d11850f30ee6e9391f1c",
+        "sha256_in_prefix": "dcd116f6b047da8869aca8d721fa1d0d79e967101b02d11850f30ee6e9391f1c",
+        "size_in_bytes": 17101
+      },
+      {
+        "_path": "site-packages/scmrepo/git/backend/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/scmrepo/git/backend/base.py",
+        "path_type": "hardlink",
+        "sha256": "69cc6e490d19f9418d906ada09d2d0c41c431db4dd6168be1735edc1d6fed4ef",
+        "sha256_in_prefix": "69cc6e490d19f9418d906ada09d2d0c41c431db4dd6168be1735edc1d6fed4ef",
+        "size_in_bytes": 13535
+      },
+      {
+        "_path": "site-packages/scmrepo/git/backend/dulwich/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a046a36900db995b394a5f74b4ce05f2bc1dbcf65a8176e0c7a68000bfa3bca8",
+        "sha256_in_prefix": "a046a36900db995b394a5f74b4ce05f2bc1dbcf65a8176e0c7a68000bfa3bca8",
+        "size_in_bytes": 34782
+      },
+      {
+        "_path": "site-packages/scmrepo/git/backend/dulwich/asyncssh_vendor.py",
+        "path_type": "hardlink",
+        "sha256": "3ae67f6d67b9f8b899088330051697fee8f4de811cad182bd6e7fd8b65efe059",
+        "sha256_in_prefix": "3ae67f6d67b9f8b899088330051697fee8f4de811cad182bd6e7fd8b65efe059",
+        "size_in_bytes": 11497
+      },
+      {
+        "_path": "site-packages/scmrepo/git/backend/dulwich/client.py",
+        "path_type": "hardlink",
+        "sha256": "6dc0eba258d2bcdcfab39596bfd515bd91ca90e24e5532bfcd4ed80aaeb64cde",
+        "sha256_in_prefix": "6dc0eba258d2bcdcfab39596bfd515bd91ca90e24e5532bfcd4ed80aaeb64cde",
+        "size_in_bytes": 2360
+      },
+      {
+        "_path": "site-packages/scmrepo/git/backend/gitpython.py",
+        "path_type": "hardlink",
+        "sha256": "e8be3b897d529aa7ccd38fc687077f0c41de80e29ec022eefb931390164efd9a",
+        "sha256_in_prefix": "e8be3b897d529aa7ccd38fc687077f0c41de80e29ec022eefb931390164efd9a",
+        "size_in_bytes": 25312
+      },
+      {
+        "_path": "site-packages/scmrepo/git/backend/pygit2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b5aa4844087efa7cc651c5468a368c49a97664fb1c69bf5cd661ddaa2508c415",
+        "sha256_in_prefix": "b5aa4844087efa7cc651c5468a368c49a97664fb1c69bf5cd661ddaa2508c415",
+        "size_in_bytes": 37004
+      },
+      {
+        "_path": "site-packages/scmrepo/git/backend/pygit2/callbacks.py",
+        "path_type": "hardlink",
+        "sha256": "2b2e189943e1bfdc6353fe38ca905821c6951c98b1cda19beadf4721e52604fe",
+        "sha256_in_prefix": "2b2e189943e1bfdc6353fe38ca905821c6951c98b1cda19beadf4721e52604fe",
+        "size_in_bytes": 2751
+      },
+      {
+        "_path": "site-packages/scmrepo/git/backend/pygit2/filter.py",
+        "path_type": "hardlink",
+        "sha256": "d8d9567d0eeca173751fb12cebe2dcb44ef88698f740a413958a97447f375693",
+        "sha256_in_prefix": "d8d9567d0eeca173751fb12cebe2dcb44ef88698f740a413958a97447f375693",
+        "size_in_bytes": 2128
+      },
+      {
+        "_path": "site-packages/scmrepo/git/config.py",
+        "path_type": "hardlink",
+        "sha256": "a0ca3146af2824e4d1654340aec4fac693657cfda7d5e4d70cc95f1edbf5a44b",
+        "sha256_in_prefix": "a0ca3146af2824e4d1654340aec4fac693657cfda7d5e4d70cc95f1edbf5a44b",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "site-packages/scmrepo/git/credentials.py",
+        "path_type": "hardlink",
+        "sha256": "a8964b2f26831f8b769eeb7761ea7d264f591244e18c97d53036573856a37595",
+        "sha256_in_prefix": "a8964b2f26831f8b769eeb7761ea7d264f591244e18c97d53036573856a37595",
+        "size_in_bytes": 20943
+      },
+      {
+        "_path": "site-packages/scmrepo/git/lfs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6ade5b95120a9caa60fe0e5d2d10ec1960458ba49bb9c46517f0d7e9a0241ad1",
+        "sha256_in_prefix": "6ade5b95120a9caa60fe0e5d2d10ec1960458ba49bb9c46517f0d7e9a0241ad1",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "site-packages/scmrepo/git/lfs/client.py",
+        "path_type": "hardlink",
+        "sha256": "2371d7dd7dfed99477c1eb5bea1d7d6c6715e6bc7e5a9db32f010273e9a52a1b",
+        "sha256_in_prefix": "2371d7dd7dfed99477c1eb5bea1d7d6c6715e6bc7e5a9db32f010273e9a52a1b",
+        "size_in_bytes": 8926
+      },
+      {
+        "_path": "site-packages/scmrepo/git/lfs/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "70b9489a63d7589254978e12e3171105ad93f706119164da2901b02729703a10",
+        "sha256_in_prefix": "70b9489a63d7589254978e12e3171105ad93f706119164da2901b02729703a10",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "site-packages/scmrepo/git/lfs/fetch.py",
+        "path_type": "hardlink",
+        "sha256": "003369b246c3aef308eebbb802239ffdcd607f0f1343b59cb741223763eafaa7",
+        "sha256_in_prefix": "003369b246c3aef308eebbb802239ffdcd607f0f1343b59cb741223763eafaa7",
+        "size_in_bytes": 4683
+      },
+      {
+        "_path": "site-packages/scmrepo/git/lfs/object.py",
+        "path_type": "hardlink",
+        "sha256": "ac0618ff3f446281cf7dba45d501f02fb79c6206844cfc8297ecc1c74135a084",
+        "sha256_in_prefix": "ac0618ff3f446281cf7dba45d501f02fb79c6206844cfc8297ecc1c74135a084",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "site-packages/scmrepo/git/lfs/pointer.py",
+        "path_type": "hardlink",
+        "sha256": "05c55bb63a0e506f5c133c894890dec1ea9e84666fab8dcfe8d34b0d85066042",
+        "sha256_in_prefix": "05c55bb63a0e506f5c133c894890dec1ea9e84666fab8dcfe8d34b0d85066042",
+        "size_in_bytes": 3181
+      },
+      {
+        "_path": "site-packages/scmrepo/git/lfs/progress.py",
+        "path_type": "hardlink",
+        "sha256": "10b941b3649e5e101c9cf0cddb7c3715378146007d446a810f6085312ea7f57b",
+        "sha256_in_prefix": "10b941b3649e5e101c9cf0cddb7c3715378146007d446a810f6085312ea7f57b",
+        "size_in_bytes": 4750
+      },
+      {
+        "_path": "site-packages/scmrepo/git/lfs/smudge.py",
+        "path_type": "hardlink",
+        "sha256": "d4efdfce7a6d5a8e02297a9c26052858fe9c8165a1bc6019dddf3b91ab06ddc4",
+        "sha256_in_prefix": "d4efdfce7a6d5a8e02297a9c26052858fe9c8165a1bc6019dddf3b91ab06ddc4",
+        "size_in_bytes": 1610
+      },
+      {
+        "_path": "site-packages/scmrepo/git/lfs/storage.py",
+        "path_type": "hardlink",
+        "sha256": "c77d46411b6b647d520682dcfe6fc868b991fa6501c3f542d351d59168301ef2",
+        "sha256_in_prefix": "c77d46411b6b647d520682dcfe6fc868b991fa6501c3f542d351d59168301ef2",
+        "size_in_bytes": 2371
+      },
+      {
+        "_path": "site-packages/scmrepo/git/objects.py",
+        "path_type": "hardlink",
+        "sha256": "bea785a5494c1472fd62fd61df04c0ee66d15870950bfe0a80bcb96802120f68",
+        "sha256_in_prefix": "bea785a5494c1472fd62fd61df04c0ee66d15870950bfe0a80bcb96802120f68",
+        "size_in_bytes": 4674
+      },
+      {
+        "_path": "site-packages/scmrepo/git/stash.py",
+        "path_type": "hardlink",
+        "sha256": "ae764378eb0ef4ffa4d9eeee9422d4999292c520b16912a5dd726587dec5d3ce",
+        "sha256_in_prefix": "ae764378eb0ef4ffa4d9eeee9422d4999292c520b16912a5dd726587dec5d3ce",
+        "size_in_bytes": 2801
+      },
+      {
+        "_path": "site-packages/scmrepo/noscm.py",
+        "path_type": "hardlink",
+        "sha256": "6a2184f9f69b9a017a593a7999d13928b7aa88ea1b3d54186be21ed73487b3c5",
+        "sha256_in_prefix": "6a2184f9f69b9a017a593a7999d13928b7aa88ea1b3d54186be21ed73487b3c5",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "site-packages/scmrepo/progress.py",
+        "path_type": "hardlink",
+        "sha256": "7d150cbe4730e862ee5533ffb4aee61a929e2636c9ba514ff2b3d4ab296d9184",
+        "sha256_in_prefix": "7d150cbe4730e862ee5533ffb4aee61a929e2636c9ba514ff2b3d4ab296d9184",
+        "size_in_bytes": 2157
+      },
+      {
+        "_path": "site-packages/scmrepo/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/scmrepo/utils.py",
+        "path_type": "hardlink",
+        "sha256": "fc5deb56f3e1112f80d89c4b1a86f4455f013a71f3c5b03d6833c2940eff57c3",
+        "sha256_in_prefix": "fc5deb56f3e1112f80d89c4b1a86f4455f013a71f3c5b03d6833c2940eff57c3",
+        "size_in_bytes": 1512
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/__pycache__/asyn.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/__pycache__/fs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/backend/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/backend/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/backend/dulwich/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/backend/dulwich/__pycache__/asyncssh_vendor.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/backend/dulwich/__pycache__/client.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/backend/__pycache__/gitpython.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/backend/pygit2/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/backend/pygit2/__pycache__/callbacks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/backend/pygit2/__pycache__/filter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/__pycache__/config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/__pycache__/credentials.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/client.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/fetch.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/object.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/pointer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/progress.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/smudge.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/lfs/__pycache__/storage.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/__pycache__/objects.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/git/__pycache__/stash.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/__pycache__/noscm.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/__pycache__/progress.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scmrepo/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cc748f6a5db37f5300b3324430c9a51b3cea68df51ca6d133b4759e3cd272b7e",
+  "size": 58807,
+  "subdir": "noarch",
+  "timestamp": 1709172072000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/scmrepo-3.2.0-pyhd8ed1ab_0.conda",
+  "version": "3.2.0"
+}

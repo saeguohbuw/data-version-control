@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=/home/geser/data-version-control/venv/bin/gdk-pixbuf-thumbnailer
+Exec=/home/geser/data-version-control/venv/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+MimeType=image/svg+xml;image/svg+xml-compressed;
