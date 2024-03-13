@@ -1,0 +1,84 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: python src/prepare.py
+    deps:
+    - path: data/raw/train
+      hash: md5
+      md5: d22f36d84cf8f9dcee107dc7495751f9.dir
+      size: 322671133
+      nfiles: 12594
+    - path: data/raw/valid
+      hash: md5
+      md5: 61f78567cc8c8fd485202b2ff5088478.dir
+      size: 13492484
+      nfiles: 500
+    - path: src/prepare.py
+      hash: md5
+      md5: 1c0ebbfa3bc4099537cb5f3d7d06e9cf
+      size: 2048
+    outs:
+    - path: data/prepared/test.csv
+      hash: md5
+      md5: 85db8b1c881ad927e39699673350a943
+      size: 73226
+    - path: data/prepared/train.csv
+      hash: md5
+      md5: 912da58a1321692ac430382be3961d83
+      size: 1890093
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: data/prepared/train.csv
+      hash: md5
+      md5: 912da58a1321692ac430382be3961d83
+      size: 1890093
+    - path: src/train.py
+      hash: md5
+      md5: 6b053938e4cd9c0db0c5a87e3f25274f
+      size: 1680
+    outs:
+    - path: models/etc.joblib
+      hash: md5
+      md5: d41e4a7c7c0624e0fe487e9f12245b61
+      size: 16630729
+    - path: models/rfc.joblib
+      hash: md5
+      md5: f7a9d737c8331cb0c34218181eb5ac02
+      size: 214649
+    - path: models/sgd.joblib
+      hash: md5
+      md5: 97a4f79b4453f905d81b22586c1f0b0e
+      size: 24012668
+  evaluate:
+    cmd: python src/evaluate.py
+    deps:
+    - path: models/etc.joblib
+      hash: md5
+      md5: d41e4a7c7c0624e0fe487e9f12245b61
+      size: 16630729
+    - path: models/rfc.joblib
+      hash: md5
+      md5: f7a9d737c8331cb0c34218181eb5ac02
+      size: 214649
+    - path: models/sgd.joblib
+      hash: md5
+      md5: 97a4f79b4453f905d81b22586c1f0b0e
+      size: 24012668
+    - path: src/evaluate.py
+      hash: md5
+      md5: 6a16822dc68bc4775583d8eaeff813fd
+      size: 788
+    outs:
+    - path: metrics/etc_accuracy.json
+      hash: md5
+      md5: 10e722157e277bb49ad7c5c28948eed9
+      size: 18
+    - path: metrics/rfc_accuracy.json
+      hash: md5
+      md5: ca5b15d338d87295504d1515a90860a8
+      size: 18
+    - path: metrics/sgd_accuracy.json
+      hash: md5
+      md5: 4448af7a7293492d8afd152126758264
+      size: 19

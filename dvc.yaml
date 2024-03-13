@@ -1,0 +1,33 @@
+stages:
+  prepare:
+    cmd: python src/prepare.py
+    deps:
+    - data/raw/train
+    - data/raw/valid
+    - src/prepare.py
+    outs:
+    - data/prepared/test.csv
+    - data/prepared/train.csv
+  train:
+    cmd: python src/train.py
+    deps:
+    - data/prepared/train.csv
+    - src/train.py
+    outs:
+    - models/etc.joblib
+    - models/rfc.joblib
+    - models/sgd.joblib
+  evaluate:
+    cmd: python src/evaluate.py
+    deps:
+    - models/etc.joblib
+    - models/rfc.joblib
+    - models/sgd.joblib
+    - src/evaluate.py
+    metrics:
+    - metrics/etc_accuracy.json:
+        cache: true
+    - metrics/rfc_accuracy.json:
+        cache: true
+    - metrics/sgd_accuracy.json:
+        cache: true
